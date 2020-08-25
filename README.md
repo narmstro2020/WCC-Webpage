@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
+# WCC Webpage Workflow
 
-You can use the [editor on GitHub](https://github.com/walkercompsci/WCC/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Phase 1: Requirements Document
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-this is me
-### Markdown
+[Requirements Document]()
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Phase 2: Design
 
-```markdown
-Syntax highlighted code block
+[The Design](https://whimsical.com/hUDPiRPEd3vG6Bjg3pYaZ)
 
-# Header 1
-## Header 2
-### Header 3
+LAW'S COMMENTS:
+Create a block for Certifications and Partners
+Create a block for pictures. 
 
-- Bulleted
-- List
+As you move down the page:
+Title
+|
+video
+|
+BIG NEWS
+Course Information (from Idea sheets)
+|
+Gallery
+|
+Certifications and Partners
+|
+Student Testimonies
+|
+More Media - here we can put links to the idea pages, or any other media the program has.
 
-1. Numbered
-2. List
+## Phase 3: Coding
 
-**Bold** and _Italic_ and `Code` text
+### Summer
+Due by Aug 31st - Skeleton HTML program page with placeholder content for all content
+Due by Sept 10 - CSS and Design completed for program page
+Due by Sept 25 - Main homepage HTML and CSS ready for upload
 
-[Link](url) and ![Image](src)
-```
+### Blake
+Due by August 31st - List of all courses/programs
+Due by Sept 10 - php template completed and tested to work with 1 program
+Due by Sept 25 - all php pages created and completed
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### PHASE 4: Testing
+Due by October 1st - Put everything together and make sure navigation works. 
+FALL BREAK - Clean up any and all aspects
 
-### Jekyll Themes
+### PHASE 5: DEPLOYMENT
+OCTOBER 19-23 - Release to stakeholders for feedback and review
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/walkercompsci/WCC/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### PHASE 6: MAINTENANCE
+Read feedback from clients and stakeholders, update as needed
