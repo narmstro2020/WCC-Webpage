@@ -13,6 +13,7 @@ Create a block for Certifications and Partners
 Create a block for pictures. 
 
 As you move down the page:
+
 Title
 
 |
