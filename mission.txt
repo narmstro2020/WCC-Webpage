@@ -1,7 +1,0 @@
-To create a student-focused student-driven website which highlights the programs and clubs available to students and to help promote the Walker Career Center.
-
-Please use the various branches to make and add changes. Thank you.
-
-
-And please leave the CSS to Summer, or else we get this. https://media1.tenor.com/images/614c9b4639a2588383f47e138177da81/tenor.gif?itemid=12014506
-Seriously. It's a mess.
