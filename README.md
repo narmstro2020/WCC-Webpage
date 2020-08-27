@@ -2,11 +2,12 @@
 
 ## Phase 1: Requirements Document
 
-[Requirements Document]()
+[Requirements Document](https://docs.google.com/document/d/1upcHgPneJMHDJXnwiExABOlAB66zPp_TzlqM9oAdVQI/edit#heading=h.c74hzf4y4g80)
 
 ## Phase 2: Design
 
-[The Design](https://whimsical.com/hUDPiRPEd3vG6Bjg3pYaZ)
+[The Design](https://whimsical.com/hUDPiRPEd3vG6Bjg3pYaZ);
+[The Colors](https://coolors.co/2c2727-b6a561-c5a769-010101-ffffff)
 
 LAW'S COMMENTS:
 Create a block for Certifications and Partners
