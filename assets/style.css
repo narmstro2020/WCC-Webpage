@@ -6,6 +6,9 @@ h1{
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
+h3{
+    font-family: 'Open Sans', sans-serif;
+}
 .mainbody{
     background-color: #FFFFFF;
     width: 70%;
@@ -24,4 +27,7 @@ nav .navbar-nav li a{
     color: #B6A561 !important;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
+}
+.gallery{
+    width: 70%;
 }
