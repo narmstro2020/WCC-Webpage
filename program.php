@@ -35,25 +35,12 @@
         <h1><?php echo $program_title ?></h1>
         <!-- MAIN VIDEO/JUMBOTRON BELOW -->
         <div id="video">
-            <img class="img-fluid" src="https://bavariancarcare.com/wp-content/uploads/2019/12/image-placeholder-1200x800-1.jpg" alt="placeholder">
+            <img class="img-fluid" src=<?php echo $jumboTron ?> alt="placeholder">
         </div>
         <div id="news" class="container-fluid backgroundDark">
             <!-- FOR MAJOR CLASS NEWS -->
             <h3>Class News</h3>
-            <p>Tenderloin eiusmod qui pancetta fatback. Culpa leberkas hamburger fatback ut burgdoggen aliqua cow spare ribs
-                laboris boudin pastrami velit ut. Ut picanha shank rump excepteur ex. Enim frankfurter chicken, magna short loin
-                sed meatloaf.
-
-                Ut hamburger pariatur culpa cow andouille. Qui deserunt bresaola, kielbasa velit consequat alcatra drumstick.
-                Qui est do, burgdoggen shank beef ribs meatball spare ribs eu shankle chuck turducken quis tri-tip. Et tempor
-                shoulder pork chop ullamco flank bresaola eu enim laborum incididunt sed. Drumstick incididunt burgdoggen short
-                ribs cow chislic commodo boudin brisket ham dolore shankle fatback. Shoulder eiusmod salami ex beef mollit pork
-                belly id. Consectetur tempor velit, boudin eiusmod hamburger id tongue labore ipsum.
-
-                Do andouille cow anim ut pork id picanha velit turkey shoulder. Pork loin incididunt ball tip t-bone. Eu enim
-                sausage occaecat pork loin. Esse ham hock rump, excepteur ball tip doner pork loin flank t-bone leberkas tri-tip
-                bresaola ground round. Non excepteur in eiusmod. Pancetta pork belly turkey alcatra aliqua. Rump ullamco shankle
-                chislic nisi t-bone.
+            <p><?php echo $classNews ?>
             </p>
         </div>
         <section id="classinfo" class="container-fluid">
@@ -74,71 +61,29 @@
             </ul>
             <div class="tab-content">
             <div id="class1" class="tab-pane container active">
-                <h3 class="class-title">ClassOne</h3>
-                <p class="class-info">Bacon ipsum dolor amet duis pork loin occaecat, spare ribs sint cow sirloin et aliqua chislic pancetta hamburger
-                chicken prosciutto meatball. Pork labore prosciutto ex. In esse nostrud ut eiusmod, chicken biltong sirloin
-                rump. Strip steak bacon in ullamco corned beef esse anim ground round tenderloin ham biltong eiusmod dolore et.
-                Nostrud magna minim ribeye chislic eu nisi cow. Excepteur salami commodo ribeye alcatra cupidatat aute fatback
-                pastrami sint shoulder. Aliqua kielbasa turducken pastrami chuck kevin turkey.
-
-                Officia turkey in eu, proident tenderloin pork chop frankfurter cillum ham hock laborum jerky bresaola. Ut
-                shankle ullamco eu pariatur tail pastrami et lorem drumstick rump short loin strip steak nulla prosciutto. Ham
-                ball tip in meatball elit. Shoulder excepteur swine pig anim aliqua exercitation fatback porchetta corned beef
-                eu. Porchetta pariatur rump brisket laborum tongue in bacon aliquip. Rump ea voluptate dolore nisi turkey. Doner
-                    labore kevin, adipisicing corned beef veniam leberkas shoulder strip steak ut tail short loin.</p>
+                <h3 class="class-title"><?php echo $classOneTitle ?></h3>
+                <p class="class-info"><?php echo $classOneInfo ?></p>
             </div>
             <div id="class2" class="tab-pane container fade">
-                <h3 class="class-title">ClassTwo</h3>
-                <p class="class-info">Bacon ipsum dolor amet duis pork loin occaecat, spare ribs sint cow sirloin et aliqua chislic pancetta hamburger
-                    chicken prosciutto meatball. Pork labore prosciutto ex. In esse nostrud ut eiusmod, chicken biltong sirloin
-                    rump. Strip steak bacon in ullamco corned beef esse anim ground round tenderloin ham biltong eiusmod dolore et.
-                    Nostrud magna minim ribeye chislic eu nisi cow. Excepteur salami commodo ribeye alcatra cupidatat aute fatback
-                    pastrami sint shoulder. Aliqua kielbasa turducken pastrami chuck kevin turkey.
-
-                    Officia turkey in eu, proident tenderloin pork chop frankfurter cillum ham hock laborum jerky bresaola. Ut
-                    shankle ullamco eu pariatur tail pastrami et lorem drumstick rump short loin strip steak nulla prosciutto. Ham
-                    ball tip in meatball elit. Shoulder excepteur swine pig anim aliqua exercitation fatback porchetta corned beef
-                    eu. Porchetta pariatur rump brisket laborum tongue in bacon aliquip. Rump ea voluptate dolore nisi turkey. Doner
-                    labore kevin, adipisicing corned beef veniam leberkas shoulder strip steak ut tail short loin.</p>
+            <h3 class="class-title"><?php echo $classTwoTitle ?></h3>
+                <p class="class-info"><?php echo $classTwoInfo ?></p>
             </div>
             <div id="class3" class="tab-pane container fade">
-                <h3 class="class-title">ClassThree</h3>
-                <p class="class-info">Bacon ipsum dolor amet duis pork loin occaecat, spare ribs sint cow sirloin et aliqua chislic pancetta hamburger
-                    chicken prosciutto meatball. Pork labore prosciutto ex. In esse nostrud ut eiusmod, chicken biltong sirloin
-                    rump. Strip steak bacon in ullamco corned beef esse anim ground round tenderloin ham biltong eiusmod dolore et.
-                    Nostrud magna minim ribeye chislic eu nisi cow. Excepteur salami commodo ribeye alcatra cupidatat aute fatback
-                    pastrami sint shoulder. Aliqua kielbasa turducken pastrami chuck kevin turkey.
-
-                    Officia turkey in eu, proident tenderloin pork chop frankfurter cillum ham hock laborum jerky bresaola. Ut
-                    shankle ullamco eu pariatur tail pastrami et lorem drumstick rump short loin strip steak nulla prosciutto. Ham
-                    ball tip in meatball elit. Shoulder excepteur swine pig anim aliqua exercitation fatback porchetta corned beef
-                    eu. Porchetta pariatur rump brisket laborum tongue in bacon aliquip. Rump ea voluptate dolore nisi turkey. Doner
-                    labore kevin, adipisicing corned beef veniam leberkas shoulder strip steak ut tail short loin.</p>
+            <h3 class="class-title"><?php echo $classThreeTitle ?></h3>
+                <p class="class-info"><?php echo $classThreeInfo ?></p>
             </div>
             <div id="class4" class="tab-pane container fade">
-                <h3 class="class-title">ClassFour</h3>
-                <p class="class-info">Bacon ipsum dolor amet duis pork loin occaecat, spare ribs sint cow sirloin et aliqua chislic pancetta hamburger
-                    chicken prosciutto meatball. Pork labore prosciutto ex. In esse nostrud ut eiusmod, chicken biltong sirloin
-                    rump. Strip steak bacon in ullamco corned beef esse anim ground round tenderloin ham biltong eiusmod dolore et.
-                    Nostrud magna minim ribeye chislic eu nisi cow. Excepteur salami commodo ribeye alcatra cupidatat aute fatback
-                    pastrami sint shoulder. Aliqua kielbasa turducken pastrami chuck kevin turkey.
-
-                    Officia turkey in eu, proident tenderloin pork chop frankfurter cillum ham hock laborum jerky bresaola. Ut
-                    shankle ullamco eu pariatur tail pastrami et lorem drumstick rump short loin strip steak nulla prosciutto. Ham
-                    ball tip in meatball elit. Shoulder excepteur swine pig anim aliqua exercitation fatback porchetta corned beef
-                    eu. Porchetta pariatur rump brisket laborum tongue in bacon aliquip. Rump ea voluptate dolore nisi turkey. Doner
-                    labore kevin, adipisicing corned beef veniam leberkas shoulder strip steak ut tail short loin.</p>
+            <h3 class="class-title"><?php echo $classFourTitle ?></h3>
+                <p class="class-info"><?php echo $classFourInfo ?></p>
             </div>
             </div>
         </section>
         <section id="gallery" class="d-flex flex-wrap">
             <!-- CODING OF BELOW MAY BE SUBJECT TO CHANGE TO GRID SYSTEM. JUST KNOW INFO = IMG TAGS -->
-            <img class="img-fluid flex-fill" src="https://bavariancarcare.com/wp-content/uploads/2019/12/image-placeholder-1200x800-1.jpg" alt="placeholder" style="width: 33%;">
-            <img class="img-fluid flex-fill" src="https://bavariancarcare.com/wp-content/uploads/2019/12/image-placeholder-1200x800-1.jpg" alt="placeholder" style="width: 33%;">
-            <img class="img-fluid flex-fill" src="https://bavariancarcare.com/wp-content/uploads/2019/12/image-placeholder-1200x800-1.jpg" alt="placeholder" style="width: 33%;">
-            <img class="img-fluid flex-fill" src="https://bavariancarcare.com/wp-content/uploads/2019/12/image-placeholder-1200x800-1.jpg" alt="placeholder" style="width: 33%;">
-            <img class="img-fluid flex-fill" src="https://bavariancarcare.com/wp-content/uploads/2019/12/image-placeholder-1200x800-1.jpg" alt="placeholder" style="width: 33%;">
-            <img class="img-fluid flex-fill" src="https://bavariancarcare.com/wp-content/uploads/2019/12/image-placeholder-1200x800-1.jpg" alt="placeholder" style="width: 33%;">
+            <?php for($x=0; $x<count($galleryImgs);$x++){?>
+            <img class="img-fluid flex-fill" src=<?php echo $galleryImgs[$x] ?> alt="placeholder" style="width: 33%;">
+            <?php }?>
+            
         </section>
         <section id="affiliates" class="backgroundDark">
             <!-- AFFILIATES SECTION TO BE IN TAB DESIGN. IF NOT THERE, HAVE DIV NOT DISPLAY -->
