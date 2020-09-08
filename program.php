@@ -15,13 +15,16 @@
 </head>
 <body>
     <div class="mainbody">
-        <section id="pageTop">
             <!-- TO INCLUDE NAVBAR, TOP IMAGE -->
-            <img class="img-responsive mx-auto d-block" src="../assets/logo-walker.png" alt="top logo" style="padding: 10px;">
-            <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+            <img class="img-responsive mx-auto d-block" src="../assets/logo-walker.png" alt="top logo" style="padding: 10px; width: 80%;">
+            <nav class="navbar navbar-expand-sm sticky-top navbar-dark">
                 <a class="navbar-brand" href="#">
                     <img src="https://wcc.warren.k12.in.us/assets/apptegy_cms/themes/msdwarrenin/logo-ddb5d3afb469a9cb82dcda7e2bde7147.png" alt="Logo" style="width:40px;">
                 </a>
+                <button class="navbar-toggler btn-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
@@ -30,8 +33,8 @@
                         <a class="nav-link" href="#">Programs</a>
                     </li>
                 </ul>
+                </div>
             </nav>
-        </section>
         <h1><?php echo $program_title ?></h1>
         <!-- MAIN VIDEO/JUMBOTRON BELOW -->
         <div id="video">
@@ -159,7 +162,12 @@
             </div>
         </section>
         <section id="footer">
-            <!-- FOOTER CONTENT HERE -->
+            <p>Walker Career Center<br>
+            9651 EAST 21ST STREET<br>
+            Indianapolis, IN 46229<br><br>
+
+            Phone: 317.532.6150<br>
+            Fax: 317-532-6199</p>
             <img src="https://wcc.warren.k12.in.us/assets/apptegy_cms/themes/msdwarrenin/logo-ddb5d3afb469a9cb82dcda7e2bde7147.png" alt="Logo" style="width:50px; padding-top: 5px; margin-right: 5px;" class="float-right">
             <img src="../assets/icons8-facebook-50.png" alt="facebook icon" style="padding: 5px;" class="float-right">
             <img src="../assets/icons8-twitter-50.png" alt="twitter icon" style="padding-top: 5px;" class="float-right">
