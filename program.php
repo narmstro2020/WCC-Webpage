@@ -82,8 +82,7 @@
             <!-- CODING OF BELOW MAY BE SUBJECT TO CHANGE TO GRID SYSTEM. JUST KNOW INFO = IMG TAGS -->
             <?php for($x=0; $x<count($galleryImgs);$x++){?>
             <img class="img-fluid flex-fill" src=<?php echo $galleryImgs[$x] ?> alt="placeholder" style="width: 33%;">
-            <?php }?>
-            
+            <?php }?> 
         </section>
         <section id="affiliates" class="backgroundDark">
             <!-- AFFILIATES SECTION TO BE IN TAB DESIGN. IF NOT THERE, HAVE DIV NOT DISPLAY -->
@@ -124,47 +123,39 @@
         </section>
         <section id="testimonies" class="container-fluid">
             <!-- STUDENT TESTIMONIES -->
+            <?php //for($x=0; $x<count($testimonies);$x++){?>
             <div id="testimony1">
-                <p class="testimony">Ut hamburger pariatur culpa cow andouille. Qui deserunt bresaola, kielbasa velit consequat alcatra drumstick.
-                    Qui est do, burgdoggen shank beef ribs meatball spare ribs eu shankle chuck turducken quis tri-tip. Et tempor
-                    shoulder pork chop ullamco flank bresaola eu enim laborum incididunt sed. Drumstick incididunt burgdoggen short
-                    ribs cow chislic commodo boudin brisket ham dolore shankle fatback. Shoulder eiusmod salami ex beef mollit pork
-                    belly id. Consectetur tempor velit, boudin eiusmod hamburger id tongue labore ipsum.</p>
+                <?php if(!empty($testimonies[0])){?>
+                <p class="testimony"><?php echo $testimonies[0]?></p>
+                <?php }?>
             </div>
             <div id="testimony2">
-                <p class="testimony">Ut hamburger pariatur culpa cow andouille. Qui deserunt bresaola, kielbasa velit consequat alcatra drumstick.
-                Qui est do, burgdoggen shank beef ribs meatball spare ribs eu shankle chuck turducken quis tri-tip. Et tempor
-                shoulder pork chop ullamco flank bresaola eu enim laborum incididunt sed. Drumstick incididunt burgdoggen short
-                ribs cow chislic commodo boudin brisket ham dolore shankle fatback. Shoulder eiusmod salami ex beef mollit pork
-                belly id. Consectetur tempor velit, boudin eiusmod hamburger id tongue labore ipsum.</p>
+            <?php if(!empty($testimonies[1])){?>
+                <p class="testimony"><?php echo $testimonies[1]?></p>
+                <?php }?>
             </div>
             <div id="testimony3">
-                <p class="testimony">Ut hamburger pariatur culpa cow andouille. Qui deserunt bresaola, kielbasa velit consequat alcatra drumstick.
-                    Qui est do, burgdoggen shank beef ribs meatball spare ribs eu shankle chuck turducken quis tri-tip. Et tempor
-                    shoulder pork chop ullamco flank bresaola eu enim laborum incididunt sed. Drumstick incididunt burgdoggen short
-                    ribs cow chislic commodo boudin brisket ham dolore shankle fatback. Shoulder eiusmod salami ex beef mollit pork
-                    belly id. Consectetur tempor velit, boudin eiusmod hamburger id tongue labore ipsum.</p>
+            <?php if(!empty($testimonies[2])){?>
+                <p class="testimony"><?php echo $testimonies[2]?></p>
+                <?php }?>
             </div>
             <div id="testimony4">
-                <p class="testimony">Ut hamburger pariatur culpa cow andouille. Qui deserunt bresaola, kielbasa velit consequat alcatra drumstick.
-                Qui est do, burgdoggen shank beef ribs meatball spare ribs eu shankle chuck turducken quis tri-tip. Et tempor
-                shoulder pork chop ullamco flank bresaola eu enim laborum incididunt sed. Drumstick incididunt burgdoggen short
-                ribs cow chislic commodo boudin brisket ham dolore shankle fatback. Shoulder eiusmod salami ex beef mollit pork
-                    belly id. Consectetur tempor velit, boudin eiusmod hamburger id tongue labore ipsum.</p>
+            <?php if(!empty($testimonies[3])){?>
+                <p class="testimony"><?php echo $testimonies[3]?></p>
+                <?php }?>
             </div>
         </section>
         <section id="other">
             <!-- SECTION FOR OTHER MEDIA. INDIVIDUAL SPOTS FOR IMAGES, THEN TEXT FOR TEXT AND LINKS -->
             <div id="extraimage">
-                <img class="img-fluid" src="https://bavariancarcare.com/wp-content/uploads/2019/12/image-placeholder-1200x800-1.jpg" alt="placeholder">
-                <img class="img-fluid" src="https://bavariancarcare.com/wp-content/uploads/2019/12/image-placeholder-1200x800-1.jpg" alt="placeholder">
+            <?php for($x=0; $x<count($extraImgs);$x++){?>
+                <img class="img-fluid" src=<?php echo $extraImgs[$x] ?> alt="placeholder">
+            <?php }?>    
             </div>
             <div id="extratext">
-                Ut hamburger pariatur culpa cow andouille. Qui deserunt bresaola, kielbasa velit consequat alcatra drumstick.
-                Qui est do, burgdoggen shank beef ribs meatball spare ribs eu shankle chuck turducken quis tri-tip. Et tempor
-                shoulder pork chop ullamco flank bresaola eu enim laborum incididunt sed. Drumstick incididunt burgdoggen short
-                ribs cow chislic commodo boudin brisket ham dolore shankle fatback. Shoulder eiusmod salami ex beef mollit pork
-                belly id. Consectetur tempor velit, boudin eiusmod hamburger id tongue labore ipsum.
+                <?php if(!empty($extraTexts)){?>
+                    <?php echo $extraTexts ?>
+                <?php }?>
             </div>
         </section>
         <section id="footer">
