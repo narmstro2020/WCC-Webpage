@@ -103,21 +103,21 @@
             <div class="tab-content">
                 <div id="home" class="container tab-pane active"><br>
                     <h3>Certifications</h3>
-                    <p class="affiliatesInfo">Tenderloin eiusmod qui pancetta fatback. Culpa leberkas hamburger fatback ut burgdoggen aliqua cow spare ribs
-                        laboris boudin pastrami velit ut. Ut picanha shank rump excepteur ex. Enim frankfurter chicken, magna short loin
-                        sed meatloaf.</p>
+                    <?php if(!empty($certifications)){?>
+                        <p class="testimony"><?php echo $certifications?></p>
+                    <?php }?>
                 </div>
                 <div id="menu1" class="container tab-pane fade"><br>
                     <h3>Partners</h3>
-                    <p class="affiliatesInfo">Tenderloin eiusmod qui pancetta fatback. Culpa leberkas hamburger fatback ut burgdoggen aliqua cow spare ribs
-                        laboris boudin pastrami velit ut. Ut picanha shank rump excepteur ex. Enim frankfurter chicken, magna short loin
-                        sed meatloaf.</p>
+                    <?php if(!empty($partners)){?>
+                        <p class="testimony"><?php echo $partners?></p>
+                    <?php }?>
                 </div>
                 <div id="menu2" class="container tab-pane fade"><br>
                     <h3>Dual Credit</h3>
-                    <p class="affiliatesInfo">Tenderloin eiusmod qui pancetta fatback. Culpa leberkas hamburger fatback ut burgdoggen aliqua cow spare ribs
-                        laboris boudin pastrami velit ut. Ut picanha shank rump excepteur ex. Enim frankfurter chicken, magna short loin
-                        sed meatloaf.</p>
+                    <?php if(!empty($dualCredit)){?>
+                     <p class="testimony"><?php echo $dualCredit?></p>
+                    <?php }?>
                 </div>
             </div>
         </section>
