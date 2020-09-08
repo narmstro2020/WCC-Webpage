@@ -1,21 +1,21 @@
 <?php
- $program_title="Computer Science";
- $jumboTron="https://bavariancarcare.com/wp-content/uploads/2019/12/image-placeholder-1200x800-1.jpg";
- $classNews="Hello World";
- $classOneTitle="CS 1";
+ $program_title="Computer Science\nNOTE TO DEVS: LOOK FOR NOTES THROUGHOUT.\nNOTE TO DEVS:The page's tab title should be added via the php.";
+ $jumboTron="https://youtu.be/MWS4yUP99C8";
+ $classNews="Its a wild week! Computer Science 1 students have finished their first app. CS 2 students are working on their first unit projects. Software devs are creating amazing designs for their apps and our Cyber-security team is busy protecting personal computers. Computer Science, the key to the future.  NOTE TO DEVS: I'd like to maybe put a picture here, off to the side, but don't HAVE to. I'd also maybe like to include a catchy header or Title other than CLASS NEWS.";
+ $classOneTitle="Computer Science 1";
  $classOneInfo="The Internet, Cybersecurity, Big Data and fundamentals to Programming";
- $classTwoTitle="CS 2";
+ $classTwoTitle="Computer Science 2";
  $classTwoInfo="HTML, CSS, Javascript, Bootstrap, JQuery and more!"; 
- $classThreeTitle="CS 3:Software Development";
+ $classThreeTitle="Computer Science 3: Software Development";
  $classThreeInfo="Create an app for a business or organization using modern business models!";
- $classFourTitle="CS 3:Cybersecurity";
+ $classFourTitle="Computer Science 3: Cybersecurity";
  $classFourInfo="Learn all about the world of cyber crime and learn how to investigate and protect against cyber crimes.";
- $galleryImgs=["https://bavariancarcare.com/wp-content/uploads/2019/12/image-placeholder-1200x800-1.jpg","https://bavariancarcare.com/wp-content/uploads/2019/12/image-placeholder-1200x800-1.jpg","https://bavariancarcare.com/wp-content/uploads/2019/12/image-placeholder-1200x800-1.jpg","https://bavariancarcare.com/wp-content/uploads/2019/12/image-placeholder-1200x800-1.jpg","https://bavariancarcare.com/wp-content/uploads/2019/12/image-placeholder-1200x800-1.jpg","https://bavariancarcare.com/wp-content/uploads/2019/12/image-placeholder-1200x800-1.jpg"];
- $certifications="hi";
- $partners="hi";
- $dualCredit="hi";
- $testimonies=["hi","hi","hi","hi"];
- $extraImgs=["https://bavariancarcare.com/wp-content/uploads/2019/12/image-placeholder-1200x800-1.jpg","https://bavariancarcare.com/wp-content/uploads/2019/12/image-placeholder-1200x800-1.jpg"];
- $extraTexts="hi";
+ $galleryImgs=["../assets/cs/image1.jpg", "../assets/cs/image2.jpg", "../assets/cs/image3.jpg", "../assets/cs/image4.jpg", "../assets/cs/image5.jpg", "../assets/cs/image6.jpg", "../assets/cs/image7.jpg", "../assets/cs/image8.jpg"];
+ $certifications="NOTE TO DEVS: I have no certifications so this needs to not show up ... instead how about internships.";
+ $partners="Nextech, Software Engineering Professionals. NOTE TO DEVS: need a place for descriptions and logos for these places.";
+ $dualCredit="You can earn Dual Credit through Ivy Tech. Both CS 1 and CS 2 award dual credit.  NOTE TO DEVS: This needs sub-divided down a bit like it is on the idea sheets. A place for everythign and everything has a place.";
+ $testimonies=["Might want to include a place for name and quote. Really sub-divide this down.","This is a quote","This is a quote","This is a quote."];
+ $extraImgs=["../assets/cs/extra1.jpg","../assets/cs/extra2.jpg","../assets/cs/extra3.jpg","../assets/cs/extra4.jpg","../assets/cs/extra5.jpg","../assets/cs/extra6.jpg","../assets/cs/extra7.jpg","../assets/cs/extra8.jpg"];
+ $extraTexts="Computer Science will open doors. It is a place to let your creativity SOAR!";
  include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
 ?>
