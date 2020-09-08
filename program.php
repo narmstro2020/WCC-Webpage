@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,7 +31,7 @@
                     </li>
                 </ul>
             </nav>
-        <h1>Program Name</h1>
+            <?php echo "<h1>$program_title</h1>";?>
         <!-- MAIN VIDEO/JUMBOTRON BELOW -->
         <div id="video">
             <img class="img-fluid" src="https://bavariancarcare.com/wp-content/uploads/2019/12/image-placeholder-1200x800-1.jpg" alt="placeholder">
