@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,6 +15,7 @@
 </head>
 <body>
     <div class="mainbody">
+        <section id="pageTop">
             <!-- TO INCLUDE NAVBAR, TOP IMAGE -->
             <img class="img-responsive mx-auto d-block" src="../assets/logo-walker.png" alt="top logo" style="padding: 10px;">
             <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
@@ -31,12 +31,8 @@
                     </li>
                 </ul>
             </nav>
-<<<<<<< HEAD:programbones.php
         </section>
-        <h1><?php echo $courseTitle ?></h1>
-=======
-            <?php echo "<h1>$program_title</h1>";?>
->>>>>>> c72077141698358854fc9494b14a5a054403dbf4:program.php
+        <h1><?php echo $program_title ?></h1>
         <!-- MAIN VIDEO/JUMBOTRON BELOW -->
         <div id="video">
             <img class="img-fluid" src="https://bavariancarcare.com/wp-content/uploads/2019/12/image-placeholder-1200x800-1.jpg" alt="placeholder">
