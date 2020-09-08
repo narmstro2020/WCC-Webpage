@@ -15,7 +15,7 @@
  $partners="Nextech, Software Engineering Professionals. NOTE TO DEVS: need a place for descriptions and logos for these places.";
  $dualCredit="You can earn Dual Credit through Ivy Tech. Both CS 1 and CS 2 award dual credit.  NOTE TO DEVS: This needs sub-divided down a bit like it is on the idea sheets. A place for everythign and everything has a place.";
  $testimonies=["Might want to include a place for name and quote. Really sub-divide this down.","This is a quote","This is a quote","This is a quote."];
- $extraImgs=["../assets/cs/extra1.jpg","../assets/cs/extra2.jpg","../assets/cs/extra3.jpg","../assets/cs/extra4.jpg","../assets/cs/extra5.jpg","../assets/cs/extra6.jpg","../assets/cs/extra7.jpg","../assets/cs/extra8.jpg"];
+ $extraImgs=["../assets/cs/extra2.jpg","../assets/cs/extra4.jpg","../assets/cs/extra5.jpg","../assets/cs/extra6.jpg","../assets/cs/extra7.jpg","../assets/cs/extra8.jpg"];
  $extraTexts="Computer Science will open doors. It is a place to let your creativity SOAR!";
  include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
 ?>
