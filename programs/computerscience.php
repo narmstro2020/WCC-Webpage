@@ -15,7 +15,7 @@ $page_title="Computer Science";
  $certifications="NOTE TO DEVS: I have no certifications so this needs to not show up ... instead how about internships.";
  $partners="Nextech, Software Engineering Professionals. NOTE TO DEVS: need a place for descriptions and logos for these places.";
  $dualCredit="You can earn Dual Credit through Ivy Tech. Both CS 1 and CS 2 award dual credit.  NOTE TO DEVS: This needs sub-divided down a bit like it is on the idea sheets. A place for everythign and everything has a place.";
- $testimonies=["Might want to include a place for name and quote. Really sub-divide this down.","This is a quote","This is a quote","This is a quote."];
+ $testimonies=['"The CS pathway is an absolute must if you want to go into robotics or STEM in any way. I learned so much about how to think critically and solve problems” -- Knight Wolff, AP CS','"Computer science has opened many new pathways for my life that i would have never expected to arise" -- Ronald Parsons, CS 1, CS 2, CS 3',"This is a quote","This is a quote."];
  $extraImgs=["../assets/cs/extra2.jpg","../assets/cs/extra4.jpg","../assets/cs/extra5.jpg","../assets/cs/extra6.jpg","../assets/cs/extra7.jpg","../assets/cs/extra8.jpg"];
  $extraTexts="Computer Science will open doors. It is a place to let your creativity SOAR!";
  include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
