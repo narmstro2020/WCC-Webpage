@@ -1,6 +1,7 @@
 <?php
+ $page_title="Same as program title";
  $program_title="";
- $jumboTron="insert image or video";
+ $videoId="11 character ID following v=";
  $classNews="current major program news";
  $classOneTitle="";
  $classOneInfo="";

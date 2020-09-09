@@ -1,6 +1,7 @@
 <?php
- $program_title="Computer Science\nNOTE TO DEVS: LOOK FOR NOTES THROUGHOUT.\nNOTE TO DEVS:The page's tab title should be added via the php.";
- $jumboTron="https://youtu.be/MWS4yUP99C8";
+$page_title="Computer Science";
+ $program_title="Computer Science";
+ $videoId="MWS4yUP99C8";
  $classNews="Its a wild week! Computer Science 1 students have finished their first app. CS 2 students are working on their first unit projects. Software devs are creating amazing designs for their apps and our Cyber-security team is busy protecting personal computers. Computer Science, the key to the future.  NOTE TO DEVS: I'd like to maybe put a picture here, off to the side, but don't HAVE to. I'd also maybe like to include a catchy header or Title other than CLASS NEWS.";
  $classOneTitle="Computer Science 1";
  $classOneInfo="The Internet, Cybersecurity, Big Data and fundamentals to Programming";

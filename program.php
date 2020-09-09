@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Skeleton</title>
+    <title><?php echo $page_title ?></title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -38,7 +38,7 @@
         <h1><?php echo $program_title ?></h1>
         <!-- MAIN VIDEO/JUMBOTRON BELOW -->
         <div id="video">
-            <img class="img-fluid" src=<?php echo $jumboTron ?> alt="placeholder">
+        <center><iframe id="ytplayer" type="text/html" width="960px" height="540px" src="http://www.youtube.com/embed/<?php echo $videoId; ?>?autoplay=1&controls=0"  frameborder="0"></iframe></center>
         </div>
         <div id="news" class="container-fluid backgroundDark">
             <!-- FOR MAJOR CLASS NEWS -->

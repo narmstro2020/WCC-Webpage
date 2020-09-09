@@ -2,6 +2,9 @@ body{
     width: 100%;
     background-color: #B6A561;
 }
+#video{
+    background-color: black;
+}
 h1{
     font-family: 'Open Sans', sans-serif;
     text-align: center;
