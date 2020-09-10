@@ -2,8 +2,10 @@ body{
     width: 100%;
     background-color: #ccb17a;
 }
-#video{
+video, #video{
     background-color: black;
+    width: 100%    !important;
+    height: auto   !important;
 }
 #classinfo{
     margin-top: 10px;

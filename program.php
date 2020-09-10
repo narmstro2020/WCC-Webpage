@@ -37,13 +37,11 @@
             </nav>
         <h1><?php echo $program_title ?></h1>
         <!-- MAIN VIDEO/JUMBOTRON BELOW -->
-        <div id="video">
-        <center>
-            <video  width="960" height="540" controls autoplay>
+        <div id="video" class="container-fluid">
+            <video controls autoplay>
                 <source src="<?php echo $videoId; ?>" type="video/mp4">
             Your browser does not support the video tag.
             </video>
-        </center>
         </div>
         <div id="news" class="container-fluid backgroundDark">
             <!-- FOR MAJOR CLASS NEWS -->
