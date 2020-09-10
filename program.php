@@ -38,7 +38,12 @@
         <h1><?php echo $program_title ?></h1>
         <!-- MAIN VIDEO/JUMBOTRON BELOW -->
         <div id="video">
-        <center><iframe id="ytplayer" type="text/html" width="960px" height="540px" src="http://www.youtube.com/embed/<?php echo $videoId; ?>?autoplay=1&controls=0"  frameborder="0"></iframe></center>
+        <center>
+            <video  width="960" height="540" controls autoplay>
+                <source src="<?php echo $videoId; ?>" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+        </center>
         </div>
         <div id="news" class="container-fluid backgroundDark">
             <!-- FOR MAJOR CLASS NEWS -->
