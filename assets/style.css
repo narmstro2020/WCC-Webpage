@@ -1,19 +1,30 @@
 body{
     width: 100%;
-    background-color: #B6A561;
+    background-color: #ccb17a;
 }
 #video{
     background-color: black;
 }
+#classinfo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#classinfo a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
 h1{
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    color: #ccb17a;
 }
 h3{
     font-family: 'Open Sans', sans-serif;
 }
 .mainbody{
-    background-color: #FFFFFF;
+    background-color: #68635c;
     width: 70%;
     margin: auto;
     font-family: 'Roboto', sans-serif;
@@ -22,9 +33,35 @@ h3{
      background-color: #2C2727;
  }
 nav .navbar-nav li a{
-    color: #B6A561 !important;
+    color: #B6A561;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
+}
+.class-info, .class-title{
+    color: #C5A769;
+}
+#classinfo .nav-tabs{
+    background-color: #68635c;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: black;
+}
+#classinfo .nav-item .active{
+    background-color: #68635c;
+    border: 1px solid black;
+}
+#affiliates{
+    margin-top: 10px;
+}
+#affiliates .nav-tabs{
+    background-color: #2C2727;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: black;
+}
+#affiliates .nav-item .active{
+    background-color: #2C2727;
+    border: 1px solid black;
 }
 #affiliates a{
     color: #B6A561 !important;
@@ -52,10 +89,23 @@ nav .navbar-nav li a{
     float: left;
     padding: 5px;
 }
+#testimonies{
+    width: 85%;
+}
 #testimony2, #testimony4{
     text-align: right;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #B6A561;
+    border-radius: 5px;
+    background-color: #b6a56160;
 }
-#testimonies{
-    padding-top: 10px;
-    width: 85%;
+#testimony1, #testimony3{
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #2C2727;
+    border-radius: 5px;
+    background-color: #2c272760;
+    color: #b1b1b1;
 }

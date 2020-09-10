@@ -55,16 +55,16 @@
             <!-- CLASS INFORMATION SECTION. WILL ADD SECTION FOR MAX CLASS# -->
             <ul class="nav nav-tabs">
                 <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="#class1">Class 1</a>
+                    <a class="nav-link active" data-toggle="tab" href="#class1"><?php echo $classOneTitle ?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#class2">Class 2</a>
+                    <a class="nav-link" data-toggle="tab" href="#class2"><?php echo $classTwoTitle ?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#class3">Class 3</a>
+                    <a class="nav-link" data-toggle="tab" href="#class3"><?php echo $classThreeTitle ?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#class4">Class 4</a>
+                    <a class="nav-link" data-toggle="tab" href="#class4"><?php echo $classFourTitle ?></a>
                 </li>
             </ul>
             <div class="tab-content">
@@ -92,9 +92,9 @@
             <img class="img-fluid flex-fill" src=<?php echo $galleryImgs[$x] ?> alt="placeholder" style="width: 33%;">
             <?php }?> 
         </section>
-        <section id="affiliates" class="backgroundDark">
+        <section class="backgroundDark container-fluid">
             <!-- AFFILIATES SECTION TO BE IN TAB DESIGN. IF NOT THERE, HAVE DIV NOT DISPLAY -->
-
+            <div id="affiliates">
             <ul class="nav nav-tabs" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active" data-toggle="tab" href="#home">Certifications</a>
@@ -105,6 +105,9 @@
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#menu2">Dual Credit</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#menu3">Internships</a>
+                </li>
             </ul>
 
             <!-- Tab panes -->
@@ -112,42 +115,49 @@
                 <div id="home" class="container tab-pane active"><br>
                     <h3>Certifications</h3>
                     <?php if(!empty($certifications)){?>
-                        <p class="testimony"><?php echo $certifications?></p>
+                        <p class="opportunity"><?php echo $certifications?></p>
                     <?php }?>
                 </div>
                 <div id="menu1" class="container tab-pane fade"><br>
                     <h3>Partners</h3>
                     <?php if(!empty($partners)){?>
-                        <p class="testimony"><?php echo $partners?></p>
+                        <p class="opportunity"><?php echo $partners?></p>
                     <?php }?>
                 </div>
                 <div id="menu2" class="container tab-pane fade"><br>
                     <h3>Dual Credit</h3>
                     <?php if(!empty($dualCredit)){?>
-                     <p class="testimony"><?php echo $dualCredit?></p>
+                     <p class="opportunity"><?php echo $dualCredit?></p>
                     <?php }?>
                 </div>
+                <div id="menu3" class="container tab-pane fade"><br>
+                    <h3>Internships</h3>
+                    <?php if(!empty($internships)){?>
+                     <p class="opportunity"><?php echo $internships?></p>
+                    <?php }?>
+                </div>
+            </div>
             </div>
         </section>
         <section id="testimonies" class="container-fluid">
             <!-- STUDENT TESTIMONIES -->
             <?php //for($x=0; $x<count($testimonies);$x++){?>
-            <div id="testimony1">
+            <div id="testimony1" class="testimony">
                 <?php if(!empty($testimonies[0])){?>
-                <p class="testimony"><?php echo $testimonies[0]?></p>
+                <p class="testimony"><span><?php echo $testimonies[0]?></span><span></span></p>
                 <?php }?>
             </div>
-            <div id="testimony2">
+            <div id="testimony2" class="testimony">
             <?php if(!empty($testimonies[1])){?>
                 <p class="testimony"><?php echo $testimonies[1]?></p>
                 <?php }?>
             </div>
-            <div id="testimony3">
+            <div id="testimony3" class="testimony">
             <?php if(!empty($testimonies[2])){?>
                 <p class="testimony"><?php echo $testimonies[2]?></p>
                 <?php }?>
             </div>
-            <div id="testimony4">
+            <div id="testimony4" class="testimony">
             <?php if(!empty($testimonies[3])){?>
                 <p class="testimony"><?php echo $testimonies[3]?></p>
                 <?php }?>

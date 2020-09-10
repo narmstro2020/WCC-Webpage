@@ -15,6 +15,7 @@
  $certifications="";
  $partners="";
  $dualCredit="";
+ $internships="";
  $testimonies=[];
  $extraImgs=[];
  $extraTexts="";

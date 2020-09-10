@@ -7,7 +7,7 @@
 ## Phase 2: Design
 
 [The Design](https://whimsical.com/hUDPiRPEd3vG6Bjg3pYaZ);
-[The Colors](https://coolors.co/2c2727-b6a561-c5a769-010101-ffffff)
+[The Colors](https://coolors.co/010101-2c2727-55524e-b6a561-c5a769)
 
 LAW'S COMMENTS:
 Create a block for Certifications and Partners
