@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="../assets/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
         <!-- font-family: 'Open Sans', sans-serif;   -    font-family: 'Roboto', sans-serif; -->
+        <!-- GET YER DANG HTML TAGS DONE -->
 
 </head>
 <body>
@@ -84,10 +85,10 @@
             </div>
             </div>
         </section>
-        <section id="gallery" class="d-flex flex-wrap">
+        <section id="gallery" class="d-inline-flex flex-wrap">
             <!-- CODING OF BELOW MAY BE SUBJECT TO CHANGE TO GRID SYSTEM. JUST KNOW INFO = IMG TAGS -->
             <?php for($x=0; $x<count($galleryImgs);$x++){?>
-            <img class="img-fluid flex-fill" src=<?php echo $galleryImgs[$x] ?> alt="placeholder" style="width: 33%;">
+            <img class="img-fluid flex-fill" src=<?php echo $galleryImgs[$x] ?> alt="placeholder" style="width: 325px;">
             <?php }?> 
         </section>
         <section class="backgroundDark container-fluid">
@@ -113,25 +114,45 @@
                 <div id="home" class="container tab-pane active"><br>
                     <h3>Certifications</h3>
                     <?php if(!empty($certifications)){?>
-                        <p class="opportunity"><?php echo $certifications?></p>
+                        <span><!-- INSTITUTION IMAGE --></span>
+                        <h5><!-- INSTITUTION NAME --></h5>
+                        <p class="opportunity">
+                            <!-- CERTIFICATION DESCRIPTION -->
+                            <?php echo $certifications?>
+                        </p>
                     <?php }?>
                 </div>
                 <div id="menu1" class="container tab-pane fade"><br>
                     <h3>Partners</h3>
                     <?php if(!empty($partners)){?>
-                        <p class="opportunity"><?php echo $partners?></p>
+                        <span><!-- INSTITUTION IMAGE --></span>
+                        <h5><!-- INSTITUTION NAME --></h5>
+                        <p class="opportunity">
+                            <?php echo $partners?>
+                        </p>
                     <?php }?>
                 </div>
                 <div id="menu2" class="container tab-pane fade"><br>
                     <h3>Dual Credit</h3>
                     <?php if(!empty($dualCredit)){?>
-                     <p class="opportunity"><?php echo $dualCredit?></p>
+                        <span><!-- COLLEGE LOGO --></span>
+                        <h5><!-- COLLEGE NAME --></h5>
+                        <p class="opportunity">
+                            <span><!-- CREDITS AND CREDIT HOURS --></span>
+                            <span><!-- CREDIT DETAILS --></span>
+                            <?php echo $dualCredit?>
+                        </p>
                     <?php }?>
                 </div>
                 <div id="menu3" class="container tab-pane fade"><br>
                     <h3>Internships</h3>
                     <?php if(!empty($internships)){?>
-                     <p class="opportunity"><?php echo $internships?></p>
+                        <span><!-- INSTITUTION IMAGE --></span>
+                        <h5><!-- INSTITUTION NAME --></h5>
+                        <p class="opportunity">
+                            <!-- INTERNSHIP DESCRIPTION -->
+                            <?php echo $internships?>
+                        </p>
                     <?php }?>
                 </div>
             </div>
@@ -140,32 +161,37 @@
         <section id="testimonies" class="container-fluid">
             <!-- STUDENT TESTIMONIES -->
             <?php //for($x=0; $x<count($testimonies);$x++){?>
-            <div id="testimony1" class="testimony">
+            <div class="testimony testimonyOdd">
                 <?php if(!empty($testimonies[0])){?>
-                <p class="testimony"><span><?php echo $testimonies[0]?></span><span></span></p>
+                <p class="testimony"><span><?php echo $testimonies[0]?></span> -- <span><?php echo $testimoniesName[0]?></span></p>
                 <?php }?>
             </div>
-            <div id="testimony2" class="testimony">
+            <div class="testimony testimonyEven">
             <?php if(!empty($testimonies[1])){?>
-                <p class="testimony"><?php echo $testimonies[1]?></p>
+                <p class="testimony"><?php echo $testimonies[1]?> -- <span><?php echo $testimoniesName[1]?></span></p>
                 <?php }?>
             </div>
-            <div id="testimony3" class="testimony">
+            <div class="testimony testimonyOdd">
             <?php if(!empty($testimonies[2])){?>
-                <p class="testimony"><?php echo $testimonies[2]?></p>
+                <p class="testimony"><?php echo $testimonies[2]?> -- <span><?php echo $testimoniesName[2]?></span></p>
                 <?php }?>
             </div>
-            <div id="testimony4" class="testimony">
+            <div class="testimony testimonyEven">
             <?php if(!empty($testimonies[3])){?>
-                <p class="testimony"><?php echo $testimonies[3]?></p>
+                <p class="testimony"><?php echo $testimonies[3]?> -- <span><?php echo $testimoniesName[3]?></span></p>
+                <?php }?>
+            </div>
+            <div class="testimony testimonyOdd">
+            <?php if(!empty($testimonies[4])){?>
+                <p class="testimony"><?php echo $testimonies[4]?> -- <span><?php echo $testimoniesName[4]?></span></p>
                 <?php }?>
             </div>
         </section>
         <section id="other">
             <!-- SECTION FOR OTHER MEDIA. INDIVIDUAL SPOTS FOR IMAGES, THEN TEXT FOR TEXT AND LINKS -->
-            <div id="extraimage">
+            <div id="extraimage" class="d-inline-flex flex-wrap justify-content-center">
             <?php for($x=0; $x<count($extraImgs);$x++){?>
-                <img class="img-fluid" src=<?php echo $extraImgs[$x] ?> alt="placeholder">
+                <img class="img-fluid flex-fill align-self-center" src=<?php echo $extraImgs[$x] ?> alt="placeholder" style="width: 400px;">
             <?php }?>    
             </div>
             <div id="extratext">

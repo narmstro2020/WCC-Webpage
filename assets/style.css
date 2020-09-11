@@ -94,7 +94,7 @@ nav .navbar-nav li a{
 #testimonies{
     width: 85%;
 }
-#testimony2, #testimony4{
+.testimonyEven{
     text-align: right;
     margin: 5px;
     padding: 5px;
@@ -102,7 +102,7 @@ nav .navbar-nav li a{
     border-radius: 5px;
     background-color: #b6a56160;
 }
-#testimony1, #testimony3{
+.testimonyOdd{
     text-align: left;
     margin: 5px;
     padding: 5px;

@@ -17,6 +17,7 @@
  $dualCredit="";
  $internships="";
  $testimonies=[];
+ $testimoniesName=[];
  $extraImgs=[];
  $extraTexts="";
  include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
