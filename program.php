@@ -50,8 +50,9 @@
             <p><?php echo $classNews ?>
             </p>
         </div>
-        <section id="classinfo" class="container-fluid">
+        <section>
             <!-- CLASS INFORMATION SECTION. WILL ADD SECTION FOR MAX CLASS# -->
+            <div id="classinfo">
             <ul class="nav nav-tabs">
                 <li class="nav-item">
                     <a class="nav-link active" data-toggle="tab" href="#class1"><?php echo $classOneTitle ?></a>
@@ -67,21 +68,59 @@
                 </li>
             </ul>
             <div class="tab-content">
+                <!-- BLAKE: IF THEY DON'T HAVE ANY PREREQUISITES, MAKE AN IF-STATEMENT TO REMOVE THE SPAN TAG -->
             <div id="class1" class="tab-pane container active">
-                <h3 class="class-title"><?php echo $classOneTitle ?></h3>
-                <p class="class-info"><?php echo $classOneInfo ?></p>
+                <h3 class="class-title">
+                    <?php echo $classOneTitle ?>
+                </h3>
+                <p class="class-info">
+                    <span><?php echo $classOneInfo ?></span>
+                </p>
+                <p class="courseDetails">
+                    <span>Available to: <!-- GRADE TAKEN --></span><br>
+                    <span>Taught By: <!-- TEACHER --></span><br>
+                    <span>Requires: <!-- PREREQUISITES--></span>
+                </p>
             </div>
             <div id="class2" class="tab-pane container fade">
-            <h3 class="class-title"><?php echo $classTwoTitle ?></h3>
-                <p class="class-info"><?php echo $classTwoInfo ?></p>
+            <h3 class="class-title">
+                <?php echo $classTwoTitle ?>
+            </h3>
+                <p class="class-info">
+                    <span><?php echo $classTwoInfo ?></span>
+                </p>
+                <p class="class-info courseDetails">
+                    <span>Available to: <!-- GRADE TAKEN --></span><br>
+                    <span>Taught By: <!-- TEACHER --></span><br>
+                    <span>Requires: <!-- PREREQUISITES--></span>
+                </p>
             </div>
             <div id="class3" class="tab-pane container fade">
-            <h3 class="class-title"><?php echo $classThreeTitle ?></h3>
-                <p class="class-info"><?php echo $classThreeInfo ?></p>
+            <h3 class="class-title">
+                <?php echo $classThreeTitle ?>
+            </h3>
+                <p class="class-info">
+                    <span><?php echo $classThreeInfo ?></span>
+                </p>
+                <p class="class-info courseDetails">
+                    <span>Available to: <!-- GRADE TAKEN --></span><br>
+                    <span>Taught By: <!-- TEACHER --></span><br>
+                    <span>Requires: <!-- PREREQUISITES--></span>
+                </p>
             </div>
             <div id="class4" class="tab-pane container fade">
-            <h3 class="class-title"><?php echo $classFourTitle ?></h3>
-                <p class="class-info"><?php echo $classFourInfo ?></p>
+            <h3 class="class-title">
+                <?php echo $classFourTitle ?>
+            </h3>
+                <p class="class-info">
+                    <span><?php echo $classFourInfo ?></span>
+                </p>
+                <p class="class-info courseDetails">
+                    <span>Available to: <!-- GRADE TAKEN --></span><br>
+                    <span>Taught By: <!-- TEACHER --></span><br>
+                    <span>Requires: <!-- PREREQUISITES--></span>
+                </p>
+            </div>
             </div>
             </div>
         </section>
@@ -91,7 +130,7 @@
             <img class="img-fluid flex-fill" src=<?php echo $galleryImgs[$x] ?> alt="placeholder" style="width: 325px;">
             <?php }?> 
         </section>
-        <section class="backgroundDark container-fluid">
+        <section>
             <!-- AFFILIATES SECTION TO BE IN TAB DESIGN. IF NOT THERE, HAVE DIV NOT DISPLAY -->
             <div id="affiliates">
             <ul class="nav nav-tabs" role="tablist">
@@ -139,8 +178,9 @@
                         <h5><!-- COLLEGE NAME --></h5>
                         <p class="opportunity">
                             <span><!-- CREDITS AND CREDIT HOURS --></span>
-                            <span><!-- CREDIT DETAILS --></span>
-                            <?php echo $dualCredit?>
+                            <span><!-- CREDIT DETAILS -->
+                                <?php echo $dualCredit?>
+                            </span>
                         </p>
                     <?php }?>
                 </div>
@@ -159,7 +199,7 @@
             </div>
         </section>
         <section id="testimonies" class="container-fluid">
-            <!-- STUDENT TESTIMONIES -->
+            <!-- STUDENT TESTIMONIES. NOTE: TO FOR-LOOP THIS, SPLIT THEM INTO TESTIMONY ODD AND TESTIMONY EVEN FOR STYLING. -->
             <?php //for($x=0; $x<count($testimonies);$x++){?>
             <div class="testimony testimonyOdd">
                 <?php if(!empty($testimonies[0])){?>
@@ -191,25 +231,25 @@
             <!-- SECTION FOR OTHER MEDIA. INDIVIDUAL SPOTS FOR IMAGES, THEN TEXT FOR TEXT AND LINKS -->
             <div id="extraimage" class="d-inline-flex flex-wrap justify-content-center">
             <?php for($x=0; $x<count($extraImgs);$x++){?>
-                <img class="img-fluid flex-fill align-self-center" src=<?php echo $extraImgs[$x] ?> alt="placeholder" style="width: 400px;">
+                <img class="img-fluid flex-fill align-self-center" src=<?php echo $extraImgs[$x] ?> alt="placeholder">
             <?php }?>    
             </div>
-            <div id="extratext">
-                <?php if(!empty($extraTexts)){?>
-                    <?php echo $extraTexts ?>
-                <?php }?>
-            </div>
         </section>
-        <section id="footer">
-            <p>Walker Career Center<br>
-            9651 EAST 21ST STREET<br>
-            Indianapolis, IN 46229<br><br>
+        <section id="footer" class="container-fluid">
+            <div class="row">
+                <div class="col-sm-9">
+                <p>Walker Career Center<br>
+                9651 EAST 21ST STREET<br>
+                Indianapolis, IN 46229<br><br>
 
-            Phone: 317.532.6150<br>
-            Fax: 317-532-6199</p>
-            <img src="https://wcc.warren.k12.in.us/assets/apptegy_cms/themes/msdwarrenin/logo-ddb5d3afb469a9cb82dcda7e2bde7147.png" alt="Logo" style="width:50px; padding-top: 5px; margin-right: 5px;" class="float-right">
-            <img src="../assets/icons8-facebook-50.png" alt="facebook icon" style="padding: 5px;" class="float-right">
-            <img src="../assets/icons8-twitter-50.png" alt="twitter icon" style="padding-top: 5px;" class="float-right">
+                Phone: 317.532.6150<br>
+                Fax: 317-532-6199</p>
+                </div>
+                <div class="col-sm-2">
+                <a href="https://www.facebook.com/WalkerCareerCenter.is.WCC/"><img src="../assets/icons8-facebook-50.png" alt="facebook icon" class="footerImage"></a>
+                <a href="https://twitter.com/wcc_warren"><img src="../assets/icons8-twitter-50.png" alt="twitter icon" class="footerImage"></a>
+                </div>
+            </div>
         </section>
     </div>
 </body>
