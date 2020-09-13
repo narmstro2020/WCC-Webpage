@@ -153,46 +153,79 @@
                 <div id="home" class="container tab-pane active"><br>
                     <h3>Certifications</h3>
                     <?php if(!empty($certifications)){?>
-                        <span><!-- INSTITUTION IMAGE --></span>
-                        <h5><!-- INSTITUTION NAME --></h5>
-                        <p class="opportunity">
-                            <!-- CERTIFICATION DESCRIPTION -->
-                            <?php echo $certifications?>
-                        </p>
+                        <div class="d-flex">
+                            <div class="flexImgPadding">
+                                <span><!-- INSTITUTION IMAGE -->
+                                    <img class="img-fluid" src="https://www.minasjr.com.br/wp-content/themes/minasjr/images/placeholders/placeholder_small.jpg" style="max-width: 150px;">
+                                </span>
+                            </div>
+                            <div class="flex-fill">
+                                <h5><!-- INSTITUTION NAME --> Fake Place 2.0</h5>
+                                <p class="opportunity">
+                                    <!-- CERTIFICATION DESCRIPTION -->
+                                    <?php echo $certifications?>
+                                </p>
+                            </div>
+                        </div>
                     <?php }?>
                 </div>
                 <div id="menu1" class="container tab-pane fade"><br>
                     <h3>Partners</h3>
                     <?php if(!empty($partners)){?>
-                        <span><!-- INSTITUTION IMAGE --></span>
-                        <h5><!-- INSTITUTION NAME --></h5>
-                        <p class="opportunity">
-                            <?php echo $partners?>
-                        </p>
+                        <div class="d-flex">
+                            <div class="flexImgPadding">
+                                <span><!-- INSTITUTION IMAGE -->
+                                    <img class="img-fluid" src="https://www.minasjr.com.br/wp-content/themes/minasjr/images/placeholders/placeholder_small.jpg" style="max-width: 150px;">
+                                </span>
+                            </div>
+                            <div class="flex-fill">
+                                <h5><!-- INSTITUTION NAME --></h5>
+                                <p class="opportunity">
+                                    <!-- PARTNER DESCRIPTION -->
+                                    <?php echo $partners?>
+                                </p>
+                            </div>
+                        </div>
                     <?php }?>
                 </div>
                 <div id="menu2" class="container tab-pane fade"><br>
                     <h3>Dual Credit</h3>
                     <?php if(!empty($dualCredit)){?>
-                        <span><!-- COLLEGE LOGO --></span>
-                        <h5><!-- COLLEGE NAME --></h5>
-                        <p class="opportunity">
-                            <span><!-- CREDITS AND CREDIT HOURS --></span>
-                            <span><!-- CREDIT DETAILS -->
-                                <?php echo $dualCredit?>
+                        <div class="d-flex">
+                        <div>
+                            <span class="flexImgPadding"> <!-- INSTITUTION IMAGE -->
+                                <img class="img-fluid" src="https://www.minasjr.com.br/wp-content/themes/minasjr/images/placeholders/placeholder_small.jpg" style="max-width: 150px;">
                             </span>
-                        </p>
+                        </div>
+                        <div class="flex-fill">
+                            <h5><!-- COLLEGE NAME --></h5>
+                            <p class="opportunity">
+                                <span><!-- CREDITS AND CREDIT HOURS --></span>
+                                <span><!-- CREDIT DETAILS -->
+                                    <?php echo $dualCredit?>
+                                </span>
+                            </p>
+                        </div>
+                        </div>
                     <?php }?>
                 </div>
                 <div id="menu3" class="container tab-pane fade"><br>
                     <h3>Internships</h3>
                     <?php if(!empty($internships)){?>
-                        <span><!-- INSTITUTION IMAGE --></span>
-                        <h5><!-- INSTITUTION NAME --></h5>
-                        <p class="opportunity">
-                            <!-- INTERNSHIP DESCRIPTION -->
-                            <?php echo $internships?>
-                        </p>
+                        <div class="d-flex">
+                            <div class="flexImgPadding">
+                                <span><!-- INSTITUTION IMAGE -->
+                                    <img class="img-fluid" src="https://www.minasjr.com.br/wp-content/themes/minasjr/images/placeholders/placeholder_small.jpg" style="max-width: 150px;">
+                                </span>
+                            </div>
+                            <div class="flex-fill">
+                                <h5><!-- INSTITUTION NAME --></h5>
+                                <p class="opportunity">
+                                    <!-- INSTITUTION DESCRIPTION -->
+                                    <?php echo $internships?>
+                                </p>
+                            </div>
+                        </div>
                     <?php }?>
                 </div>
             </div>

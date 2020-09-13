@@ -90,6 +90,9 @@ nav .navbar-nav li a{
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
 }
+.flexImgPadding{
+    margin-right: 5px;
+}
 .backgroundDark{
     background-color: #2C2727;
     color: #C5A769;
