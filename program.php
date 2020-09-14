@@ -174,8 +174,8 @@
             <!-- Tab panes -->
             <div class="tab-content">
                 <div id="home" class="container tab-pane active"><br>
-                    <h3>Certifications</h3>
                     <?php if(!empty($certifications)){?>
+                        <h3>Certifications</h3>
                         <div class="d-flex">
                             <div class="flexImgPadding">
                                 <span><!-- INSTITUTION IMAGE -->
