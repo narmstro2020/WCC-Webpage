@@ -82,9 +82,11 @@
                     <span><?php echo $classOneInfo ?></span>
                 </p>
                 <p class="courseDetails">
-                    <span>Available to: <!-- GRADE TAKEN --></span><br>
-                    <span>Taught By: <!-- TEACHER --></span><br>
-                    <span>Requires: <!-- PREREQUISITES--></span>
+                    <span>Available to: <?php echo $grade1?> </span><br>
+                    <span>Taught By: <?php echo $teacher1?></span><br>
+                    <?php if(!empty($prerequisites1)){ ?>
+                    <span>Requires: <?php echo $prerequisites1?></span>
+                    <?php }?>
                 </p>
             </div>
             <div id="class2" class="tab-pane container fade">
@@ -95,9 +97,11 @@
                     <span><?php echo $classTwoInfo ?></span>
                 </p>
                 <p class="class-info courseDetails">
-                    <span>Available to: <!-- GRADE TAKEN --></span><br>
-                    <span>Taught By: <!-- TEACHER --></span><br>
-                    <span>Requires: <!-- PREREQUISITES--></span>
+                <span>Available to: <?php echo $grade2?> </span><br>
+                    <span>Taught By: <?php echo $teacher2?></span><br>
+                    <?php if(!empty($prerequisites2)){ ?>
+                    <span>Requires: <?php echo $prerequisites2?></span>
+                    <?php }?>
                 </p>
             </div>
             <div id="class3" class="tab-pane container fade">
@@ -108,11 +112,14 @@
                     <span><?php echo $classThreeInfo ?></span>
                 </p>
                 <p class="class-info courseDetails">
-                    <span>Available to: <!-- GRADE TAKEN --></span><br>
-                    <span>Taught By: <!-- TEACHER --></span><br>
-                    <span>Requires: <!-- PREREQUISITES--></span>
+                <span>Available to: <?php echo $grade3?> </span><br>
+                    <span>Taught By: <?php echo $teacher3?></span><br>
+                    <?php if(!empty($prerequisites3)){ ?>
+                    <span>Requires: <?php echo $prerequisites3?></span>
+                    <?php }?>
                 </p>
             </div>
+            <?php if(!empty($classFourTitle)){ ?>
             <div id="class4" class="tab-pane container fade">
             <h3 class="class-title">
                 <?php echo $classFourTitle ?>
@@ -121,11 +128,14 @@
                     <span><?php echo $classFourInfo ?></span>
                 </p>
                 <p class="class-info courseDetails">
-                    <span>Available to: <!-- GRADE TAKEN --></span><br>
-                    <span>Taught By: <!-- TEACHER --></span><br>
-                    <span>Requires: <!-- PREREQUISITES--></span>
+                <span>Available to: <?php echo $grade4?> </span><br>
+                    <span>Taught By: <?php echo $teacher4?></span><br>
+                    <?php if(!empty($prerequisites4)){ ?>
+                    <span>Requires: <?php echo $prerequisites4?></span>
+                    <?php }?>
                 </p>
             </div>
+            <?php }?>
             </div>
             </div>
         </section>
@@ -138,20 +148,28 @@
         <section>
             <!-- AFFILIATES SECTION TO BE IN TAB DESIGN. IF NOT THERE, HAVE DIV NOT DISPLAY -->
             <div id="affiliates">
-            <ul class="nav nav-tabs" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="#home">Certifications</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#menu1">Partners</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#menu2">Dual Credit</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#menu3">Internships</a>
-                </li>
-            </ul>
+                <ul class="nav nav-tabs" role="tablist">
+                    <?php if(!empty($certifications)){ ?>   
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#home">Certifications</a>
+                        </li>
+                    <?php }?>
+                    <?php if(!empty($partners)){ ?>   
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#menu1">Partners</a>
+                        </li>
+                    <?php }?>
+                    <?php if(!empty($dualCredit)){ ?>   
+                        <li class="nav-item">
+                         <a class="nav-link" data-toggle="tab" href="#menu2">Dual Credit</a>
+                        </li>
+                    <?php }?>
+                    <?php if(!empty($internships)){ ?>   
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#menu3">Internships</a>
+                        </li>
+                     <?php }?>
+                </ul>
 
             <!-- Tab panes -->
             <div class="tab-content">
@@ -161,11 +179,11 @@
                         <div class="d-flex">
                             <div class="flexImgPadding">
                                 <span><!-- INSTITUTION IMAGE -->
-                                    <img class="img-fluid" src="https://www.minasjr.com.br/wp-content/themes/minasjr/images/placeholders/placeholder_small.jpg" style="max-width: 150px;">
+                                    <img class="img-fluid" src=<?PHP echo $certificationsImg?>>
                                 </span>
                             </div>
                             <div class="flex-fill">
-                                <h5><!-- INSTITUTION NAME --> Fake Place 2.0</h5>
+                                <h5><!-- INSTITUTION NAME --> <?PHP echo $certificationsName?></h5>
                                 <p class="opportunity">
                                     <!-- CERTIFICATION DESCRIPTION -->
                                     <?php echo $certifications?>
@@ -180,11 +198,11 @@
                         <div class="d-flex">
                             <div class="flexImgPadding">
                                 <span><!-- INSTITUTION IMAGE -->
-                                    <img class="img-fluid" src="https://www.minasjr.com.br/wp-content/themes/minasjr/images/placeholders/placeholder_small.jpg" style="max-width: 150px;">
+                                    <img class="img-fluid" src=<?PHP echo $partnersImg?>>
                                 </span>
                             </div>
                             <div class="flex-fill">
-                                <h5><!-- INSTITUTION NAME --></h5>
+                                <h5><?PHP echo $partnersName?></h5>
                                 <p class="opportunity">
                                     <!-- PARTNER DESCRIPTION -->
                                     <?php echo $partners?>
@@ -199,11 +217,11 @@
                         <div class="d-flex">
                         <div>
                             <span class="flexImgPadding"> <!-- INSTITUTION IMAGE -->
-                                <img class="img-fluid" src="https://www.minasjr.com.br/wp-content/themes/minasjr/images/placeholders/placeholder_small.jpg" style="max-width: 150px;">
+                                <img class="img-fluid" src=<?PHP echo $dualCreditImg?>>
                             </span>
                         </div>
                         <div class="flex-fill">
-                            <h5><!-- COLLEGE NAME --></h5>
+                            <h5><?PHP echo $dualCreditName?></h5>
                             <p class="opportunity">
                                 <span><!-- CREDITS AND CREDIT HOURS --></span>
                                 <span><!-- CREDIT DETAILS -->
@@ -220,11 +238,11 @@
                         <div class="d-flex">
                             <div class="flexImgPadding">
                                 <span><!-- INSTITUTION IMAGE -->
-                                    <img class="img-fluid" src="https://www.minasjr.com.br/wp-content/themes/minasjr/images/placeholders/placeholder_small.jpg" style="max-width: 150px;">
+                                    <img class="img-fluid" src=<?PHP echo $internshipsImg?>>
                                 </span>
                             </div>
                             <div class="flex-fill">
-                                <h5><!-- INSTITUTION NAME --></h5>
+                                <h5><?php echo $internshipsName?></h5>
                                 <p class="opportunity">
                                     <!-- INSTITUTION DESCRIPTION -->
                                     <?php echo $internships?>
