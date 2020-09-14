@@ -63,9 +63,11 @@
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#class3"><?php echo $classThreeTitle ?></a>
                 </li>
+                <?php if(!empty($classFourTitle)){ ?>
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#class4"><?php echo $classFourTitle ?></a>
                 </li>
+                <?php } ?>
             </ul>
             <div class="tab-content">
                 <!-- BLAKE: IF THEY DON'T HAVE ANY PREREQUISITES, MAKE AN IF-STATEMENT TO REMOVE THE SPAN TAG -->
