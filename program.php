@@ -46,8 +46,11 @@
         </div>
         <div id="news" class="container-fluid backgroundDark">
             <!-- FOR MAJOR CLASS NEWS -->
-            <h3>Class News</h3>
-            <p><?php echo $classNews ?>
+            <h2>Class News</h2>
+            <p>
+                <!-- MAKE THIS INTO A FOR LOOP TO ADD DATES AND NEWS -->
+                <span><i><!-- DATE --></i></span>
+                 -- <span><?php echo $classNews ?></span>
             </p>
         </div>
         <section>
