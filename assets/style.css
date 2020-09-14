@@ -50,7 +50,7 @@ h1{
     text-align: center;
     color: #ccb17a;
 }
-h3{
+h3, h2{
     font-family: 'Open Sans', sans-serif;
 }
 .mainbody{
@@ -100,7 +100,7 @@ nav .navbar-nav li a{
     padding-top: 10px;
 }
 .backgroundDark h3{
-    color: #B6A561;
+    color: #C5A769;
 }
 #testimonies{
     width: 95%;
