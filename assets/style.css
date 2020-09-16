@@ -8,6 +8,10 @@ body{
     z-index: 10;
     position: relative;
 }
+#rogersSocial{
+    width: 40%;
+    margin: auto;
+}
 #walkerTalker{
     width: 60%;
     margin: auto;
