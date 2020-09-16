@@ -1,8 +1,8 @@
 <?php
- $page_title="Same as program title";
+$page_title="";
  $program_title="";
- $videoId="11 character ID following v=";
- $classNews="current major program news";
+ $videoId="";
+ $classNews="";
  $classOneTitle="";
  $classOneInfo="";
  $classTwoTitle="";
@@ -11,13 +11,36 @@
  $classThreeInfo="";
  $classFourTitle="";
  $classFourInfo="";
- $galleryImgs=[];
+ $galleryImgs=[""];
  $certifications="";
+ $certificationsImg="";
+ $certificationsName="";
  $partners="";
+ $partnersImg="";
+ $partnersName="";
  $dualCredit="";
+ $dualCreditImg="";
+ $dualCreditName="";
  $internships="";
- $testimonies=[];
- $testimoniesName=[];
- $extraImgs=[];
+ $internshipsImg="";
+ $internshipsName="";
+ $testimonies=[""];
+ $testimoniesName=[""];
+ $extraImgs=[""];
+ $grade1="";
+ $grade2="";
+ $grade3="";
+ $grade4="";
+ $teacher1="";
+ $teacher2="";
+ $teacher3="";
+ $teacher4="";
+ $prerequisites1="";
+ $prerequisites2="";
+ $prerequisites3="";
+ $prerequisites4="";
+ 
+ 
+ 
  include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
 ?>
