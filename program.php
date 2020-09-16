@@ -65,9 +65,11 @@
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#class2"><?php echo $classTwoTitle ?></a>
                 </li>
+                <?php if(!empty($classThreeTitle)){ ?>
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#class3"><?php echo $classThreeTitle ?></a>
                 </li>
+                <?php }?>
                 <?php if(!empty($classFourTitle)){ ?>
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#class4"><?php echo $classFourTitle ?></a>
@@ -106,6 +108,7 @@
                     <?php }?>
                 </p>
             </div>
+            <?php if(!empty($classThreeTitle)){ ?>
             <div id="class3" class="tab-pane container fade">
             <h3 class="class-title">
                 <?php echo $classThreeTitle ?>
@@ -121,6 +124,7 @@
                     <?php }?>
                 </p>
             </div>
+                    <?php }?>
             <?php if(!empty($classFourTitle)){ ?>
             <div id="class4" class="tab-pane container fade">
             <h3 class="class-title">
@@ -178,20 +182,26 @@
                 <div id="home" class="container tab-pane active"><br>
                     <?php if(!empty($certifications)){?>
                         <h3>Certifications</h3>
+                        <?php for($i=0;$i<count($certificationsName);$i++){?>
                         <div class="d-flex">
                             <div class="flexImgPadding">
                                 <span><!-- INSTITUTION IMAGE -->
-                                    <img class="img-fluid" src=<?PHP echo $certificationsImg?>>
+                                    <img class="img-fluid" src=<?PHP echo $certificationsImg[$i]?>>
                                 </span>
                             </div>
                             <div class="flex-fill">
-                                <h5><!-- INSTITUTION NAME --> <?PHP echo $certificationsName?></h5>
-                                <p class="opportunity">
+                                <h5><!-- INSTITUTION NAME --> <?PHP echo $certificationsName[$i]?></h5>
+                                <?php for($x=0;$x<count($certifications[$i]);$x++){?>
+                                    <p class="opportunity">
                                     <!-- CERTIFICATION DESCRIPTION -->
-                                    <?php echo $certifications?>
+                                    
+                                    <?php echo $certifications[$i][$x]?>
+                                    
                                 </p>
+                                <?php }?>
                             </div>
                         </div>
+                        <?php }?>
                     <?php }?>
                 </div>
                 <div id="menu1" class="container tab-pane fade"><br>
