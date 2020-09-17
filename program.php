@@ -39,13 +39,21 @@
         <h1><?php echo $program_title ?></h1>
         <!-- MAIN VIDEO/JUMBOTRON BELOW -->
         <div id="video" class="container-fluid">
+        <?PHP if(!empty($videoId)){?>    
+        <video controls autoplay>
+                <source src="<?php echo $videoId; ?>" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+        <?PHP } elseif(!empty($replacementImg)){?>
+               <img class="img-fluid" src="<?PHP echo $replacementImg?>" alt="main image" style="width: 100%;"> -->
+        <?PHP } else{?>
             <video controls autoplay>
                 <source src="<?php echo $videoId; ?>" type="video/mp4">
             Your browser does not support the video tag.
             </video>
-            <!-- IF NO VIDEO:
-               <img class="img-fluid" src="PHP HERE" alt="main image" style="width: 100%;"> -->
+        <?PHP }?>
         </div>
+        <?PHP if (!empty($classNews)){?>
         <div id="news" class="container-fluid backgroundDark">
             <!-- FOR MAJOR CLASS NEWS -->
             <h2>Class News</h2>
@@ -55,6 +63,7 @@
                  -- <span><?php echo $classNews ?></span>
             </p>
         </div>
+        <?PHP }?>
         <section>
             <!-- CLASS INFORMATION SECTION. WILL ADD SECTION FOR MAX CLASS# -->
             <div id="classinfo">
@@ -207,20 +216,24 @@
                 <div id="menu1" class="container tab-pane fade"><br>
                     <h3>Partners</h3>
                     <?php if(!empty($partners)){?>
-                        <div class="d-flex">
+                        <?php for($i=0;$i<count($partnersName);$i++){?>
+                            <div class="d-flex">
+                            <?PHP if(!empty($partnersImg[$i])){?>
                             <div class="flexImgPadding">
                                 <span><!-- INSTITUTION IMAGE -->
-                                    <img class="img-fluid" src=<?PHP echo $partnersImg?>>
+                                    <img class="img-fluid" src=<?PHP echo $partnersImg[$i]?>>
                                 </span>
                             </div>
+                            <?PHP }?>
                             <div class="flex-fill">
-                                <h5><?PHP echo $partnersName?></h5>
+                                <h5><?PHP echo $partnersName[$i]?></h5>
                                 <p class="opportunity">
                                     <!-- PARTNER DESCRIPTION -->
-                                    <?php echo $partners?>
+                                    <?php echo $partners[$i]?>
                                 </p>
                             </div>
                         </div>
+                        <?php }?>
                     <?php }?>
                 </div>
                 <div id="menu2" class="container tab-pane fade"><br>
