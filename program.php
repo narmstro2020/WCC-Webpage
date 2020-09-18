@@ -208,8 +208,13 @@
 
             <!-- Tab panes -->
             <div class="tab-content">
+                <?php if(!empty($certifications)){?>
                 <div id="home" class="container tab-pane active"><br>
-                    <?php if(!empty($certifications)){?>
+                <?PHP }else{?>
+                    <div id="home" class="container tab-pane fade"><br>
+                <?PHP }?>
+                <?php if(!empty($certifications)){?>
+
                         <h3>Certifications</h3>
                         <?php for($i=0;$i<count($certificationsName);$i++){?>
                         <div class="d-flex">
@@ -233,7 +238,7 @@
                         <?php }?>
                     <?php }?>
                 </div>
-                <?php if(empty($certifications)){?>
+                <?php if(empty($certifications)&&!empty($partners)){?>
                 <div id="menu1" class="container tab-pane active"><br>
                 <?PHP } else{?>
                 <div id="menu1" class="container tab-pane fade"><br>
@@ -261,7 +266,7 @@
                         <?php }?>
                     <?php }?>
                 </div>
-                <?php if(empty($certifications)&&empty($partners)){?>
+                <?php if(empty($certifications)&&empty($partners)&&!empty($dualCredit)){?>
                 <div id="menu2" class="container tab-pane active"><br>
                 <?PHP } else{?>
                 <div id="menu2" class="container tab-pane fade"><br>
@@ -286,7 +291,7 @@
                         </div>
                     <?php }?>
                 </div>
-                <?php if(empty($certifications)&&empty($partners)&&empty($dualCredit)){?>
+                <?php if(empty($certifications)&&empty($partners)&&empty($dualCredit)&&!empty($internships)){?>
                 <div id="menu3" class="container tab-pane active"><br>
                 <?PHP } else{?>
                 <div id="menu3" class="container tab-pane fade"><br>
