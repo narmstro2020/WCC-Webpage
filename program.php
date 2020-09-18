@@ -320,31 +320,31 @@
         <section id="testimonies" class="container-fluid">
             <!-- STUDENT TESTIMONIES. NOTE: TO FOR-LOOP THIS, SPLIT THEM INTO TESTIMONY ODD AND TESTIMONY EVEN FOR STYLING. -->
             <?php //for($x=0; $x<count($testimonies);$x++){?>
-            <div class="testimony testimonyOdd">
-                <?php if(!empty($testimonies[0])){?>
+            <?php if(!empty($testimonies[0])){?>
+                <div class="testimony testimonyOdd">
                 <p class="testimony"><span><?php echo $testimonies[0]?></span> -- <span><?php echo $testimoniesName[0]?></span></p>
-                <?php }?>
             </div>
+            <?php }?>
+           <?php if(!empty($testimonies[1])){?> 
             <div class="testimony testimonyEven">
-            <?php if(!empty($testimonies[1])){?>
                 <p class="testimony"><?php echo $testimonies[1]?> -- <span><?php echo $testimoniesName[1]?></span></p>
-                <?php }?>
             </div>
-            <div class="testimony testimonyOdd">
+            <?php }?>
             <?php if(!empty($testimonies[2])){?>
+                <div class="testimony testimonyOdd">
                 <p class="testimony"><?php echo $testimonies[2]?> -- <span><?php echo $testimoniesName[2]?></span></p>
-                <?php }?>
             </div>
-            <div class="testimony testimonyEven">
+            <?php }?>
             <?php if(!empty($testimonies[3])){?>
+                <div class="testimony testimonyEven">
                 <p class="testimony"><?php echo $testimonies[3]?> -- <span><?php echo $testimoniesName[3]?></span></p>
-                <?php }?>
             </div>
-            <div class="testimony testimonyOdd">
+            <?php }?>
             <?php if(!empty($testimonies[4])){?>
+                <div class="testimony testimonyOdd">
                 <p class="testimony"><?php echo $testimonies[4]?> -- <span><?php echo $testimoniesName[4]?></span></p>
-                <?php }?>
             </div>
+            <?php }?>
         </section>
         <section id="other">
             <!-- SECTION FOR OTHER MEDIA. INDIVIDUAL SPOTS FOR IMAGES, THEN TEXT FOR TEXT AND LINKS -->
