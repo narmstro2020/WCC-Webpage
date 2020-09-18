@@ -2,33 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="tuzmf.css">
-    <title>Home</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <title>Walker Career Center</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+        <!-- font-family: 'Open Sans', sans-serif;   -    font-family: 'Roboto', sans-serif; -->
+        <!-- GET YER DANG HTML TAGS DONE -->
+
 </head>
 <body>
-    <div>
-        <center>
-            <img src="./assets/logo-walker.png" style="width:40%;">
-            <nav class="navbar navbar-dark navbar-expand-sm bg-dark sticky-top">
+    <div class="mainbody">
+            <!-- TO INCLUDE NAVBAR, TOP IMAGE -->
+            <img class="img-responsive mx-auto d-block" src="../assets/logo-walker.png" alt="top logo" style="padding: 10px; width: 80%;">
+            <nav class="navbar navbar-expand-sm sticky-top navbar-dark">
+                <a class="navbar-brand" href="#">
+                    <img src="https://wcc.warren.k12.in.us/assets/apptegy_cms/themes/msdwarrenin/logo-ddb5d3afb469a9cb82dcda7e2bde7147.png" alt="Logo" style="width:40px;">
+                </a>
+                <button class="navbar-toggler btn-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="http://www.walkercc.org/index.html">Home</a>
+                        <a class="nav-link active" href="../index.html">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="http://cosmo.walkercc.org/">Cosmetology</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./programs/computerscience.php">Example Program Page</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Programs</a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="../programs/computerscience.php">Computer Science</a>
+                          <a class="dropdown-item" href="../programs/dentalAssitant.php">Dental Careers</a>
+                        </div>
                     </li>
                 </ul>
+                </div>
             </nav>
-            <img src="under_construction_Stock_Image.jpg" style="width:50%;">
-            <h2>Please check back later for updates!</h2>
-        </center>
+            
+            <center><img src="under_construction_Stock_Image.jpg" style="width:50%; padding-top: 30px;">
+            <h2>Please check back later for updates!</h2></center>
+
+            <section id="footer" class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-11">
+                    <p>Walker Career Center<br>
+                    9651 EAST 21ST STREET<br>
+                    Indianapolis, IN 46229<br><br>
+    
+                    Phone: 317.532.6150<br>
+                    Fax: 317-532-6199</p>
+                    </div>
+                    <div class="col-sm-1">
+                    <a href="https://www.facebook.com/WalkerCareerCenter.is.WCC/"><img src="../assets/icons8-facebook-50.png" alt="facebook icon" class="footerImage"></a>
+                    <a href="https://twitter.com/wcc_warren"><img src="../assets/icons8-twitter-50.png" alt="twitter icon" class="footerImage"></a>
+                    </div>
+                </div>
+            </section>
     </div>
 </body>
 </html>

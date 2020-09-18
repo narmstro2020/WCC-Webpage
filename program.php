@@ -30,8 +30,12 @@
                     <li class="nav-item">
                         <a class="nav-link" href="../index.html">Home</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Programs</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#">Programs</a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="../programs/computerscience.php">Computer Science</a>
+                          <a class="dropdown-item" href="../programs/dentalAssitant.php">Dental Careers</a>
+                        </div>
                     </li>
                 </ul>
                 </div>

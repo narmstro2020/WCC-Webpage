@@ -75,9 +75,8 @@ h3, h2{
     width: 70%;
     margin: auto;
     font-family: 'Roboto', sans-serif;
-    min-height: 1300px;
 }
-.navbar{
+.navbar, .dropdown-menu{
      background-color: #2C2727;
  }
 nav .navbar-nav li a{
