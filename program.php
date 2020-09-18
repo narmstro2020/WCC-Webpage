@@ -57,14 +57,12 @@
             </video>
         <?PHP }?>
         </div>
-        <?PHP if (!empty($classNews)){?>
+        <?PHP if (!empty($programOverview)){?>
         <div id="news" class="container-fluid backgroundDark">
             <!-- FOR MAJOR CLASS NEWS -->
-            <h2>Class News</h2>
+            <h2><?php echo $program_title ?> at a Glance</h2>
             <p>
-                <!-- MAKE THIS INTO A FOR LOOP TO ADD DATES AND NEWS -->
-                <span><i><!-- DATE --></i></span>
-                 -- <span><?php echo $classNews ?></span>
+                 <?php echo $programOverview ?>
             </p>
         </div>
         <?PHP }?>

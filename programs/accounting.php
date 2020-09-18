@@ -2,7 +2,7 @@
 $page_title="Accounting";
  $program_title="";
  $videoId="";
- $classNews="";
+ $programOverview=""; 
  $classOneTitle="";
  $classOneInfo="";
  $classTwoTitle="";
