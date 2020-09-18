@@ -171,20 +171,38 @@
                             <a class="nav-link active" data-toggle="tab" href="#home">Certifications</a>
                         </li>
                     <?php }?>
-                    <?php if(!empty($partners)){ ?>   
-                        <li class="nav-item">
+                    <?php if(!empty($partners)){ ?>
+                        <?php if(empty($certifications)){?>
+                            <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#menu1">Partners</a>
+                            </li>
+                        <?PHP } else{?>
+                            <li class="nav-item">
                             <a class="nav-link" data-toggle="tab" href="#menu1">Partners</a>
                         </li>
+                        <?PHP }?>   
                     <?php }?>
                     <?php if(!empty($dualCredit)){ ?>   
-                        <li class="nav-item">
-                         <a class="nav-link" data-toggle="tab" href="#menu2">Dual Credit</a>
+                        <?php if(empty($certifications)&&empty($partners)){?>
+                            <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#menu2">Dual Credit</a>
+                            </li>
+                        <?PHP } else{?>
+                            <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#menu2">Dual Credit</a>
                         </li>
+                        <?PHP }?> 
                     <?php }?>
                     <?php if(!empty($internships)){ ?>   
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#menu3">Internships</a>
+                        <?php if(empty($certifications)&&empty($partners)&&empty($dualCredit)){?>
+                            <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#menu3">Internship</a>
+                            </li>
+                        <?PHP } else{?>
+                            <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#menu3">Internship</a>
                         </li>
+                        <?PHP }?>
                      <?php }?>
                 </ul>
 
@@ -215,10 +233,15 @@
                         <?php }?>
                     <?php }?>
                 </div>
+                <?php if(empty($certifications)){?>
+                <div id="menu1" class="container tab-pane active"><br>
+                <?PHP } else{?>
                 <div id="menu1" class="container tab-pane fade"><br>
-                    <h3>Partners</h3>
+                <?PHP }?>
+                    
                     <?php if(!empty($partners)){?>
-                        <?php for($i=0;$i<count($partnersName);$i++){?>
+                      <h3>Partners</h3> 
+                       <?php for($i=0;$i<count($partnersName);$i++){?>
                             <div class="d-flex">
                             <?PHP if(!empty($partnersImg[$i])){?>
                             <div class="flexImgPadding">
@@ -238,7 +261,11 @@
                         <?php }?>
                     <?php }?>
                 </div>
+                <?php if(empty($certifications)&&empty($partners)){?>
+                <div id="menu2" class="container tab-pane active"><br>
+                <?PHP } else{?>
                 <div id="menu2" class="container tab-pane fade"><br>
+                <?PHP }?>
                     <h3>Dual Credit</h3>
                     <?php if(!empty($dualCredit)){?>
                         <div class="d-flex">
@@ -259,7 +286,11 @@
                         </div>
                     <?php }?>
                 </div>
+                <?php if(empty($certifications)&&empty($partners)&&empty($dualCredit)){?>
+                <div id="menu3" class="container tab-pane active"><br>
+                <?PHP } else{?>
                 <div id="menu3" class="container tab-pane fade"><br>
+                <?PHP }?>
                     <h3>Internships</h3>
                     <?php if(!empty($internships)){?>
                         <div class="d-flex">
