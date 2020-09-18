@@ -9,12 +9,22 @@ body{
     position: relative;
 }
 #rogersSocial{
-    width: 40%;
     margin: auto;
 }
 #walkerTalker{
-    width: 60%;
+    width: 90%;
     margin: auto;
+}
+.backgroundGrey{
+    border: 2px solid #2C2727;
+    background-color: #2C272760;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.backgroundGold{
+    border: 2px solid #2C2727;
+    background-color: #b6a56160;
 }
 #radio{
     width: 100%;
