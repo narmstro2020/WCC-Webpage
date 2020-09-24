@@ -1,6 +1,6 @@
 <?php
-$page_title="Dental Assistant";
- $program_title="Dental Assistant";
+$page_title="Dental Careers";
+ $program_title="Dental Careers";
  $videoId="";
  $replacementImg="../assets/dental/dental4.jpg";
  $programOverview="Dental assistants perform many tasks, ranging from providing patient care, taking x-rays to recordkeeping and scheduling appointments. Students learn to prepare work areas for patients, proper sterilization techniques, suction hose techniques to keep patient mouths dry, poper oral hygiene, processing of x-rays, proper dental record keeping, preparation of materials for dental impressions, proper fluoride application, as well as patient comfort and care.";
