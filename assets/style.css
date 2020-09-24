@@ -72,10 +72,12 @@ video, #video{
     background-color: #2c272760;
     border: 1px solid black;
 }
-h1{
-    font-family: 'Open Sans', sans-serif;
+#h1{
+    font-family: 'Duru Sans', sans-serif;
+    font-size: 40px;
+    padding-top: 17px;
     text-align: center;
-    color: #ccb17a;
+    color: #eed58a;
 }
 h3, h2{
     font-family: 'Open Sans', sans-serif;

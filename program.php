@@ -9,7 +9,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="../assets/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Duru+Sans&display=swap" rel="stylesheet">
         <!-- font-family: 'Open Sans', sans-serif;   -    font-family: 'Roboto', sans-serif; -->
         <!-- GET YER DANG HTML TAGS DONE -->
 
@@ -40,7 +40,7 @@
                 </ul>
                 </div>
             </nav>
-        <h1><?php echo $program_title ?></h1>
+        <p id="h1"><?php echo $program_title ?></p>
         <!-- MAIN VIDEO/JUMBOTRON BELOW -->
         <div id="video" class="container-fluid">
         <?PHP if(!empty($videoId)){?>    
@@ -49,7 +49,7 @@
             Your browser does not support the video tag.
             </video>
         <?PHP } elseif(!empty($replacementImg)){?>
-               <img class="img-fluid" src="<?PHP echo $replacementImg?>" alt="main image" style="width: 100%;"> -->
+               <img class="img-fluid" src="<?PHP echo $replacementImg?>" alt="main image" style="width: 100%;">
         <?PHP } else{?>
             <video controls autoplay>
                 <source src="<?php echo $videoId; ?>" type="video/mp4">
