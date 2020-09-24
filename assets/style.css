@@ -73,6 +73,7 @@ video, #video{
     border: 1px solid black;
 }
 #h1{
+    text-transform: uppercase;
     font-family: 'Duru Sans', sans-serif;
     font-size: 40px;
     padding-top: 17px;
@@ -80,7 +81,7 @@ video, #video{
     color: #eed58a;
 }
 h3, h2{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Duru Sans', sans-serif;
 }
 .mainbody{
     background-color: #68635c;

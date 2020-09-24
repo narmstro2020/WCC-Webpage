@@ -1,6 +1,6 @@
 <?php
 $page_title="Computer Science";
- $program_title="COMPUTER SCIENCE";
+ $program_title="Computer Science";
  $videoId="../assets/cs/video/headerVid.mp4";
  $replacementImg="";
  $programOverview="Computer programmers write and test code that allows applications and programs to function properly and learn to turn program designs into instructions that a computer can follow. Students learn four programming languages, troubleshooting and problem solving skills, concentration, code writing, program testing, how to find and fix errors, industry-level design techniques, app deployment and implementation, as well as logic and reasoning.";
