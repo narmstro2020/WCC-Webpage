@@ -158,9 +158,9 @@
         </section>
         <section id="gallery" class="d-inline-flex flex-wrap">
             <!-- CODING OF BELOW MAY BE SUBJECT TO CHANGE TO GRID SYSTEM. JUST KNOW INFO = IMG TAGS -->
-            <?php for($x=0; $x<count($galleryImgs);$x++){?>
+            <?php if(!empty($galleryImgs)){for($x=0; $x<count($galleryImgs);$x++){?>
             <img class="img-fluid flex-fill" src=<?php echo $galleryImgs[$x] ?> alt="gallery image" style="width: 325px;">
-            <?php }?> 
+            <?php }}?> 
         </section>
         <section>
             <!-- AFFILIATES SECTION TO BE IN TAB DESIGN. IF NOT THERE, HAVE DIV NOT DISPLAY -->
@@ -349,9 +349,9 @@
         <section id="other">
             <!-- SECTION FOR OTHER MEDIA. INDIVIDUAL SPOTS FOR IMAGES, THEN TEXT FOR TEXT AND LINKS -->
             <div id="extraimage" class="d-inline-flex flex-wrap justify-content-center">
-            <?php for($x=0; $x<count($extraImgs);$x++){?>
+            <?php if(!empty($extraImgs)){ for($x=0; $x<count($extraImgs);$x++){?>
                 <img class="img-fluid flex-fill align-self-center" src=<?php echo $extraImgs[$x] ?> alt="placeholder">
-            <?php }?>    
+            <?php }}?>    
             </div>
         </section>
         <section id="footer" class="container-fluid">
