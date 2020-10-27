@@ -121,8 +121,9 @@ nav .navbar-nav li a{
     font-family: 'Open Sans', sans-serif;
 }
 .flexImgPadding{
-    margin-right: 15px;
+    margin-right: 10px;
     width: 35%;
+    padding: 5px;
 }
 .backgroundDark{
     background-color: #2C2727;

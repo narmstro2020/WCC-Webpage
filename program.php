@@ -256,7 +256,7 @@
                                 </span>
                             </div>
                             <div class="flex-fill">
-                                <h5><!-- INSTITUTION NAME --> <?PHP echo $certificationsName[$i]?></h5>
+                                <h4><!-- INSTITUTION NAME --> <?PHP echo $certificationsName[$i]?></h4>
                                 <?php for($x=0;$x<count($certifications[$i]);$x++){?>
                                     <p class="opportunity">
                                     <!-- CERTIFICATION DESCRIPTION -->
@@ -288,7 +288,7 @@
                             </div>
                             <?PHP }?>
                             <div class="flex-fill">
-                                <h5><?PHP echo $partnersName[$i]?></h5>
+                                <h4><?PHP echo $partnersName[$i]?></h4>
                                 <p class="opportunity">
                                     <!-- PARTNER DESCRIPTION -->
                                     <?php echo $partners[$i]?>
