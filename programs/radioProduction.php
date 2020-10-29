@@ -25,8 +25,24 @@ $page_title="Radio Production";
  $internships="";
  $internshipsImg="";
  $internshipsName="";
- $testimonies=[""];
- $testimoniesName=[""];
+ $testimonies=['“Use your resources, never allow apathy to overcome your
+ potential and always ask questions. This program bolstered my
+ skills and pushed me to create my own digital content which has
+ award me with brand collaborations, freelance jobs and
+ internship opportunities. Furthermore, the program is an
+ essential stepping-stone to the endless possibilities to come and
+ excel in college. Your teachers are an invaluable resource and
+ they will always be there to help you. I have gained discipline, a
+ strong sense of professionalism and instincts which have served
+ me well. As my college career has come to an end and I will
+ 
+ begin my journalism career in France, I urge you to push
+ yourself beyond your limits. Find a mentor, network with others,
+ and be curious. Your best memories can be found on the other
+ side of fear, so take that first step. Ask all questions, apply for
+ those scholarships, network and attend college. The dream is
+ free, but the hustle is sold separately."'];
+ $testimoniesName=["Gabbi Mitchell"];
  $extraImgs="";
  $grade1="Sophmore";
  $grade2="Junior";
