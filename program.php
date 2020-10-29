@@ -335,11 +335,13 @@
                     <h3>Internships</h3>
                     <?php if(!empty($internships)){?>
                         <div class="d-flex">
+                            <?php if(!empty($internshipsImg)){?>    
                             <div class="flexImgPadding">
                                 <span><!-- INSTITUTION IMAGE -->
                                     <img class="img-fluid" src=<?PHP echo $internshipsImg?>>
                                 </span>
                             </div>
+                            <?php }?>
                             <div class="flex-fill">
                                 <h5><?php echo $internshipsName?></h5>
                                 <p class="opportunity">
