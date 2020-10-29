@@ -1,10 +1,12 @@
 <?php
-$page_title="";
- $program_title="";
+$page_title="Nursing";
+ $program_title="Nursing";
  $videoId="";
+ $replacementImg="";
  $programOverview=""; 
  $classOneTitle="";
- $classOneInfo="";
+ $classOneInfo="Everybody knows that the nursing profession has two different sides—it is both science and art. That said, nursing as a science is more apparent.  Nursing involves all the scientific disciplines of formal sciences, natural sciences, social sciences and applied sciences.
+ Meanwhile, the art of nursing is more than a great deal of science. It is more than just knowing; it is doing. You must have emotional intelligence; It bridges information from nurses to patients in a skillful way. It is the application of all the science known to nursing to give the utmost care the patient needs.";
  $classTwoTitle="";
  $classTwoInfo=""; 
  $classThreeTitle="";
@@ -12,12 +14,12 @@ $page_title="";
  $classFourTitle="";
  $classFourInfo="";
  $galleryImgs=[""];
- $certifications="";
- $certificationsImg="";
- $certificationsName="";
- $partners="";
- $partnersImg="";
- $partnersName="";
+ $certifications=[[""]];
+ $certificationsImg=[""];
+ $certificationsName=[""];
+ $partners=[""];
+ $partnersImg=[""];
+ $partnersName=[""];
  $dualCredit="";
  $dualCreditImg="";
  $dualCreditName="";
