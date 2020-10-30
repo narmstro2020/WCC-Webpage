@@ -188,12 +188,14 @@
             </div>
             </div>
         </section>
-        <section id="gallery" class="d-inline-flex flex-wrap">
+        <?php if(!empty($galleryImgs)){?>
+            <section id="gallery" class="d-inline-flex flex-wrap">
             <!-- CODING OF BELOW MAY BE SUBJECT TO CHANGE TO GRID SYSTEM. JUST KNOW INFO = IMG TAGS -->
-            <?php if(!empty($galleryImgs)){for($x=0; $x<count($galleryImgs);$x++){?>
+            <?php for($x=0; $x<count($galleryImgs);$x++){?>
             <img class="img-fluid flex-fill" src=<?php echo $galleryImgs[$x] ?> alt="gallery image" style="width: 325px;">
-            <?php }}?> 
+            <?php }?>
         </section>
+        <?php }?> 
         <section>
             <!-- AFFILIATES SECTION TO BE IN TAB DESIGN. IF NOT THERE, HAVE DIV NOT DISPLAY -->
             <div id="affiliates">
@@ -250,11 +252,13 @@
                         <h3>Certifications</h3>
                         <?php for($i=0;$i<count($certificationsName);$i++){?>
                         <div class="d-flex">
+                            <?php if(!empty($certificationsImg[$i])){ ?>
                             <div class="flexImgPadding">
                                 <span><!-- INSTITUTION IMAGE -->
                                     <img class="img-fluid" src=<?PHP echo $certificationsImg[$i]?>>
                                 </span>
                             </div>
+                            <?php }?>
                             <div class="flex-fill">
                                 <h4><!-- INSTITUTION NAME --> <?PHP echo $certificationsName[$i]?></h4>
                                 <?php for($x=0;$x<count($certifications[$i]);$x++){?>
@@ -331,11 +335,13 @@
                     <h3>Internships</h3>
                     <?php if(!empty($internships)){?>
                         <div class="d-flex">
+                            <?php if(!empty($internshipsImg)){?>    
                             <div class="flexImgPadding">
                                 <span><!-- INSTITUTION IMAGE -->
                                     <img class="img-fluid" src=<?PHP echo $internshipsImg?>>
                                 </span>
                             </div>
+                            <?php }?>
                             <div class="flex-fill">
                                 <h5><?php echo $internshipsName?></h5>
                                 <p class="opportunity">
@@ -380,11 +386,13 @@
         </section>
         <section id="other">
             <!-- SECTION FOR OTHER MEDIA. INDIVIDUAL SPOTS FOR IMAGES, THEN TEXT FOR TEXT AND LINKS -->
+            <?php if(!empty($extraImgs)){?>
             <div id="extraimage" class="d-inline-flex flex-wrap justify-content-center">
-            <?php if(!empty($extraImgs)){ for($x=0; $x<count($extraImgs);$x++){?>
+             <?php for($x=0; $x<count($extraImgs);$x++){?>
                 <img class="img-fluid flex-fill align-self-center" src=<?php echo $extraImgs[$x] ?> alt="placeholder">
-            <?php }}?>    
+            <?php }?>    
             </div>
+            <?php }?>
         </section>
         <section id="footer" class="container-fluid">
             <div class="row">
