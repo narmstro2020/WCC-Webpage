@@ -83,10 +83,7 @@
         <?PHP } elseif(!empty($replacementImg)){?>
                <img class="img-fluid" src="<?PHP echo $replacementImg?>" alt="main image" style="width: 100%;">
         <?PHP } else{?>
-            <video controls autoplay>
-                <source src="<?php echo $videoId; ?>" type="video/mp4">
-            Your browser does not support the video tag.
-            </video>
+            
         <?PHP }?>
         </div>
         <?PHP if (!empty($programOverview)){?>
