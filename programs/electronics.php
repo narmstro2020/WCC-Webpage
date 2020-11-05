@@ -2,7 +2,7 @@
 $page_title="Electronics";
  $program_title="Electronics";
  $videoId="";
- $programOverview=""; 
+ $programOverview="Electronic and computer programmers install and maintain systems and equipment including computers and navigational equipment to smartphones. These students learn skills in problem solving, time management, accessing different resources, policy and compliance, economic factors, communication, ethics, logical thinking, safety standards, computer literacy, societal factors, and problem sensitivity."; 
  $classOneTitle="Computers in Production Design";
  $classOneInfo="IED non provides students with a working knowledge of how all the programs that Walker Career Center has. It provides a short introductory to all the classes offered at Walker. 
  The electronics program as a whole is a two-year program preparing students for Post-Secondary education in an engineering field or apprenticeship as an Electrician. It prepares students for entry level positions in both industry, and home product electronics mainly in repair, maintenance, sales, and installations.";
