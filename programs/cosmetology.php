@@ -1,7 +1,7 @@
 <?php
 $page_title="Cosmetology";
  $program_title="Cosmetology";
- $videoId="";
+ $videoId="../assets/cosmetology/headerVid.mp4";
  $replacementImg="";
  $programOverview="Cosmetologists provide haircutting, hairstyling, and a range of other beauty services to enhance clients' appearance. Students learn roller control, quick styling, shampooing, hair coloring, permanent waving, facials, manicuring, business and personal ethics, bacteriology, and sanitation."; 
  $classOneTitle="Cosmetology I";
