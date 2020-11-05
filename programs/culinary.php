@@ -1,7 +1,7 @@
 <?php
 $page_title="Culinary";
  $program_title="Culinary";
- $videoId="";
+ $videoId="../assets/culinary/headerVid.mp4";
  $replacementImg="../assets/culinary/replace.jpg";
  $programOverview="Culinary Arts and Hospitality Management students have the opportunity to compete in skilled competition at regional, state, and national levels. Students who are looking to advance their skills are highly encouraged to get involved with our ProStart and SkillsUSA teams. Students are able to network with other schools, colleges, and employers at a more personal and individual setting through these two CTSO's. Competition is not only fun, but also gives opportunities for scholarships as well."; 
  $classOneTitle="Intro to Culinary Arts and Hospitality";

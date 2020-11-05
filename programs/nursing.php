@@ -1,7 +1,7 @@
 <?php
 $page_title="Nursing";
  $program_title="Nursing";
- $videoId="";
+ $videoId="../assets/nursing/headerVid.mp4";
  $replacementImg="";
  $programOverview="Nurses and doctors provide and coordinate patient care, educate patients and the public about health conditions, and how to stay healthy. Students will learn the fundamentals of nursing and patient-centered care, body systems and common conditions, medical math, reading and documentation, compassion, dignity, empathy, sympathy and respect, active listening, infection control, medical ethics, policies and procedures, and get to explore health careers."; 
  $classOneTitle="Health Science Education I";

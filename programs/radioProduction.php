@@ -1,7 +1,7 @@
 <?php
 $page_title="Radio Production";
  $program_title="Radio Production";
- $videoId="";
+ $videoId="../assets/radioProduction/headerVid.mp4";
  $replacementImg="../assets/radioProduction/radioProduction1.jpg";
  $programOverview="Broadcast engineers set up and operate the equipment for radio programs, while DJs serve as the ON-AIR personalities for the radio station. Students here will learn time management, social media responsibility, teamwork, podcast recording and production, radio imaging production, event planning, accountability, live news delivery, studio equipment operation, and voice tracking."; 
  $classOneTitle="Intro to Communications";

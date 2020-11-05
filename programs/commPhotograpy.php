@@ -1,7 +1,7 @@
 <?php
 $page_title="";
  $program_title="";
- $videoId="";
+ $videoId="../assets/commPhotography/headerVid.mp4";
  $programOverview=""; 
  $classOneTitle="";
  $classOneInfo="";
