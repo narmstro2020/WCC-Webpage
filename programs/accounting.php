@@ -1,6 +1,6 @@
 <?php
 $page_title="Accounting";
- $program_title="Accounting";
+ $program_title="Accoounting";
  $videoId="";
  $replacementImg="";
  $programOverview=""; 
