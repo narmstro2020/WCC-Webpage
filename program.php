@@ -95,6 +95,8 @@
             </p>
         </div>
         <?PHP }?>
+        <?php if(empty($classOneTitle)&&empty($classTwoTitle)&&empty($classThreeTitle)&&empty($classFourTitle)){?>
+        <?php } else{ ?>
         <section>
             <!-- CLASS INFORMATION SECTION. WILL ADD SECTION FOR MAX CLASS# -->
             <div id="classinfo">
@@ -185,6 +187,7 @@
             </div>
             </div>
         </section>
+                    <?php }?>
         <?php if(!empty($galleryImgs)){?>
             <section id="gallery" class="d-inline-flex flex-wrap">
             <!-- CODING OF BELOW MAY BE SUBJECT TO CHANGE TO GRID SYSTEM. JUST KNOW INFO = IMG TAGS -->
