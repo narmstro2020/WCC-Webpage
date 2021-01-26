@@ -264,13 +264,14 @@
                         <?php for($i=0;$i<count($certificationsName);$i++){?>
                         <div class="d-flex">
                             <?php if(!empty($certificationsImg[$i])){ ?>
-                            <div class="flexImgPadding">
-                                <span><!-- INSTITUTION IMAGE -->
+                            <div class="row cardContainer">
+                            <div class="col-4-md">
+                                <span class="flexImgPadding"><!-- INSTITUTION IMAGE -->
                                     <img class="img-fluid" src=<?PHP echo $certificationsImg[$i]?>>
                                 </span>
                             </div>
                             <?php }?>
-                            <div class="flex-fill">
+                            <div class="col-7-md">
                                 <h4><!-- INSTITUTION NAME --> <?PHP echo $certificationsName[$i]?></h4>
                                 <?php for($x=0;$x<count($certifications[$i]);$x++){?>
                                     <p class="opportunity">
@@ -280,6 +281,7 @@
                                     
                                 </p>
                                 <?php }?>
+                            </div>
                             </div>
                         </div>
                         <?php }?>
@@ -294,15 +296,15 @@
                     <?php if(!empty($partners)){?>
                       <h3>Partners</h3> 
                        <?php for($i=0;$i<count($partnersName);$i++){?>
-                            <div class="d-flex">
+                            <div class="row cardContainer">
                             <?PHP if(!empty($partnersImg[$i])){?>
-                            <div class="flexImgPadding">
-                                <span><!-- INSTITUTION IMAGE -->
+                            <div class="col-4-md">
+                                <span class="flexImgPadding"><!-- INSTITUTION IMAGE -->
                                     <img class="img-fluid" src=<?PHP echo $partnersImg[$i]?>>
                                 </span>
                             </div>
                             <?PHP }?>
-                            <div class="flex-fill">
+                            <div class="col-7-md">
                                 <h4><?PHP echo $partnersName[$i]?></h4>
                                 <p class="opportunity">
                                     <!-- PARTNER DESCRIPTION -->
@@ -320,13 +322,13 @@
                 <?PHP }?>
                     <h3>Dual Credit</h3>
                     <?php if(!empty($dualCredit)){?>
-                        <div class="d-flex">
-                        <div>
+                        <div class="row cardContainer">
+                        <div class="col-4-md">
                             <span class="flexImgPadding"> <!-- INSTITUTION IMAGE -->
                                 <img class="img-fluid" src=<?PHP echo $dualCreditImg?>>
                             </span>
                         </div>
-                        <div class="flex-fill">
+                        <div class="col-7-md">
                             <h5><?PHP echo $dualCreditName?></h5>
                             <p class="opportunity">
                                 <span><!-- CREDITS AND CREDIT HOURS --></span>
@@ -345,15 +347,15 @@
                 <?PHP }?>
                     <h3>Internships</h3>
                     <?php if(!empty($internships)){?>
-                        <div class="d-flex">
+                        <div class="row cardContainer">
                             <?php if(!empty($internshipsImg)){?>    
-                            <div class="flexImgPadding">
-                                <span><!-- INSTITUTION IMAGE -->
+                            <div class="col-4-md">
+                                <span class="flexImgPadding"><!-- INSTITUTION IMAGE -->
                                     <img class="img-fluid" src=<?PHP echo $internshipsImg?>>
                                 </span>
                             </div>
                             <?php }?>
-                            <div class="flex-fill">
+                            <div class="col-4-md">
                                 <h5><?php echo $internshipsName?></h5>
                                 <p class="opportunity">
                                     <!-- INSTITUTION DESCRIPTION -->

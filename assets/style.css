@@ -8,8 +8,11 @@ body{
     z-index: 10;
     position: relative;
 }
-#rogersSocial{
-    margin: auto;
+#rogersGreeting{
+    margin-left: 16px; 
+    margin-right: 16px; 
+    margin-top:20px; 
+    color: rgba(36, 35, 32, 0.815);
 }
 #walkerTalker{
     width: 90%;
@@ -120,9 +123,17 @@ nav .navbar-nav li a{
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
 }
+.cardContainer{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+    padding: 3px;
+    margin: auto;
+    margin-bottom: 15px;
+}
 .flexImgPadding{
     margin-right: 10px;
-    width: 35%;
+    width: 30%;
     padding: 5px;
 }
 .backgroundDark{
