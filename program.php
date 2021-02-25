@@ -27,7 +27,6 @@
 </head>
 <body>
     <div class="mainbody">
-            <!-- TO INCLUDE NAVBAR, TOP IMAGE -->
             <img class="img-responsive mx-auto d-block" src="../assets/logo-walker.png" alt="top logo" style="padding: 10px; width: 80%;">
             <nav class="navbar navbar-expand-sm sticky-top navbar-dark">
                 <a class="navbar-brand" href="#">
