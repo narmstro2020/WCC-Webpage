@@ -12,7 +12,31 @@ body{
     margin-left: 16px; 
     margin-right: 16px; 
     margin-top:20px; 
-    color: rgba(36, 35, 32, 0.815);
+    color: beige;
+}
+
+@media only screen and (max-width: 720px){
+    #radio{
+        display: none;
+    }
+}
+@media only screen and (min-width: 940px){
+    #iFrm{
+        width: 440px;
+        height: 60px;
+    }
+}
+@media only screen and (min-width: 1160px){
+    #iFrm{
+        width: 660px;
+        height: 90px;
+    }
+}
+@media only screen and (min-width: 1380px){
+    #iFrm{
+        width: 880px;
+        height: 120px;
+    }
 }
 #walkerTalker{
     width: 90%;
@@ -122,6 +146,9 @@ nav .navbar-nav li a{
     color: #B6A561 !important;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
+}
+#affiliates .img-fluid{
+    max-width: 150px;
 }
 .cardContainer{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
