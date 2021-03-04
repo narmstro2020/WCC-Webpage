@@ -269,9 +269,11 @@
                                     <img class="img-fluid" src=<?PHP echo $certificationsImg[$i]?>>
                                 </span>
                             </div>
-                            <?php }?>
+                            <?php } ?>
                             <div class="col-7-md">
+                            <?php if(empty($certificationsImg[$i])){ ?>
                                 <h4><!-- INSTITUTION NAME --> <?PHP echo $certificationsName[$i]?></h4>
+                                <?php }?>
                                 <?php for($x=0;$x<count($certifications[$i]);$x++){?>
                                     <p class="opportunity">
                                     <!-- CERTIFICATION DESCRIPTION -->
@@ -304,7 +306,9 @@
                             </div>
                             <?PHP }?>
                             <div class="col-7-md">
+                            <?PHP if(empty($partnersImg[$i])){?>
                                 <h4><?PHP echo $partnersName[$i]?></h4>
+                                <?php }?>
                                 <p class="opportunity">
                                     <!-- PARTNER DESCRIPTION -->
                                     <?php echo $partners[$i]?>
@@ -328,7 +332,9 @@
                             </span>
                         </div>
                         <div class="col-7-md">
+                        <?php if(empty($dualCreditImg)){?>
                             <h5><?PHP echo $dualCreditName?></h5>
+                            <?php }?>
                             <p class="opportunity">
                                 <span><!-- CREDITS AND CREDIT HOURS --></span>
                                 <span><!-- CREDIT DETAILS -->
@@ -355,7 +361,9 @@
                             </div>
                             <?php }?>
                             <div class="col-4-md">
+                            <?php if(empty($internshipsImg)){?>    
                                 <h5><?php echo $internshipsName?></h5>
+                                <?php } ?>
                                 <p class="opportunity">
                                     <!-- INSTITUTION DESCRIPTION -->
                                     <?php echo $internships?>
