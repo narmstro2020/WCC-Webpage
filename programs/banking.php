@@ -1,6 +1,6 @@
 <?php
-$page_title="Banking";
- $program_title="Banking";
+$page_title="Banking/Finance";
+ $program_title="Banking/Finance";
  $videoId="";
  $replacementImg="";
  $programOverview="Looking to prepare yourself for entrance into Business school in college or starting your own business? This class will help you prepare you for the next level in your education or help you grasp what it takes to start your own business."; 
