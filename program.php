@@ -416,7 +416,7 @@
         </section>
         <section id="footer" class="container-fluid">
             <div class="row">
-                <div class="col-sm-11">
+                <div class="col-sm-9">
                 <p>Walker Career Center<br>
                 9651 EAST 21ST STREET<br>
                 Indianapolis, IN 46229<br><br>
@@ -424,9 +424,13 @@
                 Phone: 317.532.6150<br>
                 Fax: 317-532-6199</p>
                 </div>
-                <div class="col-sm-1">
-                <a href="https://www.facebook.com/WalkerCareerCenter.is.WCC/"><img src="../assets/icons8-facebook-50.png" alt="facebook icon" class="footerImage"></a>
-                <a href="https://twitter.com/wcc_warren"><img src="../assets/icons8-twitter-50.png" alt="twitter icon" class="footerImage"></a>
+                <div class="col-sm-3">
+                <a href="https://www.facebook.com/WalkerCareerCenter.is.WCC/"><img src="../assets/icons8-facebook-100.png"
+              alt="facebook icon" class="footerImage"></a>
+          <a href="https://twitter.com/wcc_warren"><img src="../assets/icons8-twitter-100.png" alt="twitter icon"
+              class="footerImage"></a>
+          <a href="https://www.instagram.com/walkercareercenter/"><img src="../assets/icons8-instagram-100.png" alt="instagram icon"
+              class="footerImage"></a>
                 </div>
             </div>
         </section>
