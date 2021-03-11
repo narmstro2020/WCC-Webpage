@@ -262,8 +262,9 @@
                         <h3>Certifications</h3>
                         <?php for($i=0;$i<count($certificationsName);$i++){?>
                         <div class="d-flex">
-                            <?php if(!empty($certificationsImg[$i])){ ?>
                             <div class="row cardContainer">
+                                <?php if(!empty($certificationsImg[$i])){ ?>
+                            
                             <div class="col-4-md">
                                 <span class="flexImgPadding"><!-- INSTITUTION IMAGE -->
                                     <img class="img-fluid" src=<?PHP echo $certificationsImg[$i]?>>
@@ -323,8 +324,9 @@
                 <?PHP } else{?>
                 <div id="menu2" class="container tab-pane fade"><br>
                 <?PHP }?>
+                   <?php if(!empty($dualCredit)){?> 
                     <h3>Dual Credit</h3>
-                    <?php if(!empty($dualCredit)){?>
+                    
                         <div class="row cardContainer">
                         <div class="col-4-md">
                             <span class="flexImgPadding"> <!-- INSTITUTION IMAGE -->
@@ -350,8 +352,9 @@
                 <?PHP } else{?>
                 <div id="menu3" class="container tab-pane fade"><br>
                 <?PHP }?>
-                    <h3>Internships</h3>
+                   
                     <?php if(!empty($internships)){?>
+                         <h3>Internships</h3>
                         <div class="row cardContainer">
                             <?php if(!empty($internshipsImg)){?>    
                             <div class="col-4-md">

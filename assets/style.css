@@ -16,26 +16,71 @@ body{
 }
 
 @media only screen and (max-width: 720px){
-    #radio{
+    #radio4{
+        display: block;
+    }
+
+    #radio3{
+        display: none;
+    }
+
+    #radio2{
+        display: none;
+    }
+
+    #radio1{
         display: none;
     }
 }
-@media only screen and (min-width: 940px){
-    #iFrm{
-        width: 440px;
-        height: 60px;
+@media only screen and (min-width: 720px){
+    #radio4{
+        display: none;
+    }
+
+    #radio3{
+        display: block;
+    }
+
+    #radio2{
+        display: none;
+    }
+
+    #radio1{
+        display: none;
     }
 }
 @media only screen and (min-width: 1160px){
-    #iFrm{
-        width: 660px;
-        height: 90px;
+    #radio4{
+        display: none;
+    }
+
+    #radio3{
+        display: none;
+    }
+
+    #radio2{
+        display: block;
+    }
+
+    #radio1{
+        display: none;
     }
 }
 @media only screen and (min-width: 1380px){
-    #iFrm{
-        width: 880px;
-        height: 120px;
+    #radio4{
+        display: none;
+    }
+
+    #radio3{
+        display: none;
+    }
+
+    #radio2{
+        display: none;
+    }
+
+    #radio1{
+        display: block;
     }
 }
 #walkerTalker{
