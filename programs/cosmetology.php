@@ -32,12 +32,12 @@ $page_title="Cosmetology";
  $grade2="Senior";
  $grade3="";
  $grade4="";
- $teacher1="Debra Hert";
- $teacher2="Debra Hert";
+ $teacher1="Mrs. Summeier";
+ $teacher2="Mrs. Hert";
  $teacher3="";
  $teacher4="";
  $prerequisites1="Interpersonal Relationships or Introduction to Buisness";
- $prerequisites2="";
+ $prerequisites2="Cosmetology";
  $prerequisites3="";
  $prerequisites4="";
  
