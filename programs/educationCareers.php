@@ -1,7 +1,7 @@
 <?php
 $page_title="Education Careers";
  $program_title="Education Careers";
- $videoId="";
+ $videoId="../assets/educationCareers/headerVid.mp4";
  $replacementImg="../assets/educationCareers/eduCareers6.jpg";
  $programOverview="Student Educators create lesson plans and teach those plans to classes and individuals, track student progress, and manage a classroom. These students get to explore the teaching profession, apply learning theory, create lessons and learning environments, determine classroom management, examine student learning, learn assessment techniques, give learner feedback, promote a positive environment, and gain knowledge on ethical and legal standards.";
  $classOneTitle="Advanced Child Development";
@@ -28,7 +28,7 @@ $page_title="Education Careers";
  $testimonies=[""];
  $testimoniesName=[""];
  $extraImgs=["../assets/educationCareers/eduCareers4.jpg","../assets/educationCareers/eduCareers5.jpg"];
- $grade1="Sophmore";
+ $grade1="Sophomore";
  $grade2="Junior";
  $grade3="Senior";
  $grade4="";

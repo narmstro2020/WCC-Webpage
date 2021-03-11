@@ -1,7 +1,7 @@
 <?php
 $page_title="Work Based Learning";
  $program_title="Work Based Learning";
- $videoId="";
+ $videoId="../assets/workBasedLearn/headerVid.mp4";
  $replacementImg="";
  $programOverview="The Walker Career Center's Work Based Learning program is a career resource available to CTE students that aligns jobs with career pathways. Typically, seniors recommended by teachers earn high school credit and a paid position at a local employer. These students work with Mrs. Criswell."; 
  $classOneTitle="";
