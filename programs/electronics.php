@@ -36,7 +36,7 @@ $page_title="Electronics";
  I would love to retake another of your classes—my junior and senior years of high school were the best two years of my formal education (K-12 and college). Almost entirely because of you and the opportunities presented to me as a result of being in your class.","This is something deserving more thought than a 2 minute quick post on facebook. Mr. Griffin is awesome and takes time to teach his students regardless of 90% of the class jacking around and not retaining anything   I'm still amazed at this man's resolve after dealing with my class cause I know there were only 3 of us really learning the stuff cause we wanted to. Always gonna greet him with a smile. I wouldn't be doing what I am today without him! Electrical knowledge in mechanical work is an everyday use for me."];
  $testimoniesName=["Lindsey Nicholson","Kevin Micol","Matthew Lohman"];
  $extraImgs="";
- $grade1="Sophmore";
+ $grade1="Sophomore";
  $grade2="Junior";
  $grade3="Senior";
  $grade4="";
