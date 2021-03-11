@@ -31,13 +31,13 @@ $page_title="Welding";
  $grade2="Junior";
  $grade3="Senior";
  $grade4="";
- $teacher1="";
- $teacher2="";
- $teacher3="";
+ $teacher1="Mr.Vitatou";
+ $teacher2="Mr.Vitatou";
+ $teacher3="Mr.Vitatou";
  $teacher4="";
  $prerequisites1="";
- $prerequisites2="";
- $prerequisites3="";
+ $prerequisites2="Intro to Manufacturing";
+ $prerequisites3="Welding Technology I";
  $prerequisites4="";
  
  
