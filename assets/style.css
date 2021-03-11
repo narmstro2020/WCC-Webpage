@@ -169,6 +169,10 @@ nav .navbar-nav li a{
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
 }
+.carousel-img{
+    max-height: 640px;
+    object-fit: cover;
+}
 #affiliates{
     border: 2px solid black;
     border-radius: 1px;
@@ -249,12 +253,11 @@ nav .navbar-nav li a{
     background-color: #2C2727;
     color: #b6a561;
     font-family: 'Open Sans', sans-serif;
-    height: 150px;
+    min-height: 150px;
 }
 #footer p{
     font-size: 14px;
-    padding-top: 5px;
-    padding-left: 5px;
+    padding-top: 2%;
 }
 .footerImage{
     padding-top: 40px;
