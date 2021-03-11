@@ -3,10 +3,17 @@ body{
     background-color: #ccb17a;
 }
 #mainCarousel{
-    height: 500px;
+    max-height: 500px;
     background-color: black;
     z-index: 10;
     position: relative;
+}
+.carousel-item{
+    height: 500px;
+}
+.mainImage{
+    object-fit: cover;
+    width: 100%;
 }
 #rogersGreeting{
     margin-left: 16px; 
