@@ -413,7 +413,7 @@
             <?php if(!empty($extraImgs)){?>
             <div id="extraimage" class="d-inline-flex flex-wrap justify-content-center">
              <?php for($x=0; $x<count($extraImgs);$x++){?>
-                <img class="img-fluid flex-fill align-self-center" src=<?php echo $extraImgs[$x] ?> alt="placeholder">
+                <img class="img-fluid flex-fill align-self-center" src=<?php echo $extraImgs[$x] ?> alt="placeholder" style="width: 33%; height: 33%;">
             <?php }?>    
             </div>
             <?php }?>
