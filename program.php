@@ -45,35 +45,36 @@
                         <div class="dropdown-menu">
                         <table>
                         <tr>
-                          <td><a class="dropdown-item" href="../programs/accounting.php">Accounting</a></td>
-                          <!--<td><a class="dropdown-item" href="../programs/architechture.php">Architecture</a></td> </tr><tr>-->
-                          <td> <a class="dropdown-item" href="../programs/autocollision.php">Auto Collision</a></td></tr><tr>
+                          <!--<td><a class="dropdown-item" href="../programs/accounting.php">Accounting</a></td>
+                          <td><a class="dropdown-item" href="../programs/architechture.php">Architecture</a></td> </tr><tr>-->
+                          <td> <a class="dropdown-item" href="../programs/autocollision.php">Auto Collision</a></td>
+                          <td> <a class="dropdown-item" href="../programs/automotiveTech.php">Automotive Technology</a></td></tr><tr>
                           <td> <a class="dropdown-item" href="../programs/banking.php">Banking</a></td> <!--</tr><tr>-->
-                          <!--<td> <a class="dropdown-item" href="../programs/biomed.php">Biomed</a></td>
-                          <td> <a class="dropdown-item" href="../programs/commPhotograpy.php">Commercial Photography</a></td> </tr><tr>-->
-                          <td> <a class="dropdown-item" href="../programs/computerscience.php">Computer Science</a></td></tr><tr>
-                          <td> <a class="dropdown-item" href="../programs/construction.php">Construction Trades</a></td> <!--</tr><tr>-->
-                          <td> <a class="dropdown-item" href="../programs/cosmetology.php">Cosmetology</a></td></tr><tr>
+                          <!--<td> <a class="dropdown-item" href="../programs/biomed.php">Biomed</a></td>-->
+                          <td> <a class="dropdown-item" href="../programs/commPhotograpy.php">Commercial Photography</a></td> </tr><tr>
+                          <td> <a class="dropdown-item" href="../programs/computerscience.php">Computer Science</a></td>
+                          <td> <a class="dropdown-item" href="../programs/construction.php">Construction Trades</a></td> </tr><tr>
+                          <td> <a class="dropdown-item" href="../programs/cosmetology.php">Cosmetology</a></td>
                           <!--<td> <a class="dropdown-item" href="../programs/criminalJustice.php">Criminal Justice</a></td> </tr><tr>-->
-                          <td><a class="dropdown-item" href="../programs/culinary.php">Culinary</a></td>
-                          <td><a class="dropdown-item" href="../programs/dentalAssitant.php">Dental Careers</a></td> </tr><tr>
-                          <td> <a class="dropdown-item" href="../programs/earlyChildEd.php">Early Childhood Education</a></td>
-                          <td><a class="dropdown-item" href="../programs/educationCareers.php">Education Careers</a></td>  </tr><tr>
-                          <td><a class="dropdown-item" href="../programs/electronics.php">Electronics</a></td>
+                          <td><a class="dropdown-item" href="../programs/culinary.php">Culinary</a></td></tr><tr>
+                          <td><a class="dropdown-item" href="../programs/dentalAssitant.php">Dental Careers</a></td> 
+                          <td> <a class="dropdown-item" href="../programs/earlyChildEd.php">Early Childhood Education</a></td></tr><tr>
+                          <td><a class="dropdown-item" href="../programs/educationCareers.php">Education Careers</a></td>  
+                          <td><a class="dropdown-item" href="../programs/electronics.php">Electronics</a></td></tr><tr>
                         <!--<td> <a class="dropdown-item" href="../programs/engineering.php">Engineering</a></td>  </tr><tr>
                         <td> <a class="dropdown-item" href="../programs/entrepreneurship.php">Entrepreneurship</a></td>-->
-                        <td> <a class="dropdown-item" href="../programs/fashionTextDesign.php">Fashion, Textiles, & Design</a></td>  </tr><tr>
+                        <td> <a class="dropdown-item" href="../programs/fashionTextDesign.php">Fashion, Textiles, & Design</a></td>  
                         <!--<td> <a class="dropdown-item" href="../programs/graphicDesign.php">Graphic Design</a></td>
                         <td> <a class="dropdown-item" href="../programs/humanSocServices.php">Human & Social Services</a></td>  </tr><tr>
                         <td> <a class="dropdown-item" href="../programs/marketing.php">Marketing</a></td>-->
-                        <td> <a class="dropdown-item" href="../programs/networking.php">Networking/IT Support</a></td>  <!--</tr><tr>-->
-                          <td> <a class="dropdown-item" href="../programs/nursing.php">Nursing</a></td></tr><tr>
+                        <td> <a class="dropdown-item" href="../programs/networking.php">Networking/IT Support</a></td>  </tr><tr>
+                          <td> <a class="dropdown-item" href="../programs/nursing.php">Nursing</a></td>
                           <!--<td> <a class="dropdown-item" href="../programs/officeManage.php">Office Management</a></td>  </tr><tr>
                           <td> <a class="dropdown-item" href="../programs/pharmacy.php">Pharmacy</a></td>-->
-                          <td><a class="dropdown-item" href="../programs/precisionMachining.php">Precision Machining</a></td>  <!--</tr><tr>-->
-                          <td><a class="dropdown-item" href="../programs/radioProduction.php">Radio Production</a></td></tr><tr>
-                          <!--<td> <a class="dropdown-item" href="../programs/tvBroadcasting.php">TV Broadcasting</a></td>  </tr><tr>
-                          <td> <a class="dropdown-item" href="../programs/welding.php">Welding</a></td>-->
+                          <td><a class="dropdown-item" href="../programs/precisionMachining.php">Precision Machining</a></td>  </tr><tr>
+                          <td><a class="dropdown-item" href="../programs/radioProduction.php">Radio Production</a></td>
+                          <!--<td> <a class="dropdown-item" href="../programs/tvBroadcasting.php">TV Broadcasting</a></td>  </tr><tr>-->
+                          <td> <a class="dropdown-item" href="../programs/welding.php">Welding</a></td></tr><tr>
                           <td> <a class="dropdown-item" href="../programs/workBasedLearn.php">Work-Based Learning</a></td>
                           </tr>
                           </table>
