@@ -1,7 +1,7 @@
 <?php
 $page_title="Welding";
  $program_title="Welding";
- $videoId="";
+ $videoId="../assets/welding/headerVid.mp4";
  $programOverview="";
  $classOneTitle="Intro to Manufacturing";
  $classOneInfo="Students will learn how to use raw material and turn it into usable parts. In this introduction course you will use industrial machines to learn the manufacturing processes which include forming, fabricating, conditioning and finishing for metals, woods, plastics and other materials. ";
