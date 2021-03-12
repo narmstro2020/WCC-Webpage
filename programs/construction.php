@@ -1,6 +1,6 @@
 <?php
-$page_title="Construction";
- $program_title="Construction";
+$page_title="Construction Trades";
+ $program_title="Construction Trades";
  $videoId="";
  $replacementImg="";
  $programOverview="Construction trades can lead a student into over 50 different career paths. These students learn teamwork among group members, problem solving and critical thinking, the ability to make decisions for clients, grow their physical strength and stamina, industry computer skills, hand eye coordination and dexterity, math and business skills, and an increased understanding of tool uses."; 
@@ -32,7 +32,7 @@ $page_title="Construction";
  $grade2="Junior";
  $grade3="Senior";
  $grade4="";
- $teacher1="Mr. Everett";
+ $teacher1="Mr. Gogel";
  $teacher2="Mr. Everett";
  $teacher3="Mr. Everett";
  $teacher4="";

@@ -1,24 +1,24 @@
 <?php
-$page_title="";
- $program_title="";
+$page_title="Marketing";
+ $program_title="Marketing";
  $videoId="";
  $programOverview=""; 
- $classOneTitle="";
- $classOneInfo="";
- $classTwoTitle="";
- $classTwoInfo=""; 
- $classThreeTitle="";
- $classThreeInfo="";
+ $classOneTitle="Introduction to Business";
+ $classOneInfo="Introduction to Business introduces students to the world of business, including the concepts, functions, and skills required for meeting the challenges of operating a business.  The course covers business management, entrepreneurship,marketing fundamentals, and business ethics and law.";
+ $classTwoTitle="Principles of Marketing";
+ $classTwoInfo="Principles of Marketing provides a basic introduction to the scope and importance of marketing in the global economy. The course covers the primary marketing functions: of advertising/promotion/selling, distribution, financing, marketing-information management, pricing, and product/service management."; 
+ $classThreeTitle="Strategic Marketing";
+ $classThreeInfo="Strategic Marketing builds upon the foundations of marketing and applies the functions of marketing at an advanced level. Students will study the basic principles of consumer behavior and examine the application of theories from psychology, social psychology, and economics and the relationship between consumer behavior and marketing activities.";
  $classFourTitle="";
  $classFourInfo="";
- $galleryImgs=[""];
+ $galleryImgs="";
  $certifications="";
  $certificationsImg="";
  $certificationsName="";
  $partners="";
  $partnersImg="";
  $partnersName="";
- $dualCredit="";
+ $dualCredit="Student can earn up to 9 free daul credits: 6 in Principles of Marketing and 3 in Strategic Marketing";
  $dualCreditImg="";
  $dualCreditName="";
  $internships="";
@@ -26,21 +26,19 @@ $page_title="";
  $internshipsName="";
  $testimonies=[""];
  $testimoniesName=[""];
- $extraImgs=[""];
- $grade1="";
- $grade2="";
- $grade3="";
+ $extraImgs="";
+ $grade1="Sophomore";
+ $grade2="Junior";
+ $grade3="Senior";
  $grade4="";
- $teacher1="";
- $teacher2="";
- $teacher3="";
+ $teacher1="Mr. Huggins, Mrs. Williams";
+ $teacher2="Mrs. Colville";
+ $teacher3="Mrs. Colville";
  $teacher4="";
  $prerequisites1="";
- $prerequisites2="";
- $prerequisites3="";
- $prerequisites4="";
- 
- 
+ $prerequisites2="Intro to Business";
+ $prerequisites3="Principles of Marketing";
+ $prerequisites4=""; 
  
  include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
 ?>
