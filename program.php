@@ -61,21 +61,21 @@
                           <td> <a class="dropdown-item" href="../programs/earlyChildEd.php">Early Childhood Education</a></td></tr><tr>
                           <td><a class="dropdown-item" href="../programs/educationCareers.php">Education Careers</a></td>  
                           <td><a class="dropdown-item" href="../programs/electronics.php">Electronics</a></td></tr><tr>
-                        <!--<td> <a class="dropdown-item" href="../programs/engineering.php">Engineering</a></td>  </tr><tr>
-                        <td> <a class="dropdown-item" href="../programs/entrepreneurship.php">Entrepreneurship</a></td>-->
-                        <td> <a class="dropdown-item" href="../programs/fashionTextDesign.php">Fashion, Textiles, & Design</a></td>  
+                        <td> <a class="dropdown-item" href="../programs/engineering.php">Engineering</a></td>  
+                        <!--<td> <a class="dropdown-item" href="../programs/entrepreneurship.php">Entrepreneurship</a></td>-->
+                        <td> <a class="dropdown-item" href="../programs/fashionTextDesign.php">Fashion, Textiles, & Design</a></td></tr><tr>  
                         <!--<td> <a class="dropdown-item" href="../programs/graphicDesign.php">Graphic Design</a></td>
                         <td> <a class="dropdown-item" href="../programs/humanSocServices.php">Human & Social Services</a></td>  </tr><tr>
                         <td> <a class="dropdown-item" href="../programs/marketing.php">Marketing</a></td>-->
-                        <td> <a class="dropdown-item" href="../programs/networking.php">Networking/IT Support</a></td>  </tr><tr>
-                          <td> <a class="dropdown-item" href="../programs/nursing.php">Nursing</a></td>
+                        <td> <a class="dropdown-item" href="../programs/networking.php">Networking/IT Support</a></td>  
+                          <td> <a class="dropdown-item" href="../programs/nursing.php">Nursing</a></td></tr><tr>
                           <!--<td> <a class="dropdown-item" href="../programs/officeManage.php">Office Management</a></td>  </tr><tr>
                           <td> <a class="dropdown-item" href="../programs/pharmacy.php">Pharmacy</a></td>-->
-                          <td><a class="dropdown-item" href="../programs/precisionMachining.php">Precision Machining</a></td>  </tr><tr>
-                          <td><a class="dropdown-item" href="../programs/radioProduction.php">Radio Production</a></td>
+                          <td><a class="dropdown-item" href="../programs/precisionMachining.php">Precision Machining</a></td>  
+                          <td><a class="dropdown-item" href="../programs/radioProduction.php">Radio Production</a></td></tr><tr>
                           <!--<td> <a class="dropdown-item" href="../programs/tvBroadcasting.php">TV Broadcasting</a></td>  </tr><tr>-->
-                          <td> <a class="dropdown-item" href="../programs/welding.php">Welding</a></td></tr><tr>
-                          <td> <a class="dropdown-item" href="../programs/workBasedLearn.php">Work-Based Learning</a></td>
+                          <td> <a class="dropdown-item" href="../programs/welding.php">Welding</a></td>
+                          <td> <a class="dropdown-item" href="../programs/workBasedLearn.php">Work-Based Learning</a></td></tr><tr>
                           </tr>
                           </table>
                         </div>
@@ -106,7 +106,7 @@
             </p>
         </div>
         <?PHP }?>
-        <?php if(empty($classOneTitle)&&empty($classTwoTitle)&&empty($classThreeTitle)&&empty($classFourTitle)){?>
+        <?php if(empty($classOneTitle)&&empty($classTwoTitle)&&empty($classThreeTitle)&&empty($classFourTitle)&&empty($classFiveTitle)){?>
         <?php } else{ ?>
         <section>
             <!-- CLASS INFORMATION SECTION. WILL ADD SECTION FOR MAX CLASS# -->
@@ -126,6 +126,11 @@
                 <?php if(!empty($classFourTitle)){ ?>
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#class4"><?php echo $classFourTitle ?></a>
+                </li>
+                <?php } ?>
+                <?php if(!empty($classFiveTitle)){ ?>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#class5"><?php echo $classFiveTitle ?></a>
                 </li>
                 <?php } ?>
             </ul>
@@ -178,13 +183,31 @@
                 </p>
             </div>
                     <?php }?>
-            <?php if(!empty($classFourTitle)){ ?>
+                    <?php if(!empty($classFourTitle)){ ?>
             <div id="class4" class="tab-pane container fade">
             <h3 class="class-title">
                 <?php echo $classFourTitle ?>
             </h3>
                 <p class="class-info">
                     <span><?php echo $classFourInfo ?></span>
+                </p>
+                <p class="class-info courseDetails">
+                <span>Available to: <?php echo $grade5?> </span><br>
+                    <span>Taught By: <?php echo $teacher5?></span><br>
+                    <?php if(!empty($prerequisites5)){ ?>
+                    <span>Requires: <?php echo $prerequisites5?></span>
+                    <?php }?>
+                </p>
+            </div>
+            <?php }?>
+            
+            <?php if(!empty($classFiveTitle)){ ?>
+            <div id="class5" class="tab-pane container fade">
+            <h3 class="class-title">
+                <?php echo $classFiveTitle ?>
+            </h3>
+                <p class="class-info">
+                    <span><?php echo $classFiveInfo ?></span>
                 </p>
                 <p class="class-info courseDetails">
                 <span>Available to: <?php echo $grade4?> </span><br>
@@ -195,7 +218,7 @@
                 </p>
             </div>
             <?php }?>
-            </div>
+            
             </div>
         </section>
                     <?php }?>
