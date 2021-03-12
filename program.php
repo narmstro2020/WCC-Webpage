@@ -192,10 +192,10 @@
                     <span><?php echo $classFourInfo ?></span>
                 </p>
                 <p class="class-info courseDetails">
-                <span>Available to: <?php echo $grade5?> </span><br>
-                    <span>Taught By: <?php echo $teacher5?></span><br>
-                    <?php if(!empty($prerequisites5)){ ?>
-                    <span>Requires: <?php echo $prerequisites5?></span>
+                <span>Available to: <?php echo $grade4?> </span><br>
+                    <span>Taught By: <?php echo $teacher4?></span><br>
+                    <?php if(!empty($prerequisites4)){ ?>
+                    <span>Requires: <?php echo $prerequisites4?></span>
                     <?php }?>
                 </p>
             </div>
@@ -210,10 +210,10 @@
                     <span><?php echo $classFiveInfo ?></span>
                 </p>
                 <p class="class-info courseDetails">
-                <span>Available to: <?php echo $grade4?> </span><br>
-                    <span>Taught By: <?php echo $teacher4?></span><br>
-                    <?php if(!empty($prerequisites4)){ ?>
-                    <span>Requires: <?php echo $prerequisites4?></span>
+                <span>Available to: <?php echo $grade5?> </span><br>
+                    <span>Taught By: <?php echo $teacher5?></span><br>
+                    <?php if(!empty($prerequisites5)){ ?>
+                    <span>Requires: <?php echo $prerequisites5?></span>
                     <?php }?>
                 </p>
             </div>
