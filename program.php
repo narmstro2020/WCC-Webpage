@@ -448,9 +448,12 @@
                 9651 EAST 21ST STREET<br>
                 Indianapolis, IN 46229<br><br>
 
-                Phone: 317.532.6150<br>
+                Phone: 317-532-6150<br>
                 Fax: 317-532-6199</p>
                 </div>
+                <!--<div class="col-sm-6" >
+                    <p style="position:absolute; bottom:30px;">This website is designed, built and maintained by students in the <a href="programs/computerscience.php">Computer Science program.</a></p>
+                </div>-->
                 <div class="col-sm-3">
                 <a href="https://www.facebook.com/WalkerCareerCenter.is.WCC/"><img src="../assets/icons8-facebook-100.png"
               alt="facebook icon" class="footerImage"></a>
