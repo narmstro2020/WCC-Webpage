@@ -463,6 +463,7 @@
               class="footerImage"></a>
                 </div>
             </div>
+            <center><p style="font-size: 14px;">This website is designed, built and maintained by students in the <a href="programs/computerscience.php">Computer Science program.</a></p></center>
         </section>
     </div>
 </body>

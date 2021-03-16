@@ -262,6 +262,9 @@ nav .navbar-nav li a{
     font-family: 'Open Sans', sans-serif;
     min-height: 150px;
 }
+#footer a{
+    color: #b6a561;
+}
 #footer p{
     font-size: 14px;
     padding-top: 2%;

@@ -22,8 +22,8 @@ $page_title="Engineering";
  $partners="";
  $partnersImg="";
  $partnersName="";
- $dualCredit="";
- $dualCreditImg="";
+ $dualCredit="Students can earn up to 12 free dual credits: </p><p>6 in PLTW Introduction to Engineering and Production</p><p>3 in PLTW Principles of Engineering</p><p>3 in Civil Engineering and Architecture OR 3 in Computer Integrated Manufacturing OR 3 in Digital Electronics.";
+ $dualCreditImg="https://www.ivytech.edu/images/ivy-tech-2015-logo_header.png";
  $dualCreditName="";
  $internships="";
  $internshipsImg="";
@@ -41,11 +41,11 @@ $page_title="Engineering";
  $teacher3="Mr. Hanson";
  $teacher4="Mr. Hanson";
  $teacher5="Mr. Hanson";
- $prerequisites1="";
+ $prerequisites1="Students entering as Freshmen need to be enrolled in Geometry";
  $prerequisites2="";
- $prerequisites3="";
- $prerequisites4="";
- 
+ $prerequisites3="Introduction to Engineering OR Principles of Engineering";
+ $prerequisites4="Introduction to Engineering OR Principles of Engineering";
+ $prerequisites5="Introduction to Engineering OR Principles of Engineering";
  
  
  include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
