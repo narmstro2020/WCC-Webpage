@@ -2,6 +2,7 @@
 $page_title="Electronics";
  $program_title="Electronics";
  $videoId="";
+ $replacementImg="";
  $programOverview="Electronic and computer programmers install and maintain systems and equipment including computers and navigational equipment to smartphones. These students learn skills in problem solving, time management, accessing different resources, policy and compliance, economic factors, communication, ethics, logical thinking, safety standards, computer literacy, societal factors, and problem sensitivity."; 
  $classOneTitle="Computers in Design and Production";
  $classOneInfo="IED non provides students with a working knowledge of how all the programs that Walker Career Center has. It provides a short introductory to all the classes offered at Walker. 

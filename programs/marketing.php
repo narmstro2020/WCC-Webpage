@@ -2,6 +2,7 @@
 $page_title="Marketing";
  $program_title="Marketing";
  $videoId="";
+ $replacementImg="";
  $programOverview=""; 
  $classOneTitle="Introduction to Business";
  $classOneInfo="Introduction to Business introduces students to the world of business, including the concepts, functions, and skills required for meeting the challenges of operating a business.  The course covers business management, entrepreneurship,marketing fundamentals, and business ethics and law.";

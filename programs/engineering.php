@@ -2,6 +2,7 @@
 $page_title="Engineering";
  $program_title="Engineering";
  $videoId="";
+ $replacementImg="../assets/engineering/topImage.jpg";
  $programOverview=""; 
  $classOneTitle="Introduction to Engineering Design (IED)";
  $classOneInfo="Ever wondered how to design something new or draw out an idea to show your friends? Stop wondering and do it, using Autodesk Inventor, the industry-leading 3D design software! Discover the role of an engineer in taking an idea from the design process to manufacturing or production. Produce an incredible, working prototype of your project with a 3D printer. You will work on projects, activities, and problems not only of interest to you, but that have global and human impacts. Work in teams to design and improve products, document your solutions, and communicate them to others.";
