@@ -2,6 +2,7 @@
 $page_title="";
  $program_title="";
  $videoId="";
+ $replacementImg="";
  $programOverview=""; 
  $classOneTitle="";
  $classOneInfo="";

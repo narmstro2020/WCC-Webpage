@@ -2,6 +2,7 @@
 $page_title="Networking/IT Support";
  $program_title="Networking/IT Support";
  $videoId="";
+ $replacementImg="";
  $programOverview="IT Support employees assist companies with troubleshooting and support for a variety of technologies. Students learn how to troubleshoot IT systems, perform maintenance, how to analyze computer requirements, evaluate networking, communicate information to clients, think outside the box, apply customer service concepts, and test and install IT systems,"; 
  $classOneTitle="Computers in Design and Production";
  $classOneInfo="IED non provides students with a working knowledge of how all the programs that Walker Career Center has. It provides a short introductory to all the classes offered at Walker. 
