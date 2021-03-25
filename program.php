@@ -27,7 +27,7 @@
 </head>
 <body>
     <div class="mainbody">
-            <img class="img-responsive mx-auto d-block" src="../assets/logo-walker.png" alt="top logo" style="padding-top: 10px; padding-bottom: 10px; max-width: 750px;">
+            <img class="img-fluid mx-auto d-block" src="../assets/logo-walker.png" alt="top logo" style="padding-top: 10px; padding-bottom: 10px; width: 750px;">
             <nav class="navbar navbar-expand-sm sticky-top navbar-dark">
                 <a class="navbar-brand" href="#">
                     <img src="https://wcc.warren.k12.in.us/assets/apptegy_cms/themes/msdwarrenin/logo-ddb5d3afb469a9cb82dcda7e2bde7147.png" alt="Logo" style="width:40px;">
@@ -352,12 +352,16 @@
                         <div class="row cardContainer">
                         <div class="col-4-md">
                             <span class="flexImgPadding"> <!-- INSTITUTION IMAGE -->
-                                <img class="img-fluid" src=<?PHP echo $dualCreditImg?>>
+                                <img class="img-fluid" src=<?PHP echo $dualCreditImg?>><br><br>
+                                <img class="img-fluid" src=<?PHP echo $dualCreditImg2?>>
                             </span>
                         </div>
                         <div class="col-7-md">
                         <?php if(empty($dualCreditImg)){?>
                             <h5><?PHP echo $dualCreditName?></h5>
+                            <?php }?>
+                            <?php if(empty($dualCreditImg2)){?>
+                            <h5><?PHP echo $dualCreditName2?></h5>
                             <?php }?>
                             <p class="opportunity">
                                 <span><!-- CREDITS AND CREDIT HOURS --></span>
