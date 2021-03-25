@@ -352,12 +352,16 @@
                         <div class="row cardContainer">
                         <div class="col-4-md">
                             <span class="flexImgPadding"> <!-- INSTITUTION IMAGE -->
-                                <img class="img-fluid" src=<?PHP echo $dualCreditImg?>>
+                                <img class="img-fluid" src=<?PHP echo $dualCreditImg?>><br><br>
+                                <img class="img-fluid" src=<?PHP echo $dualCreditImg2?>>
                             </span>
                         </div>
                         <div class="col-7-md">
                         <?php if(empty($dualCreditImg)){?>
                             <h5><?PHP echo $dualCreditName?></h5>
+                            <?php }?>
+                            <?php if(empty($dualCreditImg2)){?>
+                            <h5><?PHP echo $dualCreditName2?></h5>
                             <?php }?>
                             <p class="opportunity">
                                 <span><!-- CREDITS AND CREDIT HOURS --></span>
