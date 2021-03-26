@@ -14,6 +14,7 @@ body{
 .mainImage{
     object-fit: cover;
     width: 100%;
+    height: auto;
 }
 #rogersGreeting{
     margin-left: 16px; 

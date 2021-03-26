@@ -27,7 +27,7 @@
 </head>
 <body>
     <div class="mainbody">
-            <img class="img-responsive mx-auto d-block" src="../assets/logo-walker.png" alt="top logo" style="padding-top: 10px; padding-bottom: 10px; max-width: 750px;">
+            <img class="img-fluid mx-auto d-block" src="../assets/logo-walker.png" alt="top logo" style="padding-top: 10px; padding-bottom: 10px; width: 750px;">
             <nav class="navbar navbar-expand-sm sticky-top navbar-dark">
                 <a class="navbar-brand" href="#">
                     <img src="https://wcc.warren.k12.in.us/assets/apptegy_cms/themes/msdwarrenin/logo-ddb5d3afb469a9cb82dcda7e2bde7147.png" alt="Logo" style="width:40px;">
@@ -45,16 +45,16 @@
                         <div class="dropdown-menu">
                             <table>
                                 <tr><td><a class="dropdown-item" href="../programs/accounting.php">Accounting</a></td>
-                                <!--<td><a class="dropdown-item" href="../programs/architechture.php">Architecture</a></td></tr><tr>-->
-                                <td><a class="dropdown-item" href="../programs/autocollision.php">Auto Collision</a></td></tr><tr>
-                                <td><a class="dropdown-item" href="../programs/automotivetech.php">Automotive Technology</a></td>
-                                <td> <a class="dropdown-item" href="../programs/banking.php">Banking/Finance</a></td></tr><tr>
+                                <td><a class="dropdown-item" href="../programs/architechture.php">Architecture</a></td></tr><tr>
+                                <td><a class="dropdown-item" href="../programs/autocollision.php">Auto Collision</a></td>
+                                <td><a class="dropdown-item" href="../programs/automotivetech.php">Automotive Technology</a></td></tr><tr>
+                                <td> <a class="dropdown-item" href="../programs/banking.php">Banking/Finance</a></td>
                                 <!--<td> <a class="dropdown-item" href="../programs/biomed.php">Biomed</a></td>-->
-                                <td> <a class="dropdown-item" href="../programs/commPhotograpy.php">Commercial Photography</a></td>
-                                <td> <a class="dropdown-item" href="../programs/computerscience.php">Computer Science</a></td></tr><tr>
-                                <td> <a class="dropdown-item" href="../programs/construction.php">Construction Trades</a></td>
-                                <td> <a class="dropdown-item" href="../programs/cosmetology.php">Cosmetology</a></td></tr><tr>
-                                <!--<td> <a class="dropdown-item" href="../programs/criminalJustice.php">Criminal Justice</a></td> </tr><tr>-->
+                                <td> <a class="dropdown-item" href="../programs/commPhotograpy.php">Commercial Photography</a></td></tr><tr>
+                                <td> <a class="dropdown-item" href="../programs/computerscience.php">Computer Science</a></td>
+                                <td> <a class="dropdown-item" href="../programs/construction.php">Construction Trades</a></td></tr><tr>
+                                <td> <a class="dropdown-item" href="../programs/cosmetology.php">Cosmetology</a></td>
+                                <td> <a class="dropdown-item" href="../programs/criminalJustice.php">Criminal Justice</a></td> </tr><tr>
                                 <td><a class="dropdown-item" href="../programs/culinary.php">Culinary</a></td>
                                 <td><a class="dropdown-item" href="../programs/dentalAssitant.php">Dental Careers</a></td> </tr><tr>
                                 <td> <a class="dropdown-item" href="../programs/earlyChildEd.php">Early Childhood Education</a></td>
@@ -63,16 +63,16 @@
                                 <td> <a class="dropdown-item" href="../programs/engineering.php">Engineering</a></td> </tr><tr>
                                 <!--<td> <a class="dropdown-item" href="../programs/entrepreneurship.php">Entrepreneurship</a></td>-->
                                 <td> <a class="dropdown-item" href="../programs/fashionTextDesign.php">Fashion, Textiles, & Design</a></td>
-                                <!--<td> <a class="dropdown-item" href="../programs/graphicDesign.php">Graphic Design</a></td>
-                                <td> <a class="dropdown-item" href="../programs/humanSocServices.php">Human & Social Services</a></td>  </tr><tr>-->
-                                <td> <a class="dropdown-item" href="../programs/marketing.php">Marketing</a></td></tr><tr>
-                                <td> <a class="dropdown-item" href="../programs/networking.php">Networking/IT Support</a></td><!--</tr><tr>-->
-                                <td> <a class="dropdown-item" href="../programs/nursing.php">Nursing</a></td></tr><tr>
+                                <td> <a class="dropdown-item" href="../programs/graphicDesign.php">Graphic Design</a></td></tr><tr>
+                                <!--<td> <a class="dropdown-item" href="../programs/humanSocServices.php">Human & Social Services</a></td>  </tr><tr>-->
+                                <td> <a class="dropdown-item" href="../programs/marketing.php">Marketing</a></td>
+                                <td> <a class="dropdown-item" href="../programs/networking.php">Networking/IT Support</a></td></tr><tr>
+                                <td> <a class="dropdown-item" href="../programs/nursing.php">Nursing</a></td>
                                 <!--<td> <a class="dropdown-item" href="../programs/officeManage.php">Office Management</a></td>  </tr><tr>
                                 <td> <a class="dropdown-item" href="../programs/pharmacy.php">Pharmacy</a></td>-->
-                                <td><a class="dropdown-item" href="../programs/precisionMachining.php">Precision Machining</a></td><!--</tr><tr>-->
-                                <td><a class="dropdown-item" href="../programs/radioProduction.php">Radio Production</a></td></tr><tr>
-                                <!--<td> <a class="dropdown-item" href="../programs/tvBroadcasting.php">TV Broadcasting</a></td>-->  
+                                <td><a class="dropdown-item" href="../programs/precisionMachining.php">Precision Machining</a></td></tr><tr>
+                                <td><a class="dropdown-item" href="../programs/radioProduction.php">Radio Production</a></td>
+                                <td> <a class="dropdown-item" href="../programs/tvBroadcasting.php">TV Broadcasting</a></td> </td></tr> 
                                 <td> <a class="dropdown-item" href="../programs/welding.php">Welding</a></td>
                                 <td> <a class="dropdown-item" href="../programs/workBasedLearn.php">Work-Based Learning</a></td></tr>
                             </table>
@@ -352,12 +352,16 @@
                         <div class="row cardContainer">
                         <div class="col-4-md">
                             <span class="flexImgPadding"> <!-- INSTITUTION IMAGE -->
-                                <img class="img-fluid" src=<?PHP echo $dualCreditImg?>>
+                                <img class="img-fluid" src=<?PHP echo $dualCreditImg?>><br><br>
+                                <img class="img-fluid" src=<?PHP echo $dualCreditImg2?>>
                             </span>
                         </div>
                         <div class="col-7-md">
                         <?php if(empty($dualCreditImg)){?>
                             <h5><?PHP echo $dualCreditName?></h5>
+                            <?php }?>
+                            <?php if(empty($dualCreditImg2)){?>
+                            <h5><?PHP echo $dualCreditName2?></h5>
                             <?php }?>
                             <p class="opportunity">
                                 <span><!-- CREDITS AND CREDIT HOURS --></span>
