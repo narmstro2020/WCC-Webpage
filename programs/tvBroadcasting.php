@@ -18,11 +18,11 @@ $page_title="TV Broadcasting";
  $partners="";
  $partnersImg="";
  $partnersName="";
- $dualCredit="Students can earn up to 12 free dual credits in TV Broadcasting: 
- 6 in TV Broadcasting I and 
- 6 in TV Broadcasting II";
- $dualCreditImg="";
- $dualCreditName="";
+ $dualCredit="Students can earn up to 12 free dual credits in TV Broadcasting: 6 in TV Broadcasting I and 6 in TV Broadcasting II";
+ $dualCreditImg="https://www.ivytech.edu/images/ivy-tech-2015-logo_header.png";
+ $dualCreditImg2="../assets/cosmetology/vu_logo.png";
+ $dualCreditName="Ivy Tech";
+ $dualCreditName2="Vincennes University";
  $internships="";
  $internshipsImg="";
  $internshipsName="";
