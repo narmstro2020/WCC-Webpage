@@ -461,8 +461,9 @@
               class="footerImage"></a>
                 </div>
             </div>
-            <center><p style="font-size: 14px;">This website is designed, built and maintained by students in the <a href="programs/computerscience.php">Computer Science program.</a></p></center>
-        </section>
+            <center><p style="font-size: 16px;">This website is designed, built and maintained by students in the <a href="programs/computerscience.php">Computer Science program.</a><br>
+      Images have been provided by students and teachers in the <a href="programs/commPhotography.php">Commercial Photography program.</a></p></center>        
+    </section>
     </div>
 </body>
 </html>
