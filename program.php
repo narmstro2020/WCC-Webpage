@@ -287,13 +287,13 @@
                             <div class="row cardContainer">
                                 <?php if(!empty($certificationsImg[$i])){ ?>
                             
-                            <div class="col-4-md">
+                            <div class="col-md-4">
                                 <span class="flexImgPadding"><!-- INSTITUTION IMAGE -->
                                     <img class="img-fluid" src=<?PHP echo $certificationsImg[$i]?>>
                                 </span>
                             </div>
                             <?php } ?>
-                            <div class="col-7-md">
+                            <div class="col-md-8">
                             <?php if(empty($certificationsImg[$i])){ ?>
                                 <h4><!-- INSTITUTION NAME --> <?PHP echo $certificationsName[$i]?></h4>
                                 <?php }?>
@@ -322,13 +322,13 @@
                        <?php for($i=0;$i<count($partnersName);$i++){?>
                             <div class="row cardContainer">
                             <?PHP if(!empty($partnersImg[$i])){?>
-                            <div class="col-4-md">
+                            <div class="col-md-4">
                                 <span class="flexImgPadding"><!-- INSTITUTION IMAGE -->
                                     <img class="img-fluid" src=<?PHP echo $partnersImg[$i]?>>
                                 </span>
                             </div>
                             <?PHP }?>
-                            <div class="col-7-md">
+                            <div class="col-md-8">
                             <?PHP if(empty($partnersImg[$i])){?>
                                 <h4><?PHP echo $partnersName[$i]?></h4>
                                 <?php }?>
@@ -350,13 +350,12 @@
                     <h3>Dual Credit</h3>
                     
                         <div class="row cardContainer">
-                        <div class="col-4-md">
-                            <span class="flexImgPadding"> <!-- INSTITUTION IMAGE -->
-                                <img class="img-fluid" src=<?PHP echo $dualCreditImg?>><br><br>
+                        <div class="col-md-3">
+                                <img class="img-fluid" src=<?PHP echo $dualCreditImg?>><br>
                                 <img class="img-fluid" src=<?PHP echo $dualCreditImg2?>>
-                            </span>
+                            
                         </div>
-                        <div class="col-7-md">
+                        <div class="col-md-9">
                         <?php if(empty($dualCreditImg)){?>
                             <h5><?PHP echo $dualCreditName?></h5>
                             <?php }?>
@@ -364,10 +363,7 @@
                             <h5><?PHP echo $dualCreditName2?></h5>
                             <?php }?>
                             <p class="opportunity">
-                                <span><!-- CREDITS AND CREDIT HOURS --></span>
-                                <span><!-- CREDIT DETAILS -->
                                     <?php echo $dualCredit?>
-                                </span>
                             </p>
                         </div>
                         </div>

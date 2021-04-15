@@ -23,8 +23,8 @@ $page_title="Architecture";
  3 in Computers In Production Design, 
  6 in Architectural Drafting & Design I and
  3 Architectural Drafting & Design II";
- $dualCreditImg="";
- $dualCreditName="";
+ $dualCreditImg="https://www.ivytech.edu/images/ivy-tech-2015-logo_header.png";
+ $dualCreditName="Ivy Tech";
  $internships="";
  $internshipsImg="";
  $internshipsName="";
