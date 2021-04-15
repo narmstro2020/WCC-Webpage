@@ -2,7 +2,7 @@
 $page_title="Electronics";
  $program_title="Electronics";
  $videoId="";
- $replacementImg="";
+ $replacementImg="../assets/electronics/replace.jpg";
  $programOverview="Electronic and computer programmers install and maintain systems and equipment including computers and navigational equipment to smartphones. These students learn skills in problem solving, time management, accessing different resources, policy and compliance, economic factors, communication, ethics, logical thinking, safety standards, computer literacy, societal factors, and problem sensitivity."; 
  $classOneTitle="Computers in Design and Production";
  $classOneInfo="IED non provides students with a working knowledge of how all the programs that Walker Career Center has. It provides a short introductory to all the classes offered at Walker. 
@@ -16,7 +16,7 @@ $page_title="Electronics";
  Electronics II introduces students to digital electronics that includes electronic gates, programmable logic devices (PLD), schematic understanding, digital storage and digital computing.";
  $classFourTitle="";
  $classFourInfo="";
- $galleryImgs="";
+ $galleryImgs=["../assets/electronics/gallery1.jpg","../assets/electronics/gallery2.jpg","../assets/electronics/gallery3.jpg"];
  $certifications=[["EST"],["The Associate Certified Electronics Technician (CETa) from ETA. ETA also offers other certifications that are not on the State approved list."]];
  $certificationsImg=["../assets/electronics/cert1.png","../assets/electronics/cert2.png"];
  $certificationsName=["ESPA","ETA"];
@@ -38,7 +38,7 @@ $page_title="Electronics";
  I also remember you treating most of your students like adults, even when we didn’t necessarily deserve to be treated that way. I am certain that I never showed you that I appreciated this, but please know that it was highly appreciated and that I respected you more for it.
  I would love to retake another of your classes—my junior and senior years of high school were the best two years of my formal education (K-12 and college). Almost entirely because of you and the opportunities presented to me as a result of being in your class.","This is something deserving more thought than a 2 minute quick post on facebook. Mr. Griffin is awesome and takes time to teach his students regardless of 90% of the class jacking around and not retaining anything   I'm still amazed at this man's resolve after dealing with my class cause I know there were only 3 of us really learning the stuff cause we wanted to. Always gonna greet him with a smile. I wouldn't be doing what I am today without him! Electrical knowledge in mechanical work is an everyday use for me."];
  $testimoniesName=["Lindsey Nicholson","Kevin Micol","Matthew Lohman"];
- $extraImgs="";
+ $extraImgs=["../assets/electronics/extra1.jpg","../assets/electronics/extra2.jpg","../assets/electronics/extra3.jpg"];
  $grade1="Sophomore";
  $grade2="Junior";
  $grade3="Senior";

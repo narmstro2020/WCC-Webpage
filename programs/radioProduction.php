@@ -2,7 +2,7 @@
 $page_title="Radio Production";
  $program_title="Radio Production";
  $videoId="../assets/radioProduction/headerVid.mp4";
- $replacementImg="../assets/radioProduction/radioProduction1.jpg";
+ $replacementImg="";
  $programOverview="Broadcast engineers set up and operate the equipment for radio programs, while DJs serve as the ON-AIR personalities for the radio station. Students here will learn time management, social media responsibility, teamwork, podcast recording and production, radio imaging production, event planning, accountability, live news delivery, studio equipment operation, and voice tracking."; 
  $classOneTitle="Intro to Communications";
  $classOneInfo="Intro to communications is a great way to start your radio/audio or tv/video career. It's a full year course where you learn how to video/audio edit and use equipment from all areas of broadcasting. If you're interested in being successful in whatever you want to do, take Intro to Communications.";
@@ -12,7 +12,7 @@ $page_title="Radio Production";
  $classThreeInfo="Radio Production II takes you even further into the broadcasting realm with management opportunities. Much like Radio Production I but with more opportunities in operations of WEDM including managing staffs and choosing music to play on the station. Helping curate podcasts, social media content and other broadcasting elements allows you to work in a real professional environment right here in the Career Center!";
  $classFourTitle="";
  $classFourInfo="";
- $galleryImgs=["../assets/radioProduction/radioProduction2.jpg","../assets/radioProduction/radioProduction3.jpg","../assets/radioProduction/radioProduction4.jpg"];
+ $galleryImgs=["../assets/radioProduction/gallery1.jpg","../assets/radioProduction/gallery2.jpg","../assets/radioProduction/gallery3.jpg"];
  $certifications="";
  $certificationsImg=[""];
  $certificationsName=[""];
@@ -43,7 +43,7 @@ $page_title="Radio Production";
  those scholarships, network and attend college. The dream is
  free, but the hustle is sold separately."'];
  $testimoniesName=["Gabbi Mitchell"];
- $extraImgs="";
+ $extraImgs=["../assets/radioProduction/extra1.jpg","../assets/radioProduction/extra2.jpg","../assets/radioProduction/extra3.jpg"];
  $grade1="Sophomore";
  $grade2="Junior";
  $grade3="Senior";
