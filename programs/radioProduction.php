@@ -12,7 +12,7 @@ $page_title="Radio Production";
  $classThreeInfo="Radio Production II takes you even further into the broadcasting realm with management opportunities. Much like Radio Production I but with more opportunities in operations of WEDM including managing staffs and choosing music to play on the station. Helping curate podcasts, social media content and other broadcasting elements allows you to work in a real professional environment right here in the Career Center!";
  $classFourTitle="";
  $classFourInfo="";
- $galleryImgs=["../assets/radioProduction/gallery1.jpg","../assets/radioProduction/gallery2.jpg","../assets/radioProduction/gallery3.jpg"];
+ $galleryImgs=["../assets/radioProduction/gallery1.jpg","../assets/radioProduction/gallery3.jpg","../assets/radioProduction/gallery2.jpg"];
  $certifications="";
  $certificationsImg=[""];
  $certificationsName=[""];
@@ -43,7 +43,7 @@ $page_title="Radio Production";
  those scholarships, network and attend college. The dream is
  free, but the hustle is sold separately."'];
  $testimoniesName=["Gabbi Mitchell"];
- $extraImgs=["../assets/radioProduction/extra1.jpg","../assets/radioProduction/extra2.jpg","../assets/radioProduction/extra3.jpg"];
+ $extraImgs=["../assets/radioProduction/extra1.jpg","../assets/radioProduction/extra3.jpg","../assets/radioProduction/extra2.jpg"];
  $grade1="Sophomore";
  $grade2="Junior";
  $grade3="Senior";
