@@ -2,7 +2,7 @@
 $page_title="Construction Trades";
  $program_title="Construction Trades";
  $videoId="";
- $replacementImg="";
+ $replacementImg="../assets/construction/replace.jpg";
  $programOverview="Construction trades can lead a student into over 50 different career paths. These students learn teamwork among group members, problem solving and critical thinking, the ability to make decisions for clients, grow their physical strength and stamina, industry computer skills, hand eye coordination and dexterity, math and business skills, and an increased understanding of tool uses."; 
  $classOneTitle="Intro to Construction";
  $classOneInfo="Students taking intro to construction will explore the construction field as a whole and learn the different types of tools and materials used in the construction industry.";
@@ -27,7 +27,7 @@ $page_title="Construction Trades";
  $internshipsName="";
  $testimonies=[""];
  $testimoniesName=[""];
- $extraImgs=["../assets/construction/extra1.jpg","../assets/construction/extra2.jpg","../assets/construction/extra3.jpg"];
+ $extraImgs=["../assets/construction/extra1.jpg","../assets/construction/extra3.jpg"];
  $grade1="Sophomore";
  $grade2="Junior";
  $grade3="Senior";
