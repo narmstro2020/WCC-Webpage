@@ -322,13 +322,13 @@
                        <?php for($i=0;$i<count($partnersName);$i++){?>
                             <div class="row cardContainer">
                             <?PHP if(!empty($partnersImg[$i])){?>
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <span class="flexImgPadding"><!-- INSTITUTION IMAGE -->
                                     <img class="img-fluid" src=<?PHP echo $partnersImg[$i]?>>
                                 </span>
                             </div>
                             <?PHP }?>
-                            <div class="col-md-8">
+                            <div class="col-md-9">
                             <?PHP if(empty($partnersImg[$i])){?>
                                 <h4><?PHP echo $partnersName[$i]?></h4>
                                 <?php }?>
@@ -379,13 +379,13 @@
                          <h3>Internships</h3>
                         <div class="row cardContainer">
                             <?php if(!empty($internshipsImg)){?>    
-                            <div class="col-4-md">
+                            <div class="col-md-3">
                                 <span class="flexImgPadding"><!-- INSTITUTION IMAGE -->
                                     <img class="img-fluid" src=<?PHP echo $internshipsImg?>>
                                 </span>
                             </div>
                             <?php }?>
-                            <div class="col-4-md">
+                            <div class="col-md-9">
                             <?php if(empty($internshipsImg)){?>    
                                 <h5><?php echo $internshipsName?></h5>
                                 <?php } ?>
@@ -461,8 +461,9 @@
               class="footerImage"></a>
                 </div>
             </div>
-            <center><p style="font-size: 14px;">This website is designed, built and maintained by students in the <a href="programs/computerscience.php">Computer Science program.</a></p></center>
-        </section>
+            <center><p style="font-size: 16px;">This website is designed, built and maintained by students in the <a href="programs/computerscience.php">Computer Science program.</a><br>
+      Images have been provided by students and teachers in the <a href="programs/commPhotography.php">Commercial Photography program.</a></p></center>        
+    </section>
     </div>
 </body>
 </html>
