@@ -2,7 +2,7 @@
 $page_title="Criminal Justice";
  $program_title="Criminal Justice";
  $videoId="";
- $replacementImg="../assets/criminalJustice/replace.jpg";
+ $replacementImg="../assets/criminalJustice/gallery1.jpg";
  $programOverview=""; 
  $classOneTitle="Interpersonal Relationships";
  $classOneInfo="Students will learn components of healthy relationships, building self-esteem and self-image. We learn how this is done through healthy relationships, communication styles, techniques for effective communication and leadership and teamwork. ";
@@ -12,7 +12,7 @@ $page_title="Criminal Justice";
  $classThreeInfo="Criminal Justice II builds on the skills previously learned. Students are introduced to the concepts and practices in controlling traffic as well as forensic investigation at crime scenes.";
  $classFourTitle="";
  $classFourInfo="";
- $galleryImgs=["../assets/criminalJustice/gallery1.jpg","../assets/criminalJustice/gallery2.jpg","../assets/criminalJustice/gallery3.jpg"];
+ $galleryImgs=["../assets/criminalJustice/galleryNew1.jpg","../assets/criminalJustice/gallery2.jpg","../assets/criminalJustice/gallery3.jpg"];
  $certifications="";
  $certificationsImg="";
  $certificationsName="";
