@@ -210,15 +210,14 @@ nav .navbar-nav li a{
 .cardContainer{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 80%;
-    padding: 3px;
+    width: 95%;
+    padding: 1px;
     margin: auto;
     margin-bottom: 15px;
 }
 .flexImgPadding{
-    margin-right: 10px;
     width: 30%;
-    padding: 5px;
+    padding: 1px;
 }
 .backgroundDark{
     background-color: #2C2727;
