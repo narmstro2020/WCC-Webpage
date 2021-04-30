@@ -12,7 +12,7 @@ $page_title="Nursing";
  $classThreeInfo="";
  $classFourTitle="";
  $classFourInfo="";
- $galleryImgs="";
+ $galleryImgs=["../assets/nursing/gallery1.jpg","../assets/nursing/gallery2.jpg","../assets/nursing/gallery4.jpg"];
  $certifications=[["Certified Nurses Aide"]];
  $certificationsImg=["../assets/nursing/cert.png"];
  $certificationsName=["Indiana Department of Health"];
@@ -28,7 +28,7 @@ $page_title="Nursing";
  $testimonies=["Hey Mrs. West!
  I've been thinking about you and class a lot the past couple weeks because of school! I got accepted into the radiography program and started classes for them this summer. I just had my lab final today for our patient care class that we took over the summer. I got an A on it and had no problems with anything. Taking the CNA class for sure helped make these labs a lot easier and I already knew pretty much everything already. We also had our clinical observation day on Wednesday and being there definitely brings back all the memories from when we had clinicals. I'm at Community North for this year. Even though it was only our observation day, I got to see a lot of different x-rays, CT scans, fluoroscopy exams, etc. It's pretty exciting and i'm ready to start learning more things. I'm so glad I took your class back in high school because it exposed me to a lot and I was able to learn so much about health care. I hope all is well with you, even amongst all the crazy things in the world. Miss you!","Hi Mrs.West it's Cortez, I hope all is well in life. Just reaching out to you to tell you how much I appreciate your teachings and how much care you put into your work. I really do admire it. I hope your family is well and safe. Wish you nothing but the best and prosperity","I finally got my badge changed today to Certified Nursing Assistant. I am 100% loving this job. I hope to see you and the other students in here during clinical time. Thank you for pushing me to be the best version of myself I could be! Your guidance and advice has truly helped me and still does!"];
  $testimoniesName=["Katie Perun","Cortez Ford","Anastasia Papadopoulos"];
- $extraImgs="";
+ $extraImgs=["../assets/nursing/gallery3.jpg","../assets/nursing/gallery5.jpg"];
  $grade1="Junior";
  $grade2="Senior";
  $grade3="";
