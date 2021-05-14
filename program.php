@@ -224,7 +224,7 @@
             <section id="gallery" class="d-inline-flex flex-wrap">
             <!-- CODING OF BELOW MAY BE SUBJECT TO CHANGE TO GRID SYSTEM. JUST KNOW INFO = IMG TAGS -->
             <?php for($x=0; $x<count($galleryImgs);$x++){?>
-            <img class="img-fluid flex-fill  align-self-center" src=<?php echo $galleryImgs[$x] ?> alt="gallery image" style="width: 33%; height: 33%;">
+            <img class="img-fluid flex-fill  align-self-center" src=<?php echo $galleryImgs[$x] ?> loading="lazy" alt="gallery image" style="width: 33%; height: 33%;">
             <?php }?>
         </section>
         <?php }?> 
@@ -434,7 +434,7 @@
             <?php if(!empty($extraImgs)){?>
             <div id="extraimage" class="d-inline-flex flex-wrap justify-content-center">
              <?php for($x=0; $x<count($extraImgs);$x++){?>
-                <img class="img-fluid flex-fill align-self-center" src=<?php echo $extraImgs[$x] ?> alt="placeholder" style="width: 33%; height: 33%;">
+                <img class="img-fluid flex-fill align-self-center" src=<?php echo $extraImgs[$x] ?> loading="lazy" alt="placeholder" style="width: 33%; height: 33%;">
             <?php }?>    
             </div>
             <?php }?>
