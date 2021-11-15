@@ -59,14 +59,14 @@
                                 <td><a class="dropdown-item" href="../programs/dentalAssitant.php">Dental Careers</a></td> </tr><tr>
                                 <td> <a class="dropdown-item" href="../programs/earlyChildEd.php">Early Childhood Education</a></td>
                                 <td><a class="dropdown-item" href="../programs/educationCareers.php">Education Careers</a></td>  </tr><tr>
-                                <td><a class="dropdown-item" href="../programs/electronics.php">Electronics</a></td>
-                                <td> <a class="dropdown-item" href="../programs/engineering.php">Engineering</a></td> </tr><tr>
+                                <!--<td><a class="dropdown-item" href="../programs/electronics.php">Electronics</a></td>-->
+                                <td> <a class="dropdown-item" href="../programs/engineering.php">Engineering</a></td> 
                                 <!--<td> <a class="dropdown-item" href="../programs/entrepreneurship.php">Entrepreneurship</a></td>-->
-                                <td> <a class="dropdown-item" href="../programs/fashionTextDesign.php">Fashion, Textiles, & Design</a></td>
-                                <td> <a class="dropdown-item" href="../programs/graphicDesign.php">Graphic Design</a></td></tr><tr>
-                                <!--<td> <a class="dropdown-item" href="../programs/humanSocServices.php">Human & Social Services</a></td>  </tr><tr>-->
-                                <td> <a class="dropdown-item" href="../programs/marketing.php">Marketing</a></td>
-                                <td> <a class="dropdown-item" href="../programs/networking.php">Networking/IT Support</a></td></tr><tr>
+                                <td> <a class="dropdown-item" href="../programs/fashionTextDesign.php">Fashion, Textiles, & Design</a></td></tr><tr>
+                                <td> <a class="dropdown-item" href="../programs/graphicDesign.php">Graphic Design</a></td>
+                                <!--<td> <a class="dropdown-item" href="../programs/humanSocServices.php">Human & Social Services</a></td> </tr><tr> -->
+                                <td> <a class="dropdown-item" href="../programs/marketing.php">Marketing</a></td></tr><tr>
+                                <!--<td> <a class="dropdown-item" href="../programs/networking.php">Networking/IT Support</a></td></tr><tr>-->
                                 <td> <a class="dropdown-item" href="../programs/nursing.php">Nursing</a></td>
                                 <!--<td> <a class="dropdown-item" href="../programs/officeManage.php">Office Management</a></td>  </tr><tr>
                                 <td> <a class="dropdown-item" href="../programs/pharmacy.php">Pharmacy</a></td>-->
@@ -134,7 +134,34 @@
             </ul>
             <div class="tab-content">
                 <!-- BLAKE: IF THEY DON'T HAVE ANY PREREQUISITES, MAKE AN IF-STATEMENT TO REMOVE THE SPAN TAG -->
-            <div id="class1" class="tab-pane container active">
+            <?php if($isNewPathway){ ?>
+                <div id="class1" class="tab-pane container active">
+                    <?php if(!empty($introYearCourse2Title)){ ?>
+                        <h3 class="class-title">
+                            Course 1: <?php echo $introYearCourseTitle ?>
+                        </h3>
+                        <h3 class="class-title">
+                            Course 2: <?php echo $introYearCourse2Title ?>
+                        </h3>
+                    <?php } else {?>
+                    <h3 class="class-title">
+                        <?php echo $introYearCourseTitle ?>
+                    </h3>
+                    <?php } ?>
+                    <p class="class-info">
+                        <span><?php echo $classOneInfo ?></span>
+                    </p>
+                    <p class="courseDetails">
+                        <span>Available to: <?php echo $grade1?> </span><br>
+                        <span>Taught By: <?php echo $teacher1?></span><br>
+                        <?php if(!empty($prerequisites1)){ ?>
+                        <span>Requires: <?php echo $prerequisites1?></span>
+                        <?php }?>
+                    </p>
+                    
+                </div>
+            <?php } else { ?>
+                <div id="class1" class="tab-pane container active">
                 <h3 class="class-title">
                     <?php echo $classOneTitle ?>
                 </h3>
@@ -149,38 +176,94 @@
                     <?php }?>
                 </p>
             </div>
-            <div id="class2" class="tab-pane container fade">
-            <h3 class="class-title">
-                <?php echo $classTwoTitle ?>
-            </h3>
-                <p class="class-info">
-                    <span><?php echo $classTwoInfo ?></span>
-                </p>
-                <p class="class-info courseDetails">
-                <span>Available to: <?php echo $grade2?> </span><br>
-                    <span>Taught By: <?php echo $teacher2?></span><br>
-                    <?php if(!empty($prerequisites2)){ ?>
-                    <span>Requires: <?php echo $prerequisites2?></span>
-                    <?php }?>
-                </p>
-            </div>
-            <?php if(!empty($classThreeTitle)){ ?>
-            <div id="class3" class="tab-pane container fade">
-            <h3 class="class-title">
-                <?php echo $classThreeTitle ?>
-            </h3>
-                <p class="class-info">
-                    <span><?php echo $classThreeInfo ?></span>
-                </p>
-                <p class="class-info courseDetails">
-                <span>Available to: <?php echo $grade3?> </span><br>
-                    <span>Taught By: <?php echo $teacher3?></span><br>
-                    <?php if(!empty($prerequisites3)){ ?>
-                    <span>Requires: <?php echo $prerequisites3?></span>
-                    <?php }?>
-                </p>
-            </div>
-                    <?php }?>
+            <?php } ?>
+            
+            <?php if($isNewPathway){ ?>
+                <div id="class2" class="tab-pane container fade">
+                    <?php if(!empty($year1Course2Title)) {?>
+                        <h3 class="class-title">
+                            Course 1: <?php echo $year1Course1Title ?>
+                        </h3>
+                        <?php if(!empty($year1Course2Title)){ ?>
+                            <h3 class="class-title">
+                                Course 2: <?php echo $year1Course2Title ?>
+                            </h3>
+                        <?php } ?>
+                        <?php if(!empty($year1Course3Title)){ ?>
+                            <h3 class="class-title">
+                                Course 3: <?php echo $year1Course3Title ?>
+                            </h3>
+                        <?php }} else { ?>
+                            <h3 class="class-title">
+                            <?php echo $year1Course1Title ?>
+                        </h3>                        
+                        <?php } ?>                    
+                    <p class="class-info">
+                        <span><?php echo $year1Info ?></span>
+                    </p>
+                    <p class="class-info courseDetails">
+                    <span>Available to: <?php echo $grade2?> </span><br>
+                        <span>Taught By: <?php echo $teacher2?></span><br>
+                        <?php if(!empty($prerequisites2)){ ?>
+                        <span>Requires: <?php echo $prerequisites2?></span>
+                        <?php }?>
+                    </p>
+                </div>
+            <?php } else { ?>
+                <div id="class2" class="tab-pane container fade">
+                    <h3 class="class-title">
+                        <?php echo $classTwoTitle ?>
+                    </h3>
+                    <p class="class-info">
+                        <span><?php echo $classTwoInfo ?></span>
+                    </p>
+                    <p class="class-info courseDetails">
+                    <span>Available to: <?php echo $grade2?> </span><br>
+                        <span>Taught By: <?php echo $teacher2?></span><br>
+                        <?php if(!empty($prerequisites2)){ ?>
+                        <span>Requires: <?php echo $prerequisites2?></span>
+                        <?php }?>
+                    </p>
+                </div>
+            <?php } ?>
+            <?php if($isNewPathway){ ?>
+                <?php if(!empty($classThreeTitle)){ ?>
+                    <div id="class3" class="tab-pane container fade">
+                    <h3 class="class-title">
+                        <?php echo $year2Course1Title ?>
+                    </h3>
+                        <p class="class-info">
+                            <span><?php echo $classThreeInfo ?></span>
+                        </p>
+                        <p class="class-info courseDetails">
+                        <span>Available to: <?php echo $grade3?> </span><br>
+                            <span>Taught By: <?php echo $teacher3?></span><br>
+                            <?php if(!empty($prerequisites3)){ ?>
+                            <span>Requires: <?php echo $prerequisites3?></span>
+                            <?php }?>
+                        </p>
+                    </div>
+                <?php }?>
+            <?php } else { ?>
+                <?php if(!empty($classThreeTitle)){ ?>
+                    <div id="class3" class="tab-pane container fade">
+                    <h3 class="class-title">
+                        <?php echo $classThreeTitle ?>
+                    </h3>
+                        <p class="class-info">
+                            <span><?php echo $classThreeInfo ?></span>
+                        </p>
+                        <p class="class-info courseDetails">
+                        <span>Available to: <?php echo $grade3?> </span><br>
+                            <span>Taught By: <?php echo $teacher3?></span><br>
+                            <?php if(!empty($prerequisites3)){ ?>
+                            <span>Requires: <?php echo $prerequisites3?></span>
+                            <?php }?>
+                        </p>
+                    </div>
+                <?php }?>
+            <?php } ?>
+            
                     <?php if(!empty($classFourTitle)){ ?>
             <div id="class4" class="tab-pane container fade">
             <h3 class="class-title">
