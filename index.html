@@ -1,262 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Walker Career Center</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Walker Career Center</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&Duru+Sans&display=swap" rel="stylesheet">
-  <!-- font-family: 'Open Sans', sans-serif;   -    font-family: 'Roboto', sans-serif; 
-       font-family: 'Quattrocento Sans', sans-serif; -->
-  <!-- GET YER DANG HTML TAGS DONE -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&Duru+Sans&display=swap"
+              rel="stylesheet">
+        <!-- font-family: 'Open Sans', sans-serif;   -    font-family: 'Roboto', sans-serif;
+             font-family: 'Quattrocento Sans', sans-serif; -->
+        <!-- GET YER DANG HTML TAGS DONE -->
 
-</head>
+    </head>
 
-<body>
-  <div class="mainbody" style="min-height: 1300px;">
-    <!-- TO INCLUDE NAVBAR, TOP IMAGE -->
-    <img class="img-fluid mx-auto d-block" src="assets/logo-walker.png" alt="top logo"
-      style="padding-top: 10px; padding-bottom: 10px; width: 750px;">
-    <nav class="navbar navbar-expand-sm sticky-top navbar-dark">
-      <a class="navbar-brand" href="#">
-        <img
-          src="https://wcc.warren.k12.in.us/assets/apptegy_cms/themes/msdwarrenin/logo-ddb5d3afb469a9cb82dcda7e2bde7147.png"
-          alt="Logo" style="width:40px;">
-      </a>
-      <button class="navbar-toggler btn-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Programs</a>
-            <div class="dropdown-menu">
-              <table>
-                <tr>
-                  <td><a class="dropdown-item" href="programs/accounting.php">Accounting</a></td>
-                  <td><a class="dropdown-item" href="programs/architecture.php">Architecture</a></td>
-                </tr>
-                <tr>
-                  <td><a class="dropdown-item" href="programs/auto-collision.php">Auto Collision Repair</a></td>
-                  <td><a class="dropdown-item" href="programs/auto-service.php">Automotive Services</a></td>
-                </tr>
-                <tr>
-                  <td> <a class="dropdown-item" href="programs/banking.php">Banking/Finance & Investment</a></td>
-                  <td> <a class="dropdown-item" href="programs/business-administration.php">Business Administration</a></td>
-                </tr>
-                <tr>
-                  <td> <a class="dropdown-item" href="programs/certified-clinical-medical-assistant.php">Certified Clinical Medical Assistant (C.C.M.A.)</a></td>
-                  <td> <a class="dropdown-item" href="programs/computer-science.php">Computer Science</a></td>
-                </tr>
-                <tr>                  
-                  <td> <a class="dropdown-item" href="programs/construction.php">Construction Trades</a></td>
-                  <td> <a class="dropdown-item" href="programs/cosmetology.php">Cosmetology</a></td>
-                </tr>
-                <tr>                                  
-                  <td><a class="dropdown-item" href="programs/culinary.php">Culinary</a></td>
-                  <td><a class="dropdown-item" href="programs/dental-assistant.php">Dental Careers</a></td>
-                </tr>
-                <tr>                                   
-                  <td> <a class="dropdown-item" href="programs/commercial-photography.php">Digital Design & Photography</a></td>
-                  <td> <a class="dropdown-item" href="programs/earlyChildEd.php">Early Childhood Education</a></td>
-                </tr>
-                <tr>               
-                  <td><a class="dropdown-item" href="programs/educationCareers.php">Education Careers</a></td>
-                  <td> <a class="dropdown-item" href="programs/engineering.php">Engineering</a></td>
-                </tr>
-                <tr>                   
-                  <td> <a class="dropdown-item" href="programs/entrepreneurship.php">Entrepreneurship</a></td>
-                  <td> <a class="dropdown-item" href="programs/fashionTextDesign.php">Fashion, Textiles, & Design</a></td>
-                </tr>
-                <tr>               
-                  <td> <a class="dropdown-item" href="programs/humanSocServices.php">Human & Social Services</a></td>
-                  <td> <a class="dropdown-item" href="programs/marketing.php">Marketing</a></td>
-                </tr>
-                <tr>              
-                  <td> <a class="dropdown-item" href="programs/nursing.php">Nursing</a></td>
-                  <td><a class="dropdown-item" href="programs/precisionMachining.php">Precision Machining</a></td>
-                </tr>
-                <tr>
-                  <td><a class="dropdown-item" href="programs/radioProduction.php">Radio Production</a></td>
-                  <td> <a class="dropdown-item" href="programs/tvBroadcasting.php">TV Broadcasting</a></td>
-                </tr>
-                <tr>
-                  <td> <a class="dropdown-item" href="programs/welding.php">Welding</a></td>
-                  <td> <a class="dropdown-item" href="programs/workBasedLearn.php">Work-Based Learning</a></td>
-                </tr>
-              </table>
+    <body>
+        <div class="mainbody" style="min-height: 1300px;">
+            <!-- TO INCLUDE NAVBAR, TOP IMAGE -->
+            <img class="img-fluid mx-auto d-block" src="assets/logo-walker.png" alt="top logo"
+                 style="padding-top: 10px; padding-bottom: 10px; width: 750px;">
+            <nav class="navbar navbar-expand-sm sticky-top navbar-dark">
+                <a class="navbar-brand" href="#">
+                    <img
+                            src="https://wcc.warren.k12.in.us/assets/apptegy_cms/themes/msdwarrenin/logo-ddb5d3afb469a9cb82dcda7e2bde7147.png"
+                            alt="Logo" style="width:40px;">
+                </a>
+                <button class="navbar-toggler btn-dark" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Programs</a>
+                            <div class="dropdown-menu px-3" style="width: 600px;">
+                                <div class="row">
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/accounting.php">Accounting</a></div>
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/architecture.php">Architecture</a></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/auto-collision.php">Auto Collision Repair</a></div>
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/auto-service.php">Automotive Services</a></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/banking.php">Banking/Finance & Investment</a></div>
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/business-administration.php">Business Administration</a></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <a class="dropdown-item text-wrap" style="white-space: normal;" href="programs/certified-clinical-medical-assistant.php">
+                                            Certified Clinical Medical Assistant (C.C.M.A.)
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/computer-science.php">Computer Science</a></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/construction.php">Construction Trades</a></div>
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/cosmetology.php">Cosmetology</a></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/culinary.php">Culinary</a></div>
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/dental-assistant.php">Dental Careers</a></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/commercial-photography.php">Digital Design & Photography</a></div>
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/earlyChildEd.php">Early Childhood Education</a></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/educationCareers.php">Education Careers</a></div>
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/engineering.php">Engineering</a></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/entrepreneurship.php">Entrepreneurship</a></div>
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/fashionTextDesign.php">Fashion, Textiles, & Design</a></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/humanSocServices.php">Human & Social Services</a></div>
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/marketing.php">Marketing</a></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/nursing.php">Nursing</a></div>
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/precisionMachining.php">Precision Machining</a></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/radioProduction.php">Radio Production</a></div>
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/tvBroadcasting.php">TV Broadcasting</a></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/welding.php">Welding</a></div>
+                                    <div class="col-sm-6"><a class="dropdown-item" href="programs/workBasedLearn.php">Work-Based Learning</a></div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div id="mainCarousel" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mainCarousel" data-slide-to="1"></li>
+                    <li data-target="#mainCarousel" data-slide-to="2"></li>
+                    <li data-target="#mainCarousel" data-slide-to="3"></li>
+                    <li data-target="#mainCarousel" data-slide-to="4"></li>
+                    <li data-target="#mainCarousel" data-slide-to="5"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="mx-auto d-block mainImage"
+                             src="assets/radioProduction/homepageRadio.JPG"
+                             alt="Radio Production">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="mainImage mx-auto d-block"
+                             src="assets/engineering/engineeringHome.jpg"
+                             alt="Engineering">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="mainImage mx-auto d-block"
+                             src="assets/culinary/homepageCulinary.jpg"
+                             alt="Culinary">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="mainImage mx-auto d-block"
+                             src="assets/electronics/gallery3.jpg"
+                             alt="Electronics">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="mainImage mx-auto d-block"
+                             src="assets/cosmetology/gallery2.jpg"
+                             alt="Cosmetology">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="mainImage mx-auto d-block"
+                             src="assets/welding/gallery3.png"
+                             alt="Welding">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#mainCarousel" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#mainCarousel" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+
             </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
 
-    <div id="mainCarousel" class="carousel slide" data-ride="carousel">
+            <div class="container-fluid backgroundDark text-center" id="radio1">
+                <iframe id="iFrm1" width="880" height="120"
+                        src="https://www.lightningstream.com/ajax/ATPlayer.aspx?cl=WEDM-FM&pr=1&st=6&lam=1"
+                        style="border: none; overflow: hidden;"></iframe>
+                <p>Click LISTEN LIVE to tune in to WEDM-FM, Warren's radio station at WCC.</p>
+            </div>
 
-      <!-- Indicators -->
-      <ul class="carousel-indicators">
-        <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#mainCarousel" data-slide-to="1"></li>
-        <li data-target="#mainCarousel" data-slide-to="2"></li>
-        <li data-target="#mainCarousel" data-slide-to="3"></li>
-        <li data-target="#mainCarousel" data-slide-to="4"></li>
-        <li data-target="#mainCarousel" data-slide-to="5"></li>
-      </ul>
+            <div class="container-fluid backgroundDark text-center" id="radio2">
+                <iframe id="iFrm2" width="660" height="90"
+                        src="https://www.lightningstream.com/ajax/ATPlayer.aspx?cl=WEDM-FM&pr=2&st=6&lam=1"
+                        style="border: none; overflow: hidden;"></iframe>
+                <p>Click LISTEN LIVE to tune in to WEDM-FM, Warren's radio station at WCC.</p>
+            </div>
 
-      <!-- The slideshow -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img class="mx-auto d-block mainImage"
-            src="assets/radioProduction/homepageRadio.JPG"
-            alt="Radio Production">
+            <div class="container-fluid backgroundDark text-center" id="radio3">
+                <iframe id="iFrm3" width="440" height="60"
+                        src="https://www.lightningstream.com/ajax/ATPlayer.aspx?cl=WEDM-FM&pr=3&st=6&lam=1"
+                        style="border: none; overflow: hidden;"></iframe>
+                <p>Click LISTEN LIVE to tune in to WEDM-FM, Warren's radio station at WCC.</p>
+            </div>
+
+            <div class="container-fluid backgroundDark text-center" id="radio4">
+                <iframe id="iFrm4" width="220" height="330"
+                        src="https://www.lightningstream.com/ajax/ATPlayer.aspx?cl=WEDM-FM&pr=4&st=6&lam=1"
+                        style="border: none; overflow: hidden;"></iframe>
+                <p>Click LISTEN LIVE to tune in to WEDM-FM, Warren's radio station at WCC.</p>
+            </div>
+
+
+            <section class="container-fluid backgroundGold"
+                     style="border: none; border-bottom: 2px solid #2c272770; border-top: 2px solid #2C2727;">
+                <div>
+                    <div id="rogersGreeting">
+                        <img class="headshot-img"
+                             src="assets/rogers-headshot.png"
+                             alt="Dr. Rogers">
+                        <h3>From the Director</h3>
+                        <p>
+                            Greetings from Walker Career Center! As the Director, I wanted to express my gratitude to
+                            all the teachers
+                            and staff that make this place so special. These professionals spend numerous hours in and
+                            out of classrooms
+                            to help support our students in whatever Career and Technical Education endeavor they
+                            choose.
+                            <br><br>
+                            The faculty and staff of the Walker Career Center are committed to providing students with
+                            the knowledge and
+                            skills necessary to compete in the global economy. We pride ourselves on staying up to date
+                            with all the
+                            business and industry standards we represent so that our students complete our programs with
+                            the skills that
+                            will lead to success.
+                            <br><br>
+                            I encourage you to stop by and visit. Come see what great things we can do for you!
+                            <br><br>
+                            Dr. Steve Rogers, Director<br>
+                            Walker Career Center<br><br>
+
+                            #ChangeItWCC<br>
+                            #WarrenWill
+
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container-fluid" style="border: none; padding-top: 5px;">
+                <div class="row" style="margin: 1px;">
+                    <div class="col-sm-6 container-fluid" id="social-left">
+                        <a class="twitter-timeline" data-width="100%" data-height="800" data-theme="light"
+                           href="https://twitter.com/WCC_Warren?ref_src=twsrc%5Etfw">Tweets by WCC_Warren</a>
+                    </div>
+                    <div class="col-sm-6 container-fluid" id="social-right">
+                        <a class="twitter-timeline" data-width="100%" data-height="800" data-theme="light"
+                           href="https://twitter.com/WCC_Warren/lists/1460240206171418632?ref_src=twsrc%5Etfw">Tweets</a>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="footer" class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <p>Walker Career Center<br>
+                            9651 EAST 21ST STREET<br>
+                            Indianapolis, IN 46229<br><br>
+
+                            Phone: 317-532-6150<br>
+                            Fax: 317-532-6199</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <a href="https://www.facebook.com/WalkerCareerCenter.is.WCC/"><img
+                                src="assets/icons8-facebook-100.png"
+                                alt="facebook icon" class="footerImage"></a>
+                        <a href="https://twitter.com/wcc_warren"><img src="assets/icons8-twitter-100.png"
+                                                                      alt="twitter icon"
+                                                                      class="footerImage"></a>
+                        <a href="https://www.instagram.com/walkercareercenter/"><img
+                                src="assets/icons8-instagram-100.png" alt="instagram icon"
+                                class="footerImage"></a>
+                    </div>
+                </div>
+                <p style="font-size: 16px; text-align: center;">
+                    This website is designed, built, and maintained by students in the
+                    <a href="programs/computer-science.php">Computer Science program</a>.<br>
+                    Images have been provided by students and teachers in the
+                    <a href="programs/commercial-photography.php">Commercial Photography program</a>.
+                </p>
+
+            </section>
         </div>
-        <div class="carousel-item">
-          <img class="mainImage mx-auto d-block"
-            src="assets/engineering/engineeringHome.jpg"
-            alt="Engineering">
-        </div>
-        <div class="carousel-item">
-          <img class="mainImage mx-auto d-block"
-            src="assets/culinary/homepageCulinary.jpg"
-            alt="Culinary">
-        </div>
-        <div class="carousel-item">
-          <img class="mainImage mx-auto d-block"
-            src="assets/electronics/gallery3.jpg"
-            alt="Electronics">
-        </div>
-        <div class="carousel-item">
-          <img class="mainImage mx-auto d-block"
-            src="assets/cosmetology/gallery2.jpg"
-            alt="Cosmetology">
-        </div>
-        <div class="carousel-item">
-          <img class="mainImage mx-auto d-block"
-            src="assets/welding/gallery3.png"
-            alt="Welding">
-        </div>
-      </div>
-
-      <!-- Left and right controls -->
-      <a class="carousel-control-prev" href="#mainCarousel" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#mainCarousel" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
-
-    </div>
-
-    <div class="container-fluid backgroundDark text-center" id="radio1">
-      <iframe id="iFrm1" width="880" height="120"
-              src="https://www.lightningstream.com/ajax/ATPlayer.aspx?cl=WEDM-FM&pr=1&st=6&lam=1"
-              style="border: none; overflow: hidden;"></iframe>
-      <p>Click LISTEN LIVE to tune in to WEDM-FM, Warren's radio station at WCC.</p>
-    </div>
-
-    <div class="container-fluid backgroundDark text-center" id="radio2">
-      <iframe id="iFrm2" width="660" height="90"
-              src="https://www.lightningstream.com/ajax/ATPlayer.aspx?cl=WEDM-FM&pr=2&st=6&lam=1"
-              style="border: none; overflow: hidden;"></iframe>
-      <p>Click LISTEN LIVE to tune in to WEDM-FM, Warren's radio station at WCC.</p>
-    </div>
-
-    <div class="container-fluid backgroundDark text-center" id="radio3">
-      <iframe id="iFrm3" width="440" height="60"
-              src="https://www.lightningstream.com/ajax/ATPlayer.aspx?cl=WEDM-FM&pr=3&st=6&lam=1"
-              style="border: none; overflow: hidden;"></iframe>
-      <p>Click LISTEN LIVE to tune in to WEDM-FM, Warren's radio station at WCC.</p>
-    </div>
-
-    <div class="container-fluid backgroundDark text-center" id="radio4">
-      <iframe id="iFrm4" width="220" height="330"
-              src="https://www.lightningstream.com/ajax/ATPlayer.aspx?cl=WEDM-FM&pr=4&st=6&lam=1"
-              style="border: none; overflow: hidden;"></iframe>
-      <p>Click LISTEN LIVE to tune in to WEDM-FM, Warren's radio station at WCC.</p>
-    </div>
-
-
-
-    <section class="container-fluid backgroundGold" style="border: none; border-bottom: 2px solid #2c272770; border-top: 2px solid #2C2727;">
-      <div>
-        <div id="rogersGreeting">
-          <img class="headshot-img"
-          src="assets/rogers-headshot.png"
-          alt="Dr. Rogers">
-          <h3>From the Director</h3>
-        <p>
-          Greetings from Walker Career Center! As the Director, I wanted to express my gratitude to all the teachers
-          and staff that make this place so special. These professionals spend numerous hours in and out of classrooms
-          to help support our students in whatever Career and Technical Education endeavor they choose.
-        <br><br>
-          The faculty and staff of the Walker Career Center are committed to providing students with the knowledge and
-          skills necessary to compete in the global economy. We pride ourselves on staying up to date with all the
-          business and industry standards we represent so that our students complete our programs with the skills that
-          will lead to success.
-        <br><br>
-          I encourage you to stop by and visit. Come see what great things we can do for you!
-        <br><br>
-          Dr. Steve Rogers, Director<br>
-          Walker Career Center<br><br>
-
-          #ChangeItWCC<br>
-          #WarrenWill
-
-        </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="container-fluid" style="border: none; padding-top: 5px;">
-      <div class="row" style="margin: 1px;">
-        <div class="col-sm-6 container-fluid" id="social-left">
-          <a class="twitter-timeline" data-width="100%" data-height="800" data-theme="light" href="https://twitter.com/WCC_Warren?ref_src=twsrc%5Etfw">Tweets by WCC_Warren</a>
-        </div>
-        <div class="col-sm-6 container-fluid" id="social-right">
-          <a class="twitter-timeline" data-width="100%" data-height="800" data-theme="light" href="https://twitter.com/WCC_Warren/lists/1460240206171418632?ref_src=twsrc%5Etfw">Tweets</a>
-        </div>
-      </div>
-    </section>
-
-
-    <section id="footer" class="container-fluid">
-      <div class="row">
-        <div class="col-sm-9">
-          <p>Walker Career Center<br>
-            9651 EAST 21ST STREET<br>
-            Indianapolis, IN 46229<br><br>
-
-            Phone: 317-532-6150<br>
-            Fax: 317-532-6199</p>
-        </div>
-        <div class="col-sm-3">
-          <a href="https://www.facebook.com/WalkerCareerCenter.is.WCC/"><img src="assets/icons8-facebook-100.png"
-              alt="facebook icon" class="footerImage"></a>
-          <a href="https://twitter.com/wcc_warren"><img src="assets/icons8-twitter-100.png" alt="twitter icon"
-              class="footerImage"></a>
-          <a href="https://www.instagram.com/walkercareercenter/"><img src="assets/icons8-instagram-100.png" alt="instagram icon"
-              class="footerImage"></a>
-        </div>
-      </div>
-      <p style="font-size: 16px; text-align: center;">
-        This website is designed, built, and maintained by students in the
-        <a href="programs/computer-science.php">Computer Science program</a>.<br>
-        Images have been provided by students and teachers in the
-        <a href="programs/commercial-photography.php">Commercial Photography program</a>.
-      </p>
-
-    </section>
-  </div>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</body>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </body>
 
 </html>
