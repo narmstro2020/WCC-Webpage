@@ -1,17 +1,53 @@
 <?php
-$page_title="Banking/Finance";
- $program_title="Banking/Finance";
+$page_title="Banking & Finance";
+ $program_title="Banking & Finance";
  $videoId="../assets/banking/headerVid.mp4";
  $replacementImg="";
  $programOverview="Looking to prepare yourself for entrance into Business school in college or starting your own business? This class will help you prepare you for the next level in your education or help you grasp what it takes to start your own business."; 
- $classOneTitle="Intro to Accounting";
- $classOneInfo="Introduction to Accounting is the first course where students learn the \"language of business.\"  This class is a great class if you plan to study business in college or want to own your own business.  You will learn the basics of Accounting.";
- $classTwoTitle="Advanced Accounting";
- $classTwoInfo="Advanced Accounting teaches students how to examine, analyze, and interpret financial records. Through this program of study, students will learn the skills necessary to perform financial services, prepare financial statements, interpret accounting records, give advice, or audit and evaluate statements prepared by others.  This class is a must if you are planning to study business in college.  You will enter college with a leg up on your peers who didn't take accounting classes in high school!"; 
- $classThreeTitle="Banking and Investment";
- $classThreeInfo="The Banking and Investment Capstone provides powerful tools and knowledge that students will use every day in their adult life, both professionally and personally. First, paralleling the normal academic track, it is an elective course of study that teaches students how to build and protect wealth, save, invest, manage financial assets and understand money. Regardless of career choice, the principles and knowledge learned will be used to protect personal wealth and build stability. While most of us had to experience some hard knocks along our financial way, BIC students are provided with the keys to understanding personal financial management techniques which can lead to financial security. Doctor, lawyer, business person, researcher, teacher.....when it comes to our financial well being, we are all looking to do the right thing. ";
- $classFourTitle="";
- $classFourInfo="";
+
+ $courseSeq1="Year 1";
+ $courseSeq2="Year 2";
+ $courseSeq3="Year 3";
+ $courseSeq4="Year 4";
+ $courseSeq5=""; 
+
+ $courseSeq1Class1="Principles of Business Management";
+ $courseSeq1Class2="";
+ $courseSeq2Class1="Personal Finance and Banking";
+ $courseSeq2Class2="";
+ $courseSeq3Class1="Finance and Investments";
+ $courseSeq3Class2="";
+ $courseSeq4Class1="Finance and Investment Capstone";
+ $courseSeq4Class2="";
+ $courseSeq5Class1="";
+ $courseSeq5Class2=""; 
+ 
+ $courseSeq1Class1Info="Principles of Business Management examines business ownership, organization principles and problems, management, control facili- ties, administration, financial management, and development practices of business enterprises.";
+ $courseSeq1Class2Info="";
+ $courseSeq2Class1Info="Personal Finance and Banking emphasizes management of individual financial resources for growth and maintenance of personal wealth. Covers home buying and mortgage financing, installment financing, life and health insurance, securities, commodities and other investment opportunities."; 
+ $courseSeq2Class2Info="";
+ $courseSeq3Class1Info="Money and Banking addresses the needs of schools in areas that have workforce demand in the finance industry. It analyzes and syn- thesizes high-level skills needed for a multitude of careers in the banking and investment industry.";
+ $courseSeq3Class2Info="";
+ $courseSeq4Class1Info="Finance and Investment Capstone course will include content on Credit and Collections, Real Estate, Business Law and Accounting. Students must have instructor approval to enroll.";
+ $courseSeq4Class2Info="";
+ $courseSeq5Class1Info="";
+ $courseSeq5Class2Info="";
+
+ $grade1="Grades 9-12";
+ $grade2="Grades 10-12";
+ $grade3="Grades 10-12";
+ $grade4="Grade 12";
+ $grade5="";
+ $teacher1="";
+ $teacher2="";
+ $teacher3="";
+ $teacher4="";
+ $teacher5="";
+ $prerequisites1="None";
+ $prerequisites2="(1) Principles of Business Management";
+ $prerequisites3="(1) Principles of Business Management; (2) Personal Finance and Banking";
+ $prerequisites4="(1) Principles of Business Management; (2) Personal Finance and Banking (3) Finance and Investments";
+
  $galleryImgs=["../assets/banking/gallery1.jpg","../assets/banking/gallery2.jpg","../assets/banking/gallery3.jpg"];
  $certifications="";
  $certificationsImg=[""];
@@ -30,20 +66,7 @@ $page_title="Banking/Finance";
 "];
  $testimoniesName=["Jeffrey George, Class of '14","Brennan Adkins, Class of '15","Olivia Mikkelson, Class of '17","Darion Harris, Class of '15"];
  $extraImgs=["../assets/banking/extra1.jpg","../assets/banking/extra2.jpg","../assets/banking/extra3.jpg"];
- $grade1="Sophomore";
- $grade2="Junior";
- $grade3="Senior";
- $grade4="";
- $teacher1="Ms. Burns";
- $teacher2="Ms. Burns";
- $teacher3="Ms. Burns";
- $teacher4="";
- $prerequisites1="";
- $prerequisites2="";
- $prerequisites3="";
- $prerequisites4="";
- 
- 
+
  
  include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
 ?>

@@ -5,19 +5,53 @@ $page_title="Culinary";
  $replacementImg="../assets/culinary/replace.jpg";
  $programOverview="Culinary Arts and Hospitality Management students have the opportunity to compete in skilled competition at regional, state, and national levels. Students who are looking to advance their skills are highly encouraged to get involved with our ProStart and SkillsUSA teams. Students are able to network with other schools, colleges, and employers at a more personal and individual setting through these two CTSO's. Competition is not only fun, but also gives opportunities for scholarships as well.";
  $isNewPathway = TRUE;
- $classOneTitle="Intro Year";
- $introYearCourseTitle="Intro to Culinary Arts and Hospitality";
- $classOneInfo="Introduction to Culinary Arts and Hospitality is a great choice for students who are interested in cooking as a hobby or a career. Learning to cook is an essential skill for every person. Food is a universal language that we all understand. This course begins building on the foundational steps of being a chef. Students will learn best practices in the kitchen including knife skills, fundamental kitchen basics, and even baking.";
- $classTwoTitle="Year 1 Block";
- $year1Course1Title="Principles of Culinary and Hospitality";
- $year1Course2Title="Food Theory and Nutrition";
- $year1Course3Title="Culinary Arts";
- $year1Info="First year students in these courses continue to build on the skills learned in Introduction to Culinary. Students work on completing the state certification, ServSafe, that is recognized by the National Restaurant Association. Students expand their cooking skills and best practices through demonstrating different cooking methods, bakery items, and real-life work experience through our student operated restaurant, The Threshold. ";
- $classThreeTitle="Year 2 Block";
- $year2Course1Title="Culinary Arts and Hospitality II";
- $classThreeInfo="Culinary Arts and Hospitality Management Level 2 takes all of the skills that students have built upon in the previous courses, and really focuses on the mastery level of culinary and baking concepts. With mastery of each learning objective, students earn dual credits towards post-secondary courses through Ivy Tech. Students will develop a stronger base of knowledge in culinary, baking, and operation management in our student operated restaurant, The Threshold.";
- $classFourTitle="";
- $classFourInfo="";
+
+ $courseSeq1="Year 1";
+ $courseSeq2="Year 2";
+ $courseSeq3="Year 3";
+ $courseSeq4="Year 4";
+ $courseSeq5=""; 
+
+ $courseSeq1Class1="Advanced Nutrition & Wellness";
+ $courseSeq1Class2="";
+ $courseSeq2Class1="Introduction to Culinary Arts";
+ $courseSeq2Class2="";
+ $courseSeq3Class1="Principles of Culinary and Hospitality";
+ $courseSeq3Class2="Nutrition";
+ $courseSeq3Class3="Culinary Arts";
+ $courseSeq4Class1="Culinary Capstone";
+ $courseSeq4Class2="";
+ $courseSeq5Class1="";
+ $courseSeq5Class2=""; 
+ 
+ $courseSeq1Class1Info="Advanced Nutrition and Wellness is a course which provides an extensive study of nutrition.";
+ $courseSeq1Class2Info="";
+ $courseSeq2Class1Info="Introduction to Culinary Arts and Hospitality allows students to build basic culinary arts knowledge and skills. "; 
+ $courseSeq2Class2Info="";
+ $courseSeq3Class1Info="Principles of Culinary and Hospitality is designed to develop an understanding of the hospitality industry and career opportunities, and responsibilities in the food service and lodging industry.";
+ $courseSeq3Class2Info="Nutrition students will learn the characteristics, functions and food sources of the major nutrient groups and how to maximize nutrient retention in food preparation and storage.";
+ $courseSeq3Class3Info="Culinary Arts teaches students how to prepare the four major stocks, the five mother sauces (in addition to smaller sauces) and various soups. Additional emphasis is placed on the further development of the classical cooking methods.";
+ $courseSeq4Class1Info="Students will choose either Culinary or Baking Capstone course to dive deeper into these specific skills. Students will be working inde- pendently on various techniques. Students must have instructor approval to enrol";
+ $courseSeq4Class2Info="";
+ $courseSeq5Class1Info="";
+ $courseSeq5Class2Info="";
+
+ $grade1="Grades 9-12";
+ $grade2="Grades 10-12";
+ $grade3="Grades 11-12";
+ $grade4="Grade 12";
+ $grade5="";
+ $teacher1="";
+ $teacher2="";
+ $teacher3="";
+ $teacher4="";
+ $teacher5="";
+ $prerequisites1="None";
+ $prerequisites2="(1) Advanced Nutrition and Wellness";
+ $prerequisites3="(1) Advanced Nutrition and Wellness; (2) Introduction to Culinary Arts";
+ $prerequisites4="(1) Advanced Nutrition and Wellness; (2) Introduction to Culinary Arts; (3) Principles of Culinary Arts and Hospitality; (4) Nutrition; (5) Culinary Arts";
+ $prerequisites5="";
+
  $galleryImgs=["../assets/culinary/gallery2.jpg","../assets/culinary/gallery1.PNG","../assets/culinary/gallery3.PNG"];
  $certifications=[["ServSafe Food Protection Manager Certification"],["ProStart Certificate of Achievement"]];
  $certificationsImg=["../assets/culinary/servSafe.svg","../assets/culinary/cert2.png"];
@@ -34,18 +68,7 @@ $page_title="Culinary";
  $testimonies=['"The perfect combination of fun and hands-on-training."',"\"It's fun. Other classroom skills are tied into cooking that I didn't know I needed. Reading and math is important in the kitchen.\""];
  $testimoniesName=["Jaydon Jenkins","Jaylen Coleman"];
  $extraImgs=["../assets/culinary/extra1.PNG","../assets/culinary/extra2.PNG","../assets/culinary/extra3.jpg"];
- $grade1="Sophomore";
- $grade2="Junior";
- $grade3="Senior";
- $grade4="";
- $teacher1="FACs Department";
- $teacher2="Chef Yount";
- $teacher3="Chef Yount";
- $teacher4="";
- $prerequisites1="PCC & Nutrition and Wellness";
- $prerequisites2="";
- $prerequisites3="";
- $prerequisites4="";
+ 
  
  
  

@@ -4,14 +4,51 @@ $page_title="Marketing";
  $videoId="";
  $replacementImg="";
  $programOverview=""; 
- $classOneTitle="Introduction to Business";
- $classOneInfo="Introduction to Business introduces students to the world of business, including the concepts, functions, and skills required for meeting the challenges of operating a business.  The course covers business management, entrepreneurship,marketing fundamentals, and business ethics and law.";
- $classTwoTitle="Principles of Marketing";
- $classTwoInfo="Principles of Marketing provides a basic introduction to the scope and importance of marketing in the global economy. The course covers the primary marketing functions: of advertising/promotion/selling, distribution, financing, marketing-information management, pricing, and product/service management."; 
- $classThreeTitle="Strategic Marketing";
- $classThreeInfo="Strategic Marketing builds upon the foundations of marketing and applies the functions of marketing at an advanced level. Students will study the basic principles of consumer behavior and examine the application of theories from psychology, social psychology, and economics and the relationship between consumer behavior and marketing activities.";
- $classFourTitle="";
- $classFourInfo="";
+
+ $courseSeq1="Year 1";
+ $courseSeq2="Year 2";
+ $courseSeq3="Year 3";
+ $courseSeq4="Year 4";
+ $courseSeq5=""; 
+
+ $courseSeq1Class1="Principles of Business Management";
+ $courseSeq1Class2="";
+ $courseSeq2Class1="Marketing Fundamentals";
+ $courseSeq2Class2="";
+ $courseSeq3Class1="Digital Marketing";
+ $courseSeq3Class2="";
+ $courseSeq4Class1="Business Management Capstone";
+ $courseSeq4Class2="";
+ $courseSeq5Class1="";
+ $courseSeq5Class2=""; 
+ 
+ $courseSeq1Class1Info="Principles of Business Management examines business ownership, organization principles and problems, management, control facili- ties, administration, financial management, and development practices of business enterprises";
+ $courseSeq1Class2Info="";
+ $courseSeq2Class1Info="Marketing Fundamentals provides a basic introduction to the scope and importance of marketing in the global economy. Course topics include the seven functions of marketing: promotion, channel management, pricing, product/service management, market planning, marketing information management, and professional selling skills."; 
+ $courseSeq2Class2Info="";
+ $courseSeq3Class1Info="Digital Marketing provides an introduction to the world of e-commerce and digital marketing media. The course covers how to inte- grate digital media and e-commerce into organizational and marketing strategy. Students will explore e-commerce applications and the most popular digital marketing tactics and tools.";
+ $courseSeq3Class2Info="";
+ $courseSeq4Class1Info="The Business Management Capstone is designed to provide any student with the Business Management skills necessary to run their own business or to serve in upper level management. Students will explore Management Theory, Accounting, and Business Law. This class requires an instructor recommendation.";
+ $courseSeq4Class2Info="";
+ $courseSeq5Class1Info="";
+ $courseSeq5Class2Info="";
+
+ $grade1="Grades 9-12";
+ $grade2="Grades 10-12";
+ $grade3="Grades 11-12";
+ $grade4="Grade 12";
+ $grade5="";
+ $teacher1="";
+ $teacher2="";
+ $teacher3="";
+ $teacher4="";
+ $teacher5="";
+ $prerequisites1="None";
+ $prerequisites2="(1) Principles of Business Management";
+ $prerequisites3="(1) Principles of Business Management; (2) Marketing Fundamentals";
+ $prerequisites4="(1) Principles of Business Management; (2) Marketing Fundamentals; (3) Digital Marketing";
+ $prerequisites5="";
+
  $galleryImgs="";
  $certifications="";
  $certificationsImg="";
@@ -30,18 +67,7 @@ $page_title="Marketing";
  $testimonies=[""];
  $testimoniesName=[""];
  $extraImgs="";
- $grade1="Sophomore";
- $grade2="Junior";
- $grade3="Senior";
- $grade4="";
- $teacher1="Mr. Huggins, Mrs. Williams";
- $teacher2="Ms. Colville";
- $teacher3="Ms. Colville";
- $teacher4="";
- $prerequisites1="";
- $prerequisites2="Intro to Business";
- $prerequisites3="Principles of Marketing";
- $prerequisites4=""; 
+
  
  include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
 ?>

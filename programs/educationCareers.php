@@ -1,23 +1,57 @@
 <?php
-$page_title="Education Careers";
- $program_title="Education Careers";
+$page_title="Education Professions";
+ $program_title="Education Professions";
  $videoId="../assets/educationCareers/headerVid.mp4";
  $replacementImg="../assets/educationCareers/eduCareers6.jpg";
  $programOverview="Student Educators create lesson plans and teach those plans to classes and individuals, track student progress, and manage a classroom. These students get to explore the teaching profession, apply learning theory, create lessons and learning environments, determine classroom management, examine student learning, learn assessment techniques, give learner feedback, promote a positive environment, and gain knowledge on ethical and legal standards.";
  $isNewPathway = TRUE;
- $classOneTitle="Intro Year";
- $introYearCourseTitle="Advanced Child Development";
- $classOneInfo="Advanced Child Development course addresses issues of child development from conception/prenatal through adolescent years. It includes the study of prenatal development and birth; growth and development of children; child care giving and nurturing; and support systems for parents and caregivers. Advanced Child Development provides the foundation for continuing and post-secondary education in all career areas related to children, child development, and nurturing of children.";
- $classTwoTitle="Year 1 Block";
- $year1Course1Title="Principles of Teaching";
- $year1Course2Title="Child and Adolescent Development";
- $year1Course3Title="The Exceptional Child";
- $year1Info="The courses for students in the Year 1 Block provide opportunities to explore careers in education and provides a foundation for study in higher education that leads to education related careers. Students should be motivated toward exploring a career in education or related careers.  These courses provide a hands-on, project-based approach that utilizes higher order thinking, communication, leadership, and management processes in order to integrate careers in education. Students examine the physical, social, emotional, cognitive, and moral development of childbirth through adolescence with a focus on the middle years through adolescence. Basic theories of child development, biological and environmental foundations of development, and the study of children through observation and interviewing techniques are explored.";
- $classThreeTitle="Year 2 Block";
- $year2Course1Title="Education Professions II";
- $classThreeInfo="Education Professions II course examines children’s literature for the preschool child through adolescence and the exceptional learner. Students in this course will study the relationship between literacy development and examine genres of literature. Exceptional learners includes theories and practices for producing optimal developmental growth. Students in this course will explore public policy, inclusion, early intervention, and IEPs (laws), the types of special needs and provides opportunities through field experience to practice methods for helping children within special education and gifted/talented programs.";
- $classFourTitle="";
- $classFourInfo="";
+
+ $courseSeq1="Recommended";
+ $courseSeq2="Year 1";
+ $courseSeq3="Year 2";
+ $courseSeq4="";
+ $courseSeq5=""; 
+
+ $courseSeq1Class1="Advanced Child Development";
+ $courseSeq1Class2="";
+ $courseSeq2Class1="Principles of Teaching";
+ $courseSeq2Class2="Child and Adolescent Development";
+ $courseSeq2Class3="Teaching and Learning";
+ $courseSeq3Class1="Education Professions Capstone";
+ $courseSeq3Class2="";
+ $courseSeq4Class1="";
+ $courseSeq4Class2="";
+ $courseSeq5Class1="";
+ $courseSeq5Class2=""; 
+ 
+ $courseSeq1Class1Info="This course examines basic principles of child development.";
+ $courseSeq1Class2Info="";
+ $courseSeq2Class1Info="This course introduces the field of teaching. Students will explore educational careers, teaching preparation, and professional expecta- tions as well as requirements for teacher certification."; 
+ $courseSeq2Class2Info="Child and Adolescent Development examines the physical, social, emotional, cognitive, and moral development of the child from birth through adolescence with a focus on the middle years through adolescence.";
+ $courseSeq2Class3Info="Teaching and Learning provides students the opportunity to apply many of the concepts that they have learned throughout the Educa- tion Professions pathway.";
+ $courseSeq3Class1Info="The Education Professions Capstone provides an extended opportunity for field experience to further apply concepts that have been presented throughout the pathway. This class requires an instructor recommendation.";
+ $courseSeq3Class2Info="";
+ $courseSeq4Class1Info="";
+ $courseSeq4Class2Info="";
+ $courseSeq5Class1Info="";
+ $courseSeq5Class2Info="";
+
+ $grade1="Grades 10-12";
+ $grade2="Grades 11-12";
+ $grade3="Grade 12";
+ $grade4="";
+ $grade5="";
+ $teacher1="";
+ $teacher2="";
+ $teacher3="";
+ $teacher4="";
+ $teacher5="";
+ $prerequisites1="None";
+ $prerequisites2="None";
+ $prerequisites3="(1) Principles of Teaching; (2) Child and Adolescent Development; (3) Teaching and Learning";
+ $prerequisites4="";
+ $prerequisites5="";
+
  $galleryImgs=["../assets/educationCareers/eduCareers1.jpg","../assets/educationCareers/eduCareers2.jpg","../assets/educationCareers/eduCareers3.jpg"];
  $certifications="";
  $certificationsImg=[""];
@@ -34,18 +68,7 @@ $page_title="Education Careers";
  $testimonies=[""];
  $testimoniesName=[""];
  $extraImgs=["../assets/educationCareers/eduCareers4.jpg","../assets/educationCareers/eduCareers5.jpg"];
- $grade1="Sophomore";
- $grade2="Junior";
- $grade3="Senior";
- $grade4="";
- $teacher1="FACs Department";
- $teacher2="Mrs. Harkleroad";
- $teacher3="Mrs. Harkleroad";
- $teacher4="";
- $prerequisites1="";
- $prerequisites2="";
- $prerequisites3="";
- $prerequisites4="";
+
  
  
  

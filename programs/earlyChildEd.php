@@ -5,19 +5,53 @@ $page_title="Early Childhood Education";
  $replacementImg="../assets/earlyChildEd/replace.jpg";
  $programOverview="Early Childhood Educators specialize in developmental, social and physical needs of young children. These students learn teamwork and time management, building family and community relationships, using developmentally appropriate approaches, observation and documenting methods, promoting child development and learning, and using content knowledge to build meaningful curriculum."; 
  $isNewPathway = TRUE;
- $classOneTitle="Intro Year";
- $introYearCourseTitle="Advanced Child Development";
- $classOneInfo="Advanced Child Development course addresses issues of child development from conception/prenatal through adolescent years. It includes the study of prenatal development and birth; growth and development of children; child care giving and nurturing; and support systems for parents and caregivers. Advanced Child Development provides the foundation for continuing and post-secondary education in all career areas related to children, child development, and nurturing of children.";
- $classTwoTitle="Year 1 Block";
- $year1Course1Title="Principles of Early Childhood Education";
- $year1Course2Title="Early Childhood Education Curriculum";
- $year1Course3Title="Early Childhood Education Guidance";
- $year1Info="Students enrolled in these courses attend class at the Warren Early Childhood Center. While at the center students will divide their time between classroom instruction and work based learning in a preschool setting.  Students will have the opportunity to earn college credits through Ivy Tech Community College.  While in the preschool classrooms the focus is on developing skills and techniques for providing appropriate environments and care for young children";
- $classThreeTitle="Year 2 Block";
- $year2Course1Title="Early Childhood Education II";
- $classThreeInfo="Students enrolled in Early Childhood Education II work toward earning their Child Development Associate credential. Students will take on leadership roles in their preschool classroom at the Warren Early Childhood Center and create an authentic portfolio of their experience and personal teaching philosophies. Students who successfully complete the CDA credentialing process will be eligible for additional college credit through Ivy Tech Community College.";
- $classFourTitle="";
- $classFourInfo="";
+
+ $courseSeq1="Recommended";
+ $courseSeq2="Year 1";
+ $courseSeq3="Year 2";
+ $courseSeq4="";
+ $courseSeq5=""; 
+
+ $courseSeq1Class1="Advanced Child Development";
+ $courseSeq1Class2="";
+ $courseSeq2Class1="Principles of Early Childhood Education";
+ $courseSeq2Class2="Early Childhood Education Curriculum";
+ $courseSeq2Class3="Early Childhood Education Guidance";
+ $courseSeq3Class1="Early Childhood Education Capstone";
+ $courseSeq3Class2="";
+ $courseSeq4Class1="";
+ $courseSeq4Class2="";
+ $courseSeq5Class1="";
+ $courseSeq5Class2=""; 
+ 
+ $courseSeq1Class1Info="This course examines basic principles of child development.";
+ $courseSeq1Class2Info="";
+ $courseSeq2Class1Info="This course examines basic principles of child development, importance of family, licensing, and elements of quality care of young children with an emphasis on the learning environment related to health, safety, and nutrition."; 
+ $courseSeq2Class2Info="Early Childhood Education Curriculum examines developmentally appropriate environments and activities in various childcare set- tings while exploring the varying developmental levels and cultural backgrounds of children.";
+ $courseSeq2Class3Info="This course allows students to analyze developmentally appropriate guidance, theory and implementation for various early care and education settings.";
+ $courseSeq3Class1Info="The Early Childhood Education Careers Capstone is a senior only class that will place qualified students who have completed the Ear- ly Childhood Education Careers pathway into a Work Based internship at the Warren Early Childhood Center. This course will focus on getting students to complete their CDA certification. This class requires an instructor recommendation.";
+ $courseSeq3Class2Info="";
+ $courseSeq4Class1Info="";
+ $courseSeq4Class2Info="";
+ $courseSeq5Class1Info="";
+ $courseSeq5Class2Info="";
+
+ $grade1="Grades 10-12";
+ $grade2="Grades 11-12";
+ $grade3="Grade 12";
+ $grade4="";
+ $grade5="";
+ $teacher1="";
+ $teacher2="";
+ $teacher3="";
+ $teacher4="";
+ $teacher5="";
+ $prerequisites1="None";
+ $prerequisites2="None";
+ $prerequisites3="(1) Principles of Early Childhood Education; (2) Early Childhood Education Curriculum; (3) Early Childhood Education Guidance";
+ $prerequisites4="";
+ $prerequisites5="";
+
  $galleryImgs=["../assets/earlyChildEd/gallery1.jpg","../assets/earlyChildEd/gallery2.jpg"];
  $certifications=[["Child Development Associate"]];
  $certificationsImg=["../assets/earlyChildEd/Cert1.jpg"];
@@ -34,18 +68,7 @@ $page_title="Early Childhood Education";
  $testimonies=[""];
  $testimoniesName=[""];
  $extraImgs=["../assets/earlyChildEd/extra1.jpg","../assets/earlyChildEd/extra2.jpg"];
- $grade1="Sophomore";
- $grade2="Junior";
- $grade3="Senior";
- $grade4="";
- $teacher1="FACs Department";
- $teacher2="Mrs. Neyland";
- $teacher3="Mrs. Neyland";
- $teacher4="";
- $prerequisites1="";
- $prerequisites2="";
- $prerequisites3="";
- $prerequisites4="";
+
  
  
  
