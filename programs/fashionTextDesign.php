@@ -65,9 +65,9 @@ $page_title="Fashion, Textiles, and Design";
  $testimonies=["\"In the fashion pathway, I've learned the basics skills that have inspired me to pursue a career in Fashion & Design.\"",'"I am a hands on person and Fashion allows for me to use the skills I am learning to create new and interesting projects."'];
  $testimoniesName=["Imani Stokes","Evelyn Salazar"];
  $extraImgs=["../assets/fashion/extra1.JPG","../assets/fashion/extra4.jpg","../assets/fashion/extra2.jpg","../assets/fashion/extra5.jpg","../assets/fashion/gallery4.JPG"];
- 
- 
- 
- 
- include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
+
+
+
+
+include($_SERVER["DOCUMENT_ROOT"] . '/programs/program.php');
 ?>

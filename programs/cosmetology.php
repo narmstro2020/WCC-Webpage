@@ -70,8 +70,8 @@ $page_title="Cosmetology";
  $testimoniesName=[""];
  $extraImgs=["../assets/cosmetology/extra2.jpg","../assets/cosmetology/extra1.jpg","../assets/cosmetology/gallery3.jpg"];
 
- 
- 
- 
- include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
+
+
+
+include($_SERVER["DOCUMENT_ROOT"] . '/programs/program.php');
 ?>

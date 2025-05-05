@@ -94,7 +94,7 @@ $page_title="Entrepreneurship";
  $testimoniesName=[""];
  $extraImgs=[""];
 
- 
- 
- include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
+
+
+include($_SERVER["DOCUMENT_ROOT"] . '/programs/program.php');
 ?>

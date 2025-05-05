@@ -42,8 +42,8 @@ $page_title="Accounting";
  $prerequisites2="(1) Principles of Business Management";
  $prerequisites3="(1) Principles of Business Management; (2) Accounting Fundamentals";
  $prerequisites4="(1) Principles of Business Management; (2) Accounting Fundamentals; (3) Advanced Accounting";
- 
- 
- 
- include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
+
+
+
+include($_SERVER["DOCUMENT_ROOT"] . '/programs/program.php');
 ?>

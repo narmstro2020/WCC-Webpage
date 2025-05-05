@@ -69,8 +69,8 @@ $page_title="Education Professions";
  $testimoniesName=[""];
  $extraImgs=["../assets/educationCareers/eduCareers4.jpg","../assets/educationCareers/eduCareers5.jpg"];
 
- 
- 
- 
- include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
+
+
+
+include($_SERVER["DOCUMENT_ROOT"] . '/programs/program.php');
 ?>

@@ -68,6 +68,6 @@ $page_title="Marketing";
  $testimoniesName=[""];
  $extraImgs="";
 
- 
- include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
+
+include($_SERVER["DOCUMENT_ROOT"] . '/programs/program.php');
 ?>

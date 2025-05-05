@@ -69,8 +69,8 @@ $page_title="Early Childhood Education";
  $testimoniesName=[""];
  $extraImgs=["../assets/earlyChildEd/extra1.jpg","../assets/earlyChildEd/extra2.jpg"];
 
- 
- 
- 
- include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
+
+
+
+include($_SERVER["DOCUMENT_ROOT"] . '/programs/program.php');
 ?>

@@ -68,8 +68,8 @@ $page_title="Nursing";
  $testimoniesName=["Katie Perun","Cortez Ford","Anastasia Papadopoulos"];
  $extraImgs=["../assets/nursing/gallery3.jpg","../assets/nursing/gallery5.jpg"];
 
- 
- 
- 
- include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
+
+
+
+include($_SERVER["DOCUMENT_ROOT"] . '/programs/program.php');
 ?>

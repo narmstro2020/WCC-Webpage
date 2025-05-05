@@ -67,8 +67,8 @@ $page_title="Precision Machining";
  $testimoniesName=[""];
  $extraImgs=["../assets/precision/extra1.jpg","../assets/precision/extra2.jpg","../assets/precision/extra3.jpg"];
 
- 
- 
- 
- include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
+
+
+
+include($_SERVER["DOCUMENT_ROOT"] . '/programs/program.php');
 ?>

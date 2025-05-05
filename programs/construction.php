@@ -69,8 +69,8 @@ $page_title="Construction Trades";
  $testimoniesName=[""];
  $extraImgs=["../assets/construction/extra1.jpg","../assets/construction/extra3.jpg"];
 
- 
- 
- 
- include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
+
+
+
+include($_SERVER["DOCUMENT_ROOT"] . '/programs/program.php');
 ?>

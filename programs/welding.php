@@ -66,8 +66,8 @@ $page_title="Welding";
  $testimoniesName=["Travis Cooper","Madison Walsh","Chase Robinson","Jordan Washington"];
  $extraImgs=["../assets/welding/extra1.png","../assets/welding/extra3.png","../assets/welding/extra2.png"];
 
- 
- 
- 
- include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
+
+
+
+include($_SERVER["DOCUMENT_ROOT"] . '/programs/program.php');
 ?>

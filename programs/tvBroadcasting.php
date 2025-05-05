@@ -67,8 +67,8 @@ $page_title="TV Broadcasting";
  $testimoniesName=["Mikaili Azziz","Jadon Jones","Rziya Hillery"];
  $extraImgs=["../assets/tvBroadcasting/extra1.jpg","../assets/tvBroadcasting/extra2.jpg","../assets/tvBroadcasting/extra3.jpg"];
 
- 
- 
- 
- include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
+
+
+
+include($_SERVER["DOCUMENT_ROOT"] . '/programs/program.php');
 ?>

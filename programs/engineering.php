@@ -76,7 +76,7 @@ $page_title="Engineering - PLTW";
  $testimoniesName=["Brian Wyatt (Class of 2015)"," Rebecca Clark (Class of 2020)","Knight Wolff (Class of 2020)","Johnny Walker (Class of 2017)","Jaidy Hernandez (Class of 2015)","Gabby Bettegnies (Class of 2015)"," Dawson Willis (Class of 2016)","Hayden Schell (Class of 2021)"];
  $extraImgs=["../assets/engineering/extra1.jpg","../assets/engineering/extra2.jpg","../assets/engineering/extra3.jpg","../assets/engineering/extra4.jpg","../assets/engineering/extra5.jpg","../assets/engineering/extra6.jpg","../assets/engineering/gallery5.jpg","../assets/engineering/gallery4.jpg","../assets/engineering/gallery6.jpg"];
 
- 
- 
- include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
+
+
+include($_SERVER["DOCUMENT_ROOT"] . '/programs/program.php');
 ?>

@@ -67,6 +67,6 @@ $page_title="Banking & Finance";
  $testimoniesName=["Jeffrey George, Class of '14","Brennan Adkins, Class of '15","Olivia Mikkelson, Class of '17","Darion Harris, Class of '15"];
  $extraImgs=["../assets/banking/extra1.jpg","../assets/banking/extra2.jpg","../assets/banking/extra3.jpg"];
 
- 
- include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
+
+include($_SERVER["DOCUMENT_ROOT"] . '/programs/program.php');
 ?>

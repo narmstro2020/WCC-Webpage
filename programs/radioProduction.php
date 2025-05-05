@@ -82,8 +82,8 @@ $page_title="Radio Production";
  $testimoniesName=["Gabbi Mitchell"];
  $extraImgs=["../assets/radioProduction/extra1.jpg","../assets/radioProduction/extra3.jpg","../assets/radioProduction/extra2.jpg"];
 
- 
- 
- 
- include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
+
+
+
+include($_SERVER["DOCUMENT_ROOT"] . '/programs/program.php');
 ?>

@@ -68,9 +68,9 @@ $page_title="Culinary";
  $testimonies=['"The perfect combination of fun and hands-on-training."',"\"It's fun. Other classroom skills are tied into cooking that I didn't know I needed. Reading and math is important in the kitchen.\""];
  $testimoniesName=["Jaydon Jenkins","Jaylen Coleman"];
  $extraImgs=["../assets/culinary/extra1.PNG","../assets/culinary/extra2.PNG","../assets/culinary/extra3.jpg"];
- 
- 
- 
- 
- include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
+
+
+
+
+include($_SERVER["DOCUMENT_ROOT"] . '/programs/program.php');
 ?>

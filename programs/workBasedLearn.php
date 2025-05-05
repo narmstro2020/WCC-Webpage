@@ -40,8 +40,8 @@ $page_title="Work Based Learning";
  $prerequisites2="";
  $prerequisites3="";
  $prerequisites4="";
- 
- 
- 
- include($_SERVER["DOCUMENT_ROOT"] . '/program.php');
+
+
+
+include($_SERVER["DOCUMENT_ROOT"] . '/programs/program.php');
 ?>
