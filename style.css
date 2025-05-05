@@ -1,6 +1,7 @@
 body{
     width: 100%;
     background-color: #ccb17a;
+    /*min-height: 1300px;*/
 }
 #mainCarousel{
     max-height: 500px;
@@ -16,11 +17,15 @@ body{
     width: 100%;
     height: auto;
 }
-#rogersGreeting{
-    margin-left: 16px; 
-    margin-right: 16px; 
-    margin-top:20px; 
+
+#director-greeting{
+    /*margin-left: 16px;*/
+    /*margin-right: 16px;*/
+    margin-top:20px;
     color: beige;
+    border: none;
+    border-bottom: 2px solid #2c272770;
+    border-top: 2px solid #2C2727;
 }
 
 @media only screen and (max-width: 720px){
@@ -165,7 +170,7 @@ h3, h2{
 }
 .mainbody{
     background-color: #68635c;
-    width: 70%;
+    max-width: 50%;
     margin: auto;
     font-family: 'Roboto', sans-serif;
 }
@@ -256,16 +261,18 @@ nav .navbar-nav li a{
     margin: 1px;
     width: 400px;
 }
-#footer{
+.footer{
     background-color: #2C2727;
     color: #b6a561;
     font-family: 'Open Sans', sans-serif;
     min-height: 150px;
+    max-width: 50%;
+    margin: auto;
 }
-#footer a{
+.footer a{
     color: #b6a561;
 }
-#footer p{
+.footer p{
     font-size: 14px;
     padding-top: 2%;
 }
